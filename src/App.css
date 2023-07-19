@@ -6,6 +6,7 @@
     --potgrey: #424839;
     --plate-black: #191A0B;
     --tea-green: #d0f0c0;
+    --atlas-red: #E4440A;
     --heading-1: 'Montserrat',
         sans-serif;
         --welcome: 'Montez',
@@ -36,7 +37,7 @@ ul {
 
 li {
     margin-right: 20px;
-    font-size: 17.5px;
+    font-size: 15px;
     margin-top: 5px;
     padding: 10px;
 }
@@ -60,6 +61,8 @@ a:hover {
         background-position: center;
         height: 650px;
         padding: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
         
         
 }
@@ -72,11 +75,39 @@ a:hover {
     margin-left: 80px;
     margin-top: 200px;
     opacity: 0.9;
+    animation: bounce 2s infinite;
     
     
 }
 
+@keyframes bounce {
 
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.home-about h1 {
+    text-align: center;
+    padding: 2rem;
+    color: var(--atlas-blue);
+    font-family: var(--heading-1);
+    font-size: 60px;
+}
+
+.home-about hr {
+    border: none;
+        height: 5px;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+        background-color: black;
+}
 /* Not Found */
   
 .not-found {
