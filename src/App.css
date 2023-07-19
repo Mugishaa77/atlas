@@ -3,16 +3,29 @@
     --atlas-blue: #342F7F;
     --atlas-green: #009F55;
     --background-grey: #BFC0BD;
+    --potgrey: #424839;
+    --plate-black: #191A0B;
+    --tea-green: #d0f0c0;
+    --heading-1: 'Montserrat',
+        sans-serif;
+        --welcome: 'Montez',
+            cursive;;
+
 }
 /* Navbar */
 nav {
-    background-color: white;
-    height: 60px;
+    background-color: var(--tea-green);
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
 }
+
+.logo {
+    margin-left: 0;
+}
+
 
 
 
@@ -23,6 +36,9 @@ ul {
 
 li {
     margin-right: 20px;
+    font-size: 17.5px;
+    margin-top: 5px;
+    padding: 10px;
 }
 
 a {
@@ -32,4 +48,37 @@ a {
 }
 a:hover {
     color: var(--atlas-green);
+}
+
+/* Homepage */
+
+.home {
+    background-image: url("./tea/homepage.png");
+        background-repeat: no-repeat;
+        background-color: var(--atlas-green);
+        background-size: cover;
+        background-position: center;
+        height: 650px;
+        padding: 2rem;
+        
+        
+}
+
+
+.glass-text {
+    color: var(--plate-black);
+    font-size: 76px;
+    font-family: var(--welcome);
+    margin-left: 150px;
+    margin-top: 200px;
+    
+    
+}
+
+
+/* Not Found */
+  
+.not-found {
+    background-color: var(--background-grey);
+    height: 800px;
 }
