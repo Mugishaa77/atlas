@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
+
 import './App.css';
 
 // pages
@@ -9,6 +10,7 @@ import Contact from './pages/Contact';
 import Services from './pages/Services';
 import News from './pages/News';
 import Auction from './pages/Auction';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
       <Route path="/" exact element = {<Home />} />
       <Route path="/about" exact element = {<About/>} />
       <Route path="/contact" exact element = {<Contact />} />
-      <Route path="/service" exact elemet = {<Services />} />
+      <Route path="/service" exact element = {<Services />} />
       <Route path="/news" exact element = {<News />} />
       <Route path ="/auction" exact element = {<Auction />} />
 
