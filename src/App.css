@@ -67,10 +67,11 @@ a:hover {
 
 .glass-text {
     color: var(--plate-black);
-    font-size: 76px;
+    font-size: 100px;
     font-family: var(--welcome);
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 200px;
+    opacity: 0.9;
     
     
 }
