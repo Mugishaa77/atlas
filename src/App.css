@@ -10,12 +10,16 @@
     --heading-1: 'Montserrat',
         sans-serif;
         --welcome: 'Montez',
-            cursive;;
+            cursive;
+            --atlas-font: 'Merriweather',
+                serif;
+                --paragraph: 'Lusitana',
+                    serif;
 
 }
 /* Navbar */
 nav {
-    background-color: var(--tea-green);
+   
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -61,8 +65,7 @@ a:hover {
         background-position: center;
         height: 650px;
         padding: 2rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
+        
         
         
 }
@@ -70,11 +73,10 @@ a:hover {
 
 .glass-text {
     color: var(--plate-black);
-    font-size: 100px;
+    font-size: 90px;
     font-family: var(--welcome);
     margin-left: 80px;
     margin-top: 200px;
-    opacity: 0.9;
     animation: bounce 2s infinite;
     
     
@@ -92,21 +94,59 @@ a:hover {
     }
 }
 
+.home-about {
+    
+    height: 500px;
+}
+
 .home-about h1 {
     text-align: center;
     padding: 2rem;
     color: var(--atlas-blue);
-    font-family: var(--heading-1);
-    font-size: 60px;
+    font-family: var(--atlas-font);
+    font-size: 50px;
 }
 
 .home-about hr {
     border: none;
-        height: 5px;
-        width: 300px;
+        height: 4px;
+        width: 800px;
         display: block;
         margin: 0 auto;
-        background-color: black;
+        background-color: var(--atlas-red);
+        opacity: 1;
+        
+}
+
+.about-p {
+    padding: 0 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: var(--paragraph);
+   
+}
+
+.about-button {
+    text-align: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.about-button button {
+    background-color: var(--atlas-green);
+        color: var(--tea-green);
+        border:2px inset var(--tea-green);
+        width: 150px;
+        height: 40px;
+        font-size: 22px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: var(--paragraph);
+}
+
+.about-button :hover {
+    background-color: var(--atlas-blue);
+    color: var(--atlas-red);
 }
 /* Not Found */
   

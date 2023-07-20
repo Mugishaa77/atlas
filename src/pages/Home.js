@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 export default function Home () {
@@ -7,7 +8,7 @@ export default function Home () {
             
             
            <h1 className="glass-text">
-            <em>We Know Tea!</em></h1>
+            We Know Tea!</h1>
          
         </div>
 
@@ -17,16 +18,29 @@ export default function Home () {
 
             </h1>
 
-             <p>Atlas Tea Brokers, established in 2002, is a reputable tea brokerage company that has quickly 
-                    become a frontrunner in the tea trade. Our profound understanding of the tea industry and commitment
-                     to excellence have made us a preferred choice for both tea producers and buyers. Since joining the 
+            <div className="about-p">
+             <p><span>Atlas Tea Brokers, established in 2002, is a reputable tea brokerage company that has quickly 
+                    become a frontrunner in the tea trade.</span> <br />
+                    Our <strong>profound understanding of the tea industry</strong> and <strong>commitment
+                     to excellence </strong>have made us a preferred choice for both tea producers and buyers.
+                     <br /> Since joining the 
                      East African Tea Trade Association (EATTA) in July 2015, we have consistently excelled in our role
-                      as a bridge between producers and buyers, representing 36 prestigious tea gardens from five 
-                      countries. Today, our company commands an impressive 5% market share, a testament to our dedication
+                      as a bridge between producers and buyers, representing <strong>36 prestigious tea gardens</strong> from five 
+                      countries. <br />
+                       Today, our company commands an impressive <strong>5% market share</strong> , a testament to our dedication
                        in securing the best prices for our clients under prevailing market conditions.</p>
-            
+            </div>
+
+                 <div className="about-button">
+                    <Link to="/about">
+                         <button>Tea Journey</button>
+                    </Link>
+                   
+                 </div>
             
           </div>
+          
+
           </div>
         
     );
