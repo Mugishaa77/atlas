@@ -60,9 +60,9 @@ a:hover {
 .home {
     background-image: url("./tea/homepage.png");
         background-repeat: no-repeat;
-        background-color: var(--atlas-green);
+        background-color: var(--tea-green);
         background-size: cover;
-        background-position: center;
+        background-position: right;
         height: 650px;
         padding: 2rem;
         
@@ -148,9 +148,13 @@ a:hover {
     background-color: var(--atlas-blue);
     color: var(--atlas-red);
 }
-/* Not Found */
-  
-.not-found {
-    background-color: var(--background-grey);
-    height: 800px;
+
+/* About Page */
+
+
+.about h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--atlas-font);
+    color: var(--atlas-red);
 }
