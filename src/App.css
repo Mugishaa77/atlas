@@ -15,6 +15,8 @@
                 serif;
                 --paragraph: 'Lusitana',
                     serif;
+                    --h3: 'Lato',
+                        sans-serif;
 
 }
 /* Navbar */
@@ -151,10 +153,84 @@ a:hover {
 
 /* About Page */
 
-
 .about h2 {
     text-align: center;
-    padding: 2rem;
-    font-family: var(--atlas-font);
-    color: var(--atlas-red);
+        padding: 2rem;
+        color: var(--atlas-blue);
+        font-family: var(--atlas-font);
+        font-size: 40px;
+}
+
+h2 hr {
+    border: none;
+        height: 2.5px;
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+        background-color: var(--atlas-red);
+        opacity: 1;
+}
+.about-one {
+    background-image: url("./tea/DL koisagat.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right;
+        padding: 2rem;
+        margin: 1rem;
+        
+             
+}
+
+.about-one .list-container {
+    display: flex;
+        flex-direction: column;
+        /* Align items vertically */
+        align-items: flex-start;
+        font-family: var(--paragraph);
+        
+}
+
+
+
+.list-container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.list-container li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 26px;
+    
+}
+
+.list-container li span {
+    margin-right: 10px;
+}
+
+.about h3 {
+    text-align: left;
+        color: var(--atlas-blue);
+        font-family: var(--h3);
+        font-size: 30px;
+    
+        
+}
+
+.list-container .num {
+    color: var(--atlas-green);
+}
+
+h3 hr {
+        border: none;
+            height: 1px;
+            width: 400px;
+            display: block;
+            margin-left: 0px;
+            background-color: var(--atlas-green);
+            padding-top: 0;
+            margin-top: 0;
 }
