@@ -177,8 +177,7 @@ h2 hr {
         background-position: right;
         padding: 2rem;
         margin: 1rem;
-        
-             
+       
 }
 
 .about-one .list-container {
@@ -211,26 +210,60 @@ h2 hr {
     margin-right: 10px;
 }
 
-.about h3 {
+.about h3
+ {
     text-align: left;
-        color: var(--atlas-blue);
+        color: var(--atlas-green);
         font-family: var(--h3);
-        font-size: 30px;
+        font-size: 32px;
+        opacity: 1;
     
         
 }
 
+
+
+
 .list-container .num {
     color: var(--atlas-green);
+    margin-left:  7px;
 }
 
 h3 hr {
         border: none;
             height: 1px;
-            width: 400px;
+            width: 430px;
             display: block;
             margin-left: 0px;
             background-color: var(--atlas-green);
             padding-top: 0;
             margin-top: 0;
 }
+
+
+.mission  h3 hr {
+    width: 220px;
+}
+
+.about .mission h3, .about .service h3{
+    font-size: 28px;
+    opacity: 1;
+    padding-top: 50px;
+    margin-left: 70px;
+    color: var(--atlas-green);
+    opacity: 1;
+}
+
+.mission {
+    margin: 3rem;
+}
+
+.mission p {
+    padding: 0 100px;
+        text-align: left;
+        font-size: 20px;
+        font-family: var(--paragraph);
+
+}
+
+ 
