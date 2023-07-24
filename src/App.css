@@ -7,6 +7,7 @@
     --plate-black: #191A0B;
     --tea-green: #d0f0c0;
     --atlas-red: #E4440A;
+    --sea-foam: #DFECFF;
     --heading-1: 'Montserrat',
         sans-serif;
         --welcome: 'Montez',
@@ -17,6 +18,10 @@
                     serif;
                     --h3: 'Lato',
                         sans-serif;
+                        --lists: 'Frank Ruhl Libre',
+                            serif;
+    
+                            
 
 }
 /* Navbar */
@@ -351,15 +356,20 @@ h3 hr {
 .garden-catalogue {
     padding: 2rem;
     margin: 2rem;
+    
 }
 
 .garden-catalogue h3 {
     font-family: var(--h3);
+    text-align: center;
     color: var(--atlas-green);
+    font-size: 34px;
+    padding-bottom: 2rem;
 }
 
 .garden-catalogue hr {
-    width: 285px;
+    width: 350px;
+    margin: 0 auto;
 }
 
 .garden-catalogue p {
@@ -367,8 +377,31 @@ h3 hr {
     font-size: 22px;
 }
 
-.garden-catalogue ul {
-    display:flex;
-    flex-direction: column;
+.image-text {
+    text-align: center;
+    margin-top: 10px;
+    /* Add some spacing between images and text */
 }
 
+.logos {
+    text-align: center;
+   
+}
+
+.words ul {
+    list-style-type: disc;
+    /* Remove the default bullet */
+    padding-left: 20px;
+    /* Add some left padding to create space for the custom marker */
+    color: var(--atlas-blue);
+    font-family: var(--lists);
+   
+}
+
+.words li {
+    font-size: 22px;
+}
+
+.garden-catalogue {
+    background-color: #E8E6E4;
+}

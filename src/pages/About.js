@@ -1,4 +1,13 @@
-
+import dl from '../tea/dl-group-logo.png';
+import dllogo from '../tea/DL-logo.png';
+import emrok from '../tea/emrok-logo.png';
+import karirana from '../tea/karirana-logo.png';
+import maramba from '../tea/maramba-logo.png';
+import mogeni from '../tea/mogeni-logo.png';
+import nandi from '../tea/nandi-tea-logo.png';
+import rwanda from '../tea/rwanda-logo.png';
+import williamson from '../tea/williamson-logo.png';
+import wood from '../tea/wood-logo.png';
 import '../App.css';
 
 export default function About () {
@@ -108,26 +117,98 @@ share our values, supporting their efforts to promote sustainability and fair-tr
 
            <div className="garden-catalogue">
             <h3>GARDEN CATALOGUE<hr/></h3>
-            <p>Welcome to our tea wonderland in Kenya, where the magic of nature meets the artistry of tea. </p>
-            <ul>
-                <li>Karirana</li>
-                <li>Maramba</li>
-                <li>Mogeni</li>
-                <li>Nyarinda</li>
-                <li>Kiptegen</li>
-               <li>Magura</li> <li>Arroket</li>
-               <li>Lelagoin</li><li>DL Teas <img src="../tea/DL-logo.png"/>
-                
-               </li>
-<li>Emrok</li>
-<li>Mokong</li>
-<li>Kapchorua</li>
-<li>Tinderet</li><li>Mulindi</li>
-<li>Shagasha</li>
-<li>Pfunda</li>
-<li>Gisakura</li><li>Mata</li><li>Nyabihu</li><li>Rubaya</li><li>Gatare</li><li>Livingstonia</li>
-<li>Mahenye</li><li>Kibena</li>
-            </ul>
+            
+            <p>Welcome to our tea wonderland in Kenya, where the magic of nature meets the artistry of tea.
+            Explore the collection of gardens featured in our catalog: </p>
+            <div className="words row">
+            <ul className="word-lists">
+                <div className="col">
+                    <li>Nyarinda</li><li>Kiptegen</li><li>Magura</li><li>Kapchorua</li><li>Pfunda</li>                </div>
+                <div className="col">
+                    <li>Shagasha</li><li>Gisakura</li><li>Mata</li><li>Nyabihu</li><li>Rubaya</li>
+                </div>
+                <div className="col">
+                    <li>Arroket</li><li>Lelagoin</li><li>Mokong</li><li>Gatare</li><li>Kibena</li>
+                </div>
+                <div className="col">
+                <li>Tinderet</li><li>Mulindi</li><li>Livingstonia</li><li>Mahenye</li>
+                </div>
+                 </ul></div>
+
+                 <div className="logos row">
+  <ul className="logo-lists">
+    <div className="col">
+        
+        <li>
+        
+          <img src={nandi} alt="Nandi Tea" title="Nandi Tea" />
+          
+      </li>
+      <li>
+       
+          <img src={emrok} alt="Emrok" title="Emrok" />
+         
+      </li>
+      
+      
+      
+      <li>
+        <div className="image-text">
+          <img src={karirana} alt="Karirana" title="Karirana" />
+          <span>Karirana</span>
+          </div>
+      </li>
+    </div>
+    <div className="col">
+      <li>
+        
+          <img src={wood} alt="The Wood Foundation" title="The Wood Foundation" />
+          
+      </li>
+      
+      <li>
+        
+          <img src={williamson} alt="Williamson Tea" title="Williamson Tea" />
+         
+      </li>
+      <li>
+       
+          <img src={maramba} alt="Maramba" title="Maramba" />
+          
+      </li>
+      <li>
+       
+          <img src={mogeni} alt="Mogeni" title="Mogeni" />
+          
+      </li> 
+       
+      
+    </div>
+
+    <div className="col">
+        <li>
+       
+          <img src={rwanda} alt="Rwanda Mountain Tea" title="Rwanda Mountain Tea" />
+
+      </li>
+      
+      
+      <li>
+        
+          <img src={dllogo} alt="DL Teas" title="DL Teas" />
+      </li>
+      <li>
+        
+          <img src={dl} alt="DL group" title="DL Group" />
+         
+      </li>
+    </div>
+
+    
+  </ul>
+</div>
+
+
            </div>
              </div>
     );
