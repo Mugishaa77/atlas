@@ -170,6 +170,9 @@ h2 hr {
         background-color: var(--atlas-red);
         opacity: 1;
 }
+
+/* about-one */
+
 .about-one {
     background-image: url("./tea/DL koisagat.png");
         background-repeat: no-repeat;
@@ -188,8 +191,6 @@ h2 hr {
         font-family: var(--paragraph);
         
 }
-
-
 
 .list-container {
     list-style: none;
@@ -210,19 +211,14 @@ h2 hr {
     margin-right: 10px;
 }
 
-.about h3
+.about-one h3
  {
     text-align: left;
         color: var(--atlas-green);
         font-family: var(--h3);
         font-size: 32px;
-        opacity: 1;
-    
-        
+        opacity: 1;      
 }
-
-
-
 
 .list-container .num {
     color: var(--atlas-green);
@@ -240,30 +236,114 @@ h3 hr {
             margin-top: 0;
 }
 
-
-.mission  h3 hr {
-    width: 220px;
+/* mission */
+.about .mission {
+    
+    margin: 3rem;
+    padding-bottom: 3rem;
+    background-color: #DFECFF;
 }
 
-.about .mission h3, .about .service h3{
+.about .mission  h3 hr {
+    width: 185px;
+}
+
+.about .mission h3{
     font-size: 28px;
-    opacity: 1;
     padding-top: 50px;
     margin-left: 70px;
     color: var(--atlas-green);
     opacity: 1;
+    font-family: var(--h3);
 }
 
-.mission {
-    margin: 3rem;
-}
-
-.mission p {
+.about .mission p {
     padding: 0 100px;
         text-align: left;
         font-size: 20px;
         font-family: var(--paragraph);
-
 }
 
- 
+ .about .mission .opening {
+    color: var(--atlas-green);
+ }
+
+ /* about-service */
+
+.about .service {
+    margin: 2rem;
+    margin-top: 0;
+}
+
+.about .service h3 {
+    color: var(--atlas-green);
+    font-family: var(--h3);
+    margin-left: 70px;
+    opacity: 1;
+    font-size: 28px;
+}
+
+.about .service hr {
+    width: 185px;
+}
+
+.service .open {
+    font-family: var(--paragraph);
+   margin-left:50px;
+    font-size: 22px;
+}
+
+
+.service h4 {
+    font-family: var(--heading-1);
+    color: var(--atlas-green);
+    
+}
+
+.service ul {
+    display: flex;
+        justify-content: space-between;
+        
+}
+.service p {
+    font-family: var(--paragraph);
+    font-size: 20px;
+}
+
+.service span {
+    color: var(--atlas-green);
+}
+
+.service .note {
+    padding: 1rem;
+    color: var(--atlas-green);
+    text-decoration: underline;
+}
+
+.service .note:hover {
+    color: var(--potgrey);
+}
+
+/* Values */
+
+.values {
+    
+    margin: 2rem;
+    padding-top: 2rem;
+    background-color: #DFECFF;
+}
+
+.values h3 {
+    font-family: var(--h3);
+    color: var(--atlas-green);
+    margin-left: 50px;
+}
+
+.values hr {
+    width: 170px;
+}
+
+.values h4 {
+    font-family: var(--heading-1);
+}
+

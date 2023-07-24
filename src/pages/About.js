@@ -26,41 +26,49 @@ export default function About () {
             <h3>OUR MISSION <hr /></h3>
             {/* h3s should be greeen */}
             <p>
-                At Atlas Tea Brokers, our mission is to provide top-tier brokerage services to both tea
-producers and buyers, guiding them in navigating the complexities of the tea trade. With our
-in-depth knowledge, unwavering commitment, and personalized approach, we aim to ensure
-that our clients' teas find the right buyers at the Mombasa Auction, securing optimal prices
-for producers and premium products for buyers.
+                <span className="opening">At Atlas Tea Brokers, </span>
+                     our mission is to <span className="opening">provide top-tier brokerage services</span> to both tea
+producers and buyers, guiding them in navigating the complexities of the tea trade. <br/> With our
+<span className="opening"> in-depth knowledge,</span> <span className="opening">unwavering commitment,</span> and <span className="opening">personalized approach,</span> we aim to ensure
+that our clients' teas find the <span className="opening">right buyers</span> at the Mombasa Auction, securing <span className="opening">optimal prices </span>
+ for producers and premium products for buyers.
             </p>
            </div>
 
-           <div classname="service" >
+           <div className="service">
             <h3>WHAT WE DO<hr/></h3>
-            <p>As a specialized tea brokerage firm, we offer a comprehensive range of services tailored to
+            <p className="open">As a specialized tea brokerage firm, we offer a comprehensive range of services tailored to
 meet the unique needs of both tea producers and buyers:</p>
 
-<ul><li>
+<ul>
+    <li>
     <h4>Auction Representation for Producers</h4>
-    <p>We <span>sell teas</span> at the Mombasa Tea Auction under the rules and regulations set by
-EATTA on behalf of our tea producer clients. Our team of experts carefully handles
+    <p>We <span>sell teas </span> at the Mombasa Tea Auction <br/>under the rules and regulations set by
+EATTA on behalf of our tea producer clients.
+ Our team of experts carefully handles
 the entire auction process, from pre-auction preparation to post-auction follow-ups,
 ensuring seamless transactions and maximum returns for our producer clients.</p></li>
+
 
 <li>
     <h4>
         Sourcing for Buyers</h4>
         <p>For buyers seeking premium teas, we curate a diverse selection of high-quality teas
-from esteemed <a href="">tea gardens</a>tea gardens. Through our extensive network and market expertise,
-we match buyers with teas that align with their preferences and requirements.</p></li>
-<a href="">View Garden Catalogue</a>
+from esteemed tea gardens.
+
+ Through our extensive network and market expertise,
+we match buyers with teas that align with their preferences and requirements.<br/>
+<a href="" className="note"><em>View Garden Catalogue</em></a></p></li>
+
+
 <li><h4>
     Private Sales Facilitation</h4>
     <p>In addition to <span>auction representation</span>, we also <span>facilitate private sales</span> for both
 producers and buyers. Our vast network of international buyers and producers allows
 us to connect parties directly, enabling smooth trade negotiations.</p></li></ul>
             
-
-           </div>
+</div>
+           
 
            <div className="values">
     <h3>OUR VALUES <hr/></h3>
