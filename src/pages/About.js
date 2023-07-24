@@ -107,7 +107,7 @@ share our values, supporting their efforts to promote sustainability and fair-tr
            </div>
 
            <div className="garden-catalogue">
-            <h3>GARDEN CATALOGUE</h3>
+            <h3>GARDEN CATALOGUE<hr/></h3>
             <p>Welcome to our tea wonderland in Kenya, where the magic of nature meets the artistry of tea. </p>
             <ul>
                 <li>Karirana</li>
@@ -116,7 +116,7 @@ share our values, supporting their efforts to promote sustainability and fair-tr
                 <li>Nyarinda</li>
                 <li>Kiptegen</li>
                <li>Magura</li> <li>Arroket</li>
-               <li>Lelagoin</li><li>DL Teas
+               <li>Lelagoin</li><li>DL Teas <img src="../tea/DL-logo.png"/>
                 
                </li>
 <li>Emrok</li>

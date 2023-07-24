@@ -174,7 +174,7 @@ h2 hr {
 /* about-one */
 
 .about-one {
-    background-image: url("./tea/DL koisagat.png");
+    background-image: url("./tea/DL-koisagat.png");
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
@@ -330,7 +330,6 @@ h3 hr {
     
     margin: 2rem;
     padding-top: 2rem;
-    background-color: #DFECFF;
 }
 
 .values h3 {
@@ -345,5 +344,31 @@ h3 hr {
 
 .values h4 {
     font-family: var(--heading-1);
+}
+
+/* Garden Catalogue */
+
+.garden-catalogue {
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.garden-catalogue h3 {
+    font-family: var(--h3);
+    color: var(--atlas-green);
+}
+
+.garden-catalogue hr {
+    width: 285px;
+}
+
+.garden-catalogue p {
+    font-family: var(--paragraph);
+    font-size: 22px;
+}
+
+.garden-catalogue ul {
+    display:flex;
+    flex-direction: column;
 }
 
