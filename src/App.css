@@ -405,3 +405,9 @@ h3 hr {
 .garden-catalogue {
     background-color: #E8E6E4;
 }
+
+/* Image Slideshow */
+.image-component {
+    height: 250px;
+    width: 600px;
+}

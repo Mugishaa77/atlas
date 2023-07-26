@@ -39,8 +39,9 @@ export default function About () {
                      our mission is to <span className="opening">provide top-tier brokerage services</span> to both tea
 producers and buyers, guiding them in navigating the complexities of the tea trade. <br/> With our
 <span className="opening"> in-depth knowledge,</span> <span className="opening">unwavering commitment,</span> and <span className="opening">personalized approach,</span> we aim to ensure
-that our clients' teas find the <span className="opening">right buyers</span> at the Mombasa Auction, securing <span className="opening">optimal prices </span>
- for producers and premium products for buyers.
+that our clients' teas find the <span className="opening">right buyers</span> at the Mombasa Auction, 
+securing <span className="opening">maximum value</span> to our clients.
+
             </p>
            </div>
 
@@ -51,17 +52,17 @@ meet the unique needs of both tea producers and buyers:</p>
 
 <ul>
     <li>
-    <h4>Auction Representation for Producers</h4>
+    <h4>An Auction House</h4>
     <p>We <span>sell teas </span> at the Mombasa Tea Auction <br/>under the rules and regulations set by
-EATTA on behalf of our tea producer clients.
- Our team of experts carefully handles
+East Africa Tea Trade Association <span>EATTA. </span>
+  Our team of experts carefully handles
 the entire auction process, from pre-auction preparation to post-auction follow-ups,
 ensuring seamless transactions and maximum returns for our producer clients.</p></li>
 
 
 <li>
     <h4>
-        Sourcing for Buyers</h4>
+        Technical Support</h4>
         <p>For buyers seeking premium teas, we curate a diverse selection of high-quality teas
 from esteemed tea gardens.
 
@@ -71,10 +72,18 @@ we match buyers with teas that align with their preferences and requirements.<br
 
 
 <li><h4>
-    Private Sales Facilitation</h4>
+    Networking</h4>
     <p>In addition to <span>auction representation</span>, we also <span>facilitate private sales</span> for both
 producers and buyers. Our vast network of international buyers and producers allows
-us to connect parties directly, enabling smooth trade negotiations.</p></li></ul>
+us to connect parties directly, enabling smooth trade negotiations.</p></li>
+
+<li>
+    <h4>Training</h4>
+    <p>We are dedicated to securing the <span>future of the tea industry</span> by offering comprehensive <span>internship programs</span> to
+         young workers within our company. Through these programs, participants gain invaluable expertise and hands-on
+          experience that aligns perfectly with the demands of the tea industry.</p>
+    
+    </li></ul>
             
 </div>
            
@@ -101,11 +110,11 @@ competitive and seize opportunities in a dynamic market landscape.</p></li>
 <li>
     <h4>Safeguarding Interests</h4>
     <p>
-        One of our key mandates is to prioritize our clients' interests. We diligently adhere to the
-instructions and terms stipulated by tea producers while assisting buyers in sourcing
-premium teas that match their preferences. Our commitment to securing the highest possible
-price for producers' teas under the prevailing market conditions and providing buyers with
-the finest teas reflects our dedication to the success of all parties involved.</p></li>
+        One of our key mandates is to prioritize our clients' interests.
+         We diligently adhere to the instructions and terms stipulated by tea producers while assisting buyers in sourcing
+premium teas that match their preferences.
+ Our commitment to securing the highest possible price for producers' teas under the prevailing market conditions and 
+ providing buyers with value teas reflects our dedication to the success of all parties involved.</p></li>
 
 <li><h4>Commitment to Sustainability</h4>
 <p>As responsible brokers, we actively advocate for sustainable and eco-friendly practices
