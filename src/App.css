@@ -8,6 +8,7 @@
     --tea-green: #d0f0c0;
     --atlas-red: #E4440A;
     --sea-foam: #DFECFF;
+    --background-dblue: #E8E6E4;
     --heading-1: 'Montserrat',
         sans-serif;
         --welcome: 'Montez',
@@ -406,8 +407,112 @@ h3 hr {
     background-color: #E8E6E4;
 }
 
-/* Image Slideshow */
-.image-component {
-    height: 250px;
-    width: 600px;
-}
+/* Contact Component */
+
+ .contact h2 {
+    text-align: center;
+    padding: 2rem;
+    font-family: var(--atlas-font);
+    color: var(--atlas-blue);
+    font-size: 40px;
+ }
+
+ .contact h2 hr {
+    width: 200px;
+ }
+
+ .contact-details {
+    width: 500px;
+    margin-left: 50px;
+ }
+
+ .contact-details h3 {
+    color: var(--atlas-green);
+    font-family: var(--h3);
+    text-align: center;
+ }
+
+ .contact-details hr {
+    width: 500px;
+ }
+
+ .contact-details label {
+    font-family: var(--paragraph);
+    color: var(--atlas-blue);
+    font-size: 18px;
+    
+ }
+
+ .contact-details input, .contact-details textarea {
+    margin-bottom: 5px;
+ }
+ .contact-details button {
+    background-color: var(--atlas-green);
+    color: var(--tea-green);
+    margin-top: 1rem;
+    text-align: center;
+    font-family: var(--paragraph);
+    margin-left: 400px;
+    border-radius: 5px;
+    border: 1px solid var(--tea-green);
+    width: 100px;
+    height: 40px;
+ }
+
+ .contact-details button:hover {
+    background-color: var(--atlas-blue);
+    color: var(--atlas-red);
+ }
+
+ .business-address {
+    width: 650px;
+    margin: 50px;
+    
+ }
+
+ .business-address h3 {
+    color: var(--atlas-green);
+        font-family: var(--h3);
+        text-align: center;
+ }
+
+ .business-address h3 hr {
+    margin-top: 2px;
+    width: 500px;
+    margin: auto;
+ }
+ .business-address p {
+    font-family: var(--paragraph);
+    font-size: 20px;
+    text-align: center;
+    color: var(--atlas-blue);
+ }
+
+ .phone-number {
+    width: 400px;
+    margin: 50px;
+ }
+ .phone-number h3 {
+color: var(--atlas-green);
+    font-family: var(--h3);
+    text-align: center;
+ }
+
+ .phone-number .call{
+    display: flex;
+    flex-direction: column;
+ }
+
+ .phone-number span {
+    color: var(--atlas-blue);
+    font-size: 20px;
+    text-align: justify;
+ }
+
+ .phone-number span a {
+    color: var(--atlas-blue);
+ }
+
+ .phone-number span a:hover {
+    color: var(--atlas-red);
+ }
