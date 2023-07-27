@@ -26,8 +26,9 @@ export default function Contact () {
 <h2>Contact Us <hr/></h2>
 
             <div className="contact-details">
-
-<div className="contact-form">
+              <div className="row">
+                <div className="col">
+                  <div className="contact-form">
     <h3>Contact Form <FontAwesomeIcon icon={faEnvelopeOpenText} /><hr/></h3>
 <form>
     <label>Name</label>
@@ -65,16 +66,10 @@ export default function Contact () {
 <button>Submit</button>
 </div>
             </div>
-            
-            <div className="business-address">
-                <h3>Business Address <FontAwesomeIcon icon={faLocationDot} /><hr/></h3>
-                <p>Sec, 1 M.Nyali, (Off Links Shell Petrol Station)
-                    <br/>
-                    P.O. Box 3445-80100 Mombasa Kenya
-                </p>
-            </div>
-
-            <div className="phone-number">
+           
+                </div>
+                <div className="col">
+                  <div className="phone-number">
               <h3>Phone <FontAwesomeIcon icon={faPhone} /> <hr/></h3>
               <div className="call"><span>
 
@@ -104,7 +99,8 @@ export default function Contact () {
             </div>
 
             <div className="email">
-              <h3>Email <FontAwesomeIcon icon={faEnvelope} className="envelope-icon" /></h3>
+              <h3>Email <FontAwesomeIcon icon={faEnvelope} 
+              /> <hr/></h3>
                  <a
                 href="mailto:info@atlastea.co.ke"
                 title="Email"
@@ -116,11 +112,39 @@ export default function Contact () {
             </div>
 
             <div className="socials">
-              <h3>Social Media Links</h3>
+              <h3>Social Media Links<hr/></h3>
             </div>
 
-            <div className="map">
-              <h3>Maps and Directions</h3>
+           
+                </div>
+              </div>
+
+ 
+            <div className="business-address">
+                <h3>Business Address <FontAwesomeIcon icon={faLocationDot} /><hr/></h3>
+                <p>Sec, 1 M.Nyali, (Off Links Shell Petrol Station)
+                    <br/>
+                    P.O. Box 3445-80100 Mombasa Kenya
+                </p>
+            </div>
+
+            
+
+            <div className="business">
+              <h3>Business Hours<hr/></h3>
+              <h4><FontAwesomeIcon icon={faDoorOpen} />Open</h4>
+              <ul>
+                <li>Mon - Fri: 08:00 AM - 05:00 PM EAT </li>
+                <li>Saturday: 09:00 AM - 02:00 PM EAT</li>
+              </ul>
+              
+              <h4 >Sundays - Closed <FontAwesomeIcon icon={faDoorClosed} /></h4>
+
+            
+            </div>
+
+             <div className="map">
+              <h3>Maps and Directions<hr/></h3>
                <iframe
       title="Google Maps"
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8459386310574!2d39.68570417420655!3d-4.051828144901343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012f98b4939d7%3A0x5017c8e77eb3342f!2sShell!5e0!3m2!1sen!2ske!4v1690378146667!5m2!1sen!2ske"
@@ -131,19 +155,6 @@ export default function Contact () {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
-            </div>
-
-            <div className="business">
-              <h3>Business Hours</h3>
-              <h4><FontAwesomeIcon icon={faDoorOpen} />Open</h4>
-              <ul>
-                <li>Mon - Fri: 08:00 AM - 05:00 PM EAT </li>
-                <li>Saturday: 09:00 AM - 02:00 PM EAT</li>
-              </ul>
-              
-              <h4>Sundays - Closed <FontAwesomeIcon icon={faDoorClosed} /></h4>
-
-            
             </div>
        </div>
     );

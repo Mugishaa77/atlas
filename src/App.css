@@ -409,110 +409,189 @@ h3 hr {
 
 /* Contact Component */
 
- .contact h2 {
-    text-align: center;
-    padding: 2rem;
+.contact h2 {
     font-family: var(--atlas-font);
-    color: var(--atlas-blue);
     font-size: 40px;
- }
-
- .contact h2 hr {
-    width: 200px;
- }
+    color: var(--atlas-blue);
+    text-align: center;
+}
 
  .contact-details {
-    width: 500px;
-    margin-left: 50px;
+     width: 500px;
+     margin-left: 50px;
  }
 
  .contact-details h3 {
-    color: var(--atlas-green);
-    font-family: var(--h3);
-    text-align: center;
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
  }
 
  .contact-details hr {
-    width: 500px;
+     width: 500px;
  }
 
  .contact-details label {
-    font-family: var(--paragraph);
-    color: var(--atlas-blue);
-    font-size: 18px;
-    
+     font-family: var(--paragraph);
+     color: var(--atlas-blue);
+     font-size: 18px;
+
  }
 
- .contact-details input, .contact-details textarea {
-    margin-bottom: 5px;
+ .contact-details input,
+ .contact-details textarea {
+     margin-bottom: 5px;
  }
+
  .contact-details button {
-    background-color: var(--atlas-green);
-    color: var(--tea-green);
-    margin-top: 1rem;
-    text-align: center;
-    font-family: var(--paragraph);
-    margin-left: 400px;
-    border-radius: 5px;
-    border: 1px solid var(--tea-green);
-    width: 100px;
-    height: 40px;
+     background-color: var(--atlas-green);
+     color: var(--tea-green);
+     margin-top: 1rem;
+     text-align: center;
+     font-family: var(--paragraph);
+     margin-left: 400px;
+     border-radius: 5px;
+     border: 1px solid var(--tea-green);
+     width: 100px;
+     height: 40px;
  }
 
  .contact-details button:hover {
-    background-color: var(--atlas-blue);
-    color: var(--atlas-red);
+     background-color: var(--atlas-blue);
+     color: var(--atlas-red);
  }
 
  .business-address {
-    width: 650px;
-    margin: 50px;
-    
+     width: 650px;
+     margin: 50px;
+
  }
 
  .business-address h3 {
-    color: var(--atlas-green);
-        font-family: var(--h3);
-        text-align: center;
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
  }
 
  .business-address h3 hr {
-    margin-top: 2px;
-    width: 500px;
-    margin: auto;
+     margin-top: 2px;
+     width: 500px;
+     margin: auto;
  }
+
  .business-address p {
-    font-family: var(--paragraph);
-    font-size: 20px;
-    text-align: center;
-    color: var(--atlas-blue);
+     font-family: var(--paragraph);
+     font-size: 20px;
+     text-align: center;
+     color: var(--atlas-blue);
  }
 
  .phone-number {
-    width: 400px;
-    margin: 50px;
- }
- .phone-number h3 {
-color: var(--atlas-green);
-    font-family: var(--h3);
-    text-align: center;
+     width: 400px;
+     margin: 50px;
  }
 
- .phone-number .call{
-    display: flex;
-    flex-direction: column;
+ .phone-number h3 {
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
+ }
+
+ .phone-number .call {
+     display: flex;
+     flex-direction: column;
  }
 
  .phone-number span {
-    color: var(--atlas-blue);
-    font-size: 20px;
-    text-align: justify;
+     color: var(--atlas-blue);
+     font-size: 20px;
+     text-align: justify;
  }
 
  .phone-number span a {
-    color: var(--atlas-blue);
+     color: var(--atlas-blue);
  }
 
  .phone-number span a:hover {
-    color: var(--atlas-red);
+     color: var(--atlas-red);
+ }
+
+ .email {
+     width: 300px;
+     margin: 50px;
+ }
+
+ .email h3 {
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
+ }
+
+ .email h3 hr {
+     width: 300px;
+ }
+
+ .email span {
+     font-family: var(--paragraph);
+     font-size: 24px;
+     text-align: center;
+ }
+
+ .socials {
+     margin: 50px;
+     width: 500px;
+ }
+
+ .socials h3 {
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
+ }
+
+ .map {
+     width: 700px;
+     margin: 50px;
+ }
+
+
+ .map h3 {
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
+ }
+
+ .map h3 hr {
+     width: 700px;
+ }
+
+ .business {
+     width: 500px;
+     margin: 50px;
+ }
+
+ .business h3 hr {
+     width: 500px;
+ }
+
+ .business h4 {
+     color: var(--atlas-blue);
+     font-family: var(--paragraph);
+     text-align: center;
+ }
+
+ .business ul {
+     display: flex;
+     flex-direction: column;
+     color: var(--potgrey);
+     font-family: var(--lists);
+     text-align: center;
+     font-size: 32px;
+     text-transform: uppercase;
+
+ }
+
+ .business h3 {
+     color: var(--atlas-green);
+     font-family: var(--h3);
+     text-align: center;
  }
