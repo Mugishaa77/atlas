@@ -8,6 +8,7 @@ import nandi from '../tea/nandi-tea-logo.png';
 import rwanda from '../tea/rwanda-logo.png';
 import williamson from '../tea/williamson-logo.png';
 import wood from '../tea/wood-logo.png';
+import Directors from '../components/Directors';
 import '../App.css';
 
 export default function About () {
@@ -25,10 +26,12 @@ export default function About () {
 
 <li>Number of Marks at the inaugural sale: <span className="num"> 3</span></li>
 
-<li>Number of Gardens today: <span className="num"> 24 from 3 countries</span></li>
+<li>Number of Gardens today: <span className="num"> 33 from 4 countries</span></li>
 
 <li>Current market share: <span className="num"> 5%</span> </li>
                 </ul>
+
+                <span className="growth">We Are Growing...</span>
             </div>
            
             <div className="mission">
@@ -218,6 +221,10 @@ share our values, supporting their efforts to promote sustainability and fair-tr
 </div>
 
 
+           </div>
+
+           <div className="directors-component">
+            <Directors />
            </div>
              </div>
     );

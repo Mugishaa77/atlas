@@ -242,6 +242,14 @@ h3 hr {
             margin-top: 0;
 }
 
+.about-one .growth {
+    font-size: 30px;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    margin-left: 150px;
+    font-family: var(--paragraph);
+    color: var(--atlas-green);
+}
 /* mission */
 .about .mission {
     
