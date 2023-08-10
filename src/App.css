@@ -21,6 +21,8 @@
                         sans-serif;
                         --lists: 'Frank Ruhl Libre',
                             serif;
+                            --raleway: 'Raleway',
+                                sans-serif;
     
                             
 
@@ -156,7 +158,65 @@ a:hover {
     background-color: var(--atlas-blue);
     color: var(--atlas-red);
 }
+ /* why-us */
 
+ .why-us {
+    
+    border-radius: 5px;
+    margin: 2rem;
+    border: 3px solid var(--atlas-blue);
+    
+ }
+
+.why-us .col ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+    font-size: 23px;
+    
+}
+
+.why-us .col ul li {
+    font-family: var(--paragraph);
+    color: var(--plate-black);
+    font-size: 30px;
+}
+
+.why-us h1 {
+    display: block;
+    text-align: left;
+    padding: 3rem;
+    padding-bottom: 0;
+    font-family: var(--paragraph);
+    color: var(--atlas-blue);
+    margin-left: 5rem;
+    margin-bottom: 0;
+
+}
+
+.why-us hr {
+    color: var(--background-grey);
+    height: 5px;
+    width: 500px;
+    opacity: 1;
+    padding: 0;
+    padding-left: 3rem;
+    margin-top: 0;
+    margin-left: 3rem;
+    
+}
+.why-us p {
+    font-family: var(--welcome);
+    text-align: center;
+    font-size: 36px;
+    padding: 2rem;;
+}
+.why-us img {
+   margin: 2rem;
+   margin-left: 10rem;
+   padding-top: 2rem;
+   
+}
 /* About Page */
 
 .about h2 {
@@ -412,7 +472,8 @@ h3 hr {
 }
 
 .garden-catalogue {
-    background-color: #E8E6E4;
+    border: 2px solid var(--atlas-blue);
+    border-radius: 3px ;
 }
 
 /* Contact Component */
