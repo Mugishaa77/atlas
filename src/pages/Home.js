@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import '../App.css';
 import mata from '../tea/mata-tea.png';
+import karirana from '../tea/karirana.png';
+import kapchorua from '../tea/kapchorua.png';
 
 export default function Home () {
     return (
@@ -40,9 +42,11 @@ export default function Home () {
                  </div>
             
           </div>
+         
 
           <div className="why-us">
             <h1>Why Choose Us?</h1><hr/>
+
 
             <div className="row">
                 
@@ -56,9 +60,7 @@ export default function Home () {
             </ul>
                 </div>
 
-                <div className="col">
-                    <img src={mata} alt="mata tea plantation" title="mata tea plantation" />
-                </div>
+               
             </div>
           
             
@@ -66,6 +68,7 @@ export default function Home () {
             <p><em>We Know Tea </em></p>
           </div>
           
+          <div className="footer"></div>
 
           </div>
         

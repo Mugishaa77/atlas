@@ -162,9 +162,8 @@ a:hover {
 
  .why-us {
     
-    border-radius: 5px;
     margin: 2rem;
-    border: 3px solid var(--atlas-blue);
+    
     
  }
 
@@ -173,13 +172,15 @@ a:hover {
     flex-direction: column;
     padding-top: 3rem;
     font-size: 23px;
+    margin-left: 3rem;
     
 }
 
 .why-us .col ul li {
     font-family: var(--paragraph);
     color: var(--plate-black);
-    font-size: 30px;
+    font-size: 20px;
+    list-style-type:disk ;
 }
 
 .why-us h1 {
@@ -216,6 +217,15 @@ a:hover {
    margin-left: 10rem;
    padding-top: 2rem;
    
+}
+
+.footer {
+    background-image: url('./tea/kapchorua.png');
+        background-color: var(--tea-green);
+       background-repeat: repeat-x;
+        
+       
+
 }
 /* About Page */
 
@@ -664,3 +674,11 @@ h3 hr {
      font-family: var(--h3);
      text-align: center;
  }
+
+ /* services */
+
+ .service {
+    background-image: url('./tea/kibena.png');
+    height: 200px;
+ }
+ 

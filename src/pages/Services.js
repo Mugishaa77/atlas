@@ -1,7 +1,11 @@
+ import kibena from '../tea/kibena.png';
+
 export default function Services () {
     return (
         <div className="services">
-            Services
+            <div className="service">
+               <span>SERVICES</span>
+            </div>
         </div>
     );
 }
