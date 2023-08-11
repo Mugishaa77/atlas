@@ -352,62 +352,7 @@ h3 hr {
     color: var(--atlas-green);
  }
 
- /* about-service */
-
-.about .service {
-    margin: 2rem;
-    margin-top: 0;
-}
-
-.about .service h3 {
-    color: var(--atlas-green);
-    font-family: var(--h3);
-    margin-left: 70px;
-    opacity: 1;
-    font-size: 28px;
-}
-
-.about .service hr {
-    width: 185px;
-}
-
-.service .open {
-    font-family: var(--paragraph);
-   margin-left:50px;
-    font-size: 22px;
-}
-
-
-.service h4 {
-    font-family: var(--heading-1);
-    color: var(--atlas-green);
-    
-}
-
-.service ul {
-    display: flex;
-        justify-content: space-between;
-        
-}
-.service p {
-    font-family: var(--paragraph);
-    font-size: 20px;
-}
-
-.service span {
-    color: var(--atlas-green);
-}
-
-.service .note {
-    padding: 1rem;
-    color: var(--atlas-green);
-    text-decoration: underline;
-}
-
-.service .note:hover {
-    color: var(--potgrey);
-}
-
+ 
 /* Values */
 
 .values {
@@ -487,6 +432,13 @@ h3 hr {
 }
 
 /* Contact Component */
+
+/* contact */
+.header-slideshow {
+    background-image: url('./tea/mata-tea.png');
+    height: 200px;
+    background-repeat: repeat-x;
+}
 
 .contact h2 {
     font-family: var(--atlas-font);
@@ -677,8 +629,72 @@ h3 hr {
 
  /* services */
 
- .service {
+ .service-header {
     background-image: url('./tea/kibena.png');
     height: 200px;
  }
+ 
+ /* about-service */
+
+ .services .service {
+     margin: 2rem;
+     margin-top: 0;
+ }
+
+ .service h2 {
+     font-family: var(--atlas-font);
+     text-align: center;
+     color: var(--atlas-blue);
+     padding-top: 3rem;
+ }
+
+ .service h2 hr {
+    width: 230px;
+ }
+
+ .service .open {
+     font-family: var(--paragraph);
+     margin-left: 50px;
+     font-size: 25px;
+     padding-top: 3rem;
+     color: var(--atlas-green)
+ }
+
+
+ .service h4 {
+     font-family: var(--heading-1);
+     color: var(--atlas-green);
+
+ }
+
+ .service ul {
+     display: flex;
+     justify-content: space-between;
+
+ }
+
+ .service p {
+     font-family: var(--paragraph);
+     font-size: 20px;
+ }
+
+ .service span {
+     color: var(--atlas-green);
+ }
+
+ .service .note {
+     padding: 1rem;
+     color: var(--atlas-green);
+     text-decoration: underline;
+ }
+
+ .service .note:hover {
+     color: var(--potgrey);
+ }
+
+ .service .col {
+    margin: 2rem;
+    margin-top: 0;
+ }
+
  

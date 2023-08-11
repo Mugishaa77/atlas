@@ -23,7 +23,7 @@ export default function Contact () {
             <div className="header-slideshow">
 
             </div>
-<h2>Contact Us <hr/></h2>
+<h2>CONTACT US <hr/></h2>
 
             <div className="contact-details">
               <div className="row">
