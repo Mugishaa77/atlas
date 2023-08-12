@@ -431,7 +431,7 @@ h3 hr {
     border-radius: 3px ;
 }
 
-/* Contact Component */
+/* Contact Component 
 
 .contact h2 {
     font-family: var(--atlas-font);
@@ -625,6 +625,126 @@ h3 hr {
      color: var(--atlas-green);
      font-family: var(--h3);
      text-align: center;
+ }*/
+
+ /* Style for the contact details container */
+ .contact-details {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ /* Style for the contact form */
+ .contact-form {
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     background-color: #f5f5f5;
+     max-width: 400px;
+ }
+
+ .contact-form h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ /* Style for form inputs and button */
+ .form-control {
+     width: 100%;
+     padding: 5px;
+     margin-bottom: 10px;
+ }
+
+ button {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ button:hover {
+     background-color: #0056b3;
+ }
+
+ /* Style for the phone number and email sections */
+ .phone-number,
+ .email {
+     margin: 20px;
+     padding: 20px;
+     border: 1px solid #ccc;
+     background-color: #f5f5f5;
+     max-width: 400px;
+ }
+
+ .phone-number h3,
+ .email h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ /* Style for the socials section */
+ .socials {
+     margin: 20px;
+ }
+
+ .socials h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ /* Style for the business address section */
+ .business-address {
+     margin: 20px;
+ }
+
+ .business-address h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ /* Style for the business hours section */
+ .business {
+     margin: 20px;
+ }
+
+ .business h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ .business ul {
+     list-style-type: none;
+     padding: 0;
+ }
+
+ /* Style for the map section */
+ .map {
+     margin: 20px;
+ }
+
+ .map h3 {
+     display: flex;
+     align-items: center;
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+
+ .map iframe {
+     width: 100%;
+     max-width: 800px;
+     height: 450px;
+     border: none;
  }
 
  /* services */
