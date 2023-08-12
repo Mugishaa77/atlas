@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText, faLocationDot, faPhone, faEnvelope, faDoorOpen, faDoorClosed } from "@fortawesome/free-solid-svg-icons";
 import '../App.css';
 
+
 export default function Contact () {
 
     const [form, setForm] = React.useState({
@@ -20,14 +21,15 @@ export default function Contact () {
 
     return (
         <div className="contact">
+          
+
             <div className="header-slideshow">
-
+            
             </div>
-<h2>CONTACT US <hr/></h2>
 
+ <h2>CONTACT US <hr/></h2>
             <div className="contact-details">
-              <div className="row">
-                <div className="col">
+              
                   <div className="contact-form">
     <h3>Contact Form <FontAwesomeIcon icon={faEnvelopeOpenText} /><hr/></h3>
 <form>
@@ -67,8 +69,8 @@ export default function Contact () {
 </div>
             </div>
            
-                </div>
-                <div className="col">
+               
+                
                   <div className="phone-number">
               <h3>Phone <FontAwesomeIcon icon={faPhone} /> <hr/></h3>
               <div className="call"><span>
@@ -116,9 +118,7 @@ export default function Contact () {
             </div>
 
            
-                </div>
-              </div>
-
+                
  
             <div className="business-address">
                 <h3>Business Address <FontAwesomeIcon icon={faLocationDot} /><hr/></h3>
@@ -142,6 +142,7 @@ export default function Contact () {
 
             
             </div>
+           
 
              <div className="map">
               <h3>Maps and Directions<hr/></h3>
@@ -155,7 +156,8 @@ export default function Contact () {
       loading="lazy"
       referrerPolicy="no-referrer-when-downgrade"
     ></iframe>
-            </div>
-       </div>
+    </div>
+     </div>      
+      
     );
 }
