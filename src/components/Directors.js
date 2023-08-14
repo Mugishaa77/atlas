@@ -1,25 +1,34 @@
+import download from '../tea/download.png';
+import './Component.css';
+
 export default function Directors () {
     return (
         <div className="directors">
-            <h1>LEADERSHIP</h1>
-            <h2>OUR DIRECTORS</h2>
-            <div className="placeholder">
-                <p><ul>
-                    <li>Professional headshot and brief bio</li>
-                    <li>Highlight the specific areas of expertise that each director brings to the table</li>
-                    <li>Link the directors' profiles with your firm's values.</li>
-                    <li>Success Stories:</li>
-                    <li></li></ul></p>
-            </div>
+            
+<h3>LEADERSHIP<hr/></h3>
+<div className="our-directors">
+    <div className="george">
+    <img src={download} 
+    alt="Dr George Muhoho, Atlas Tea Brokers Ltd, Kenya"
+   title="Dr George Muhoho, Atlas Tea Brokers Ltd, Kenya"/>
+<h5>Dr George Muhoho </h5>
+</div>
 
-            <h3>OUR MANAGERS</h3>
-            <ul>
-                <li>Highlight the specific roles and responsibilities </li>
-                <li>Emphasize the relevant industry experience of each manager.</li>
-                <li>Describe how each manager's leadership skills positively impact your
-                     firm's operations, client relationships, and overall growth</li>
-            <li>Link each manager's profile to your company's values</li>
-            </ul>
+<div className="hilda">
+    <img src={download}
+    alt="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"
+    title="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"/>
+
+<h5>Hilda Mugure - Founder-Managing Director</h5></div>
+
+<div className="romano">
+    <img src={download}
+alt="Dr Romano Mungiri Koome, Atlas Tea Brokers Ltd, Kenya"
+title="Dr Romano Mungiri Koome, Atlas Tea Brokers Ltd, Kenya"/>
+<h5>Dr Romano Koome</h5>
+</div>
+</div>
+
 
                    </div>
     );

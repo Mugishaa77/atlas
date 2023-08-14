@@ -1,0 +1,26 @@
+/* Directors.js */
+
+.directors {
+    background-color: var(--sea-foam);
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.directors h3 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--atlas-green);
+    font-family: var(--h3);
+    font-size: 36px;
+}
+
+.directors h3 hr {
+    margin: 0 auto;
+    background-color: var(--pot-grey);
+    width: 200px;
+}
+
+.our-directors {
+    display: flex;
+    justify-content: space-around;
+}
