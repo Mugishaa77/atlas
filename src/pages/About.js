@@ -9,15 +9,23 @@ import rwanda from '../tea/rwanda-logo.png';
 import williamson from '../tea/williamson-logo.png';
 import wood from '../tea/wood-logo.png';
 import Directors from '../components/Directors';
+import dlkoisagat from '../tea/DL-koisagat.png';
 import '../App.css';
 
 export default function About () {
     return (
         <div className="about">
-            <h2>ABOUT ATLAS  <hr /></h2>
+             <h2>ABOUT ATLAS  <hr /></h2>
             <div className="about-one">
-                <h3> OUR JOURNEY IN NUMBERS <hr /></h3>
-                <ul className="list-container">
+               
+                
+
+                <div className="row">
+                    <div className="col">
+                        <h3> OUR JOURNEY IN NUMBERS <hr /></h3>
+                    </div>
+                    <div className="col">
+                         <ul className="list-container">
                     <li>Date of Company registration: <span className="num"> 2002</span> </li>
 
 <li>Date of admission to EATTA: <span className="num"> July 2015</span> </li>
@@ -31,8 +39,14 @@ export default function About () {
 <li>Current market share: <span className="num"> 5%</span> </li>
                 </ul>
 
+                    </div>
+                </div>
+               
+              
                 <span className="growth">We Are Growing...</span>
+           
             </div>
+
            
             <div className="mission">
             <h3>OUR MISSION <hr /></h3>

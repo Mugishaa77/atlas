@@ -66,18 +66,30 @@ a:hover {
 }
 
 /* Homepage */
-
+/* Style for the container with the background image and overlay */
 .home {
+    position: relative;
+    /* Ensure the overlay is positioned relative to this container */
     background-image: url("./tea/homepage.png");
-        background-repeat: no-repeat;
-        background-color: var(--tea-green);
-        background-size: cover;
-        background-position: right;
-        height: 500px;
-        padding: 2rem;
-        
-        
-        
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+    padding: 2rem;
+    color: var(--atlas-blue);
+}
+
+/* Create the opaque grey overlay using the ::before pseudo-element */
+.home::before {
+    content: "";
+    /* Required for the pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    /* Use the grey color with opacity (adjust the opacity as needed) */
 }
 
 
@@ -146,7 +158,7 @@ a:hover {
     background-color: var(--atlas-green);
         color: var(--tea-green);
         border:2px inset var(--tea-green);
-        width: 150px;
+        width: 200px;
         height: 40px;
         font-size: 22px;
         border-radius: 5px;
@@ -158,67 +170,7 @@ a:hover {
     background-color: var(--atlas-blue);
     color: var(--atlas-red);
 }
- /* why-us */
-
- .why-us {
-    
-    margin: 2rem;
-    
-    
- }
-
-.why-us .col ul {
-    display: flex;
-    flex-direction: column;
-    padding-top: 3rem;
-    font-size: 23px;
-    margin-left: 3rem;
-    
-}
-
-.why-us .col ul li {
-    font-family: var(--paragraph);
-    color: var(--plate-black);
-    font-size: 20px;
-    list-style-type:disk ;
-}
-
-.why-us h1 {
-    display: block;
-    text-align: left;
-    padding: 3rem;
-    padding-bottom: 0;
-    font-family: var(--paragraph);
-    color: var(--atlas-blue);
-    margin-left: 5rem;
-    margin-bottom: 0;
-
-}
-
-.why-us hr {
-    color: var(--background-grey);
-    height: 5px;
-    width: 500px;
-    opacity: 1;
-    padding: 0;
-    padding-left: 3rem;
-    margin-top: 0;
-    margin-left: 3rem;
-    
-}
-.why-us p {
-    font-family: var(--welcome);
-    text-align: center;
-    font-size: 36px;
-    padding: 2rem;;
-}
-.why-us img {
-   margin: 2rem;
-   margin-left: 10rem;
-   padding-top: 2rem;
-   
-}
-
+ 
 .footer {
     background-image: url('./tea/kapchorua.png');
         background-color: var(--tea-green);
@@ -249,14 +201,26 @@ h2 hr {
 
 /* about-one */
 
-.about-one {
-    background-image: url("./tea/DL-koisagat.png");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: right;
-        padding: 2rem;
-        margin: 1rem;
-       
+/* Style for the container with the background image and overlay */
+.about {
+position: relative;
+    /* Ensure the overlay is positioned relative to this container */
+    background-image: url("./tea/rubaya.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    
+}
+
+/* Create the grey opaque overlay using the ::before pseudo-element */
+.about::before {
+    content: "";
+    /* Required for the pseudo-element */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    /* Grey color with opacity 0.5 */
 }
 
 .about-one .list-container {
@@ -268,6 +232,26 @@ h2 hr {
         
 }
 
+/* Style for the container with the background image */
+
+.about-one {
+   
+  
+    background-position-y: 0cap;
+    padding: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+background-color: rgba(232, 230, 228, 0.7);
+        border-radius: 5px;
+}
+
+
+
+.about-one ul {
+    padding: 2rem;
+  
+}
 .list-container {
     list-style: none;
     padding: 0;
@@ -289,11 +273,12 @@ h2 hr {
 
 .about-one h3
  {
-    text-align: left;
-        color: var(--atlas-green);
-        font-family: var(--h3);
+    text-align: center;
+        color: var(--atlas-blue);
+        font-family: var(--atlas-font);
         font-size: 32px;
-        opacity: 1;      
+        opacity: 1; 
+        margin-top: 10rem;     
 }
 
 .list-container .num {
@@ -301,24 +286,21 @@ h2 hr {
     margin-left:  7px;
 }
 
-h3 hr {
+.about-one h3 hr {
         border: none;
             height: 1px;
-            width: 430px;
+            width: 300px;
             display: block;
-            margin-left: 0px;
-            background-color: var(--atlas-green);
+            margin: 0 auto;
+            background-color: var(--atlas-red);
             padding-top: 0;
             margin-top: 0;
 }
 
-.about-one .growth {
-    font-size: 30px;
-    margin-top: 5rem;
-    padding-top: 2rem;
-    margin-left: 150px;
-    font-family: var(--paragraph);
+.growth {
+    font-family: var(--welcome);
     color: var(--atlas-green);
+    text-align: center;
 }
 /* mission */
 .about .mission {
@@ -790,6 +772,7 @@ h3 hr {
  .service ul {
      display: flex;
      justify-content: space-between;
+     
 
  }
 
@@ -817,4 +800,105 @@ h3 hr {
     margin-top: 0;
  }
 
- 
+ .why-us {
+    background-color: rgba(232, 230, 228, 0.5);
+    border-radius: 5px;
+    color: var(--atlas-blue);
+ }
+
+ .why-us h4 {
+    text-align: center;
+    color: var(--atlas-blue);
+    font-family: var(--atlas-font);
+    margin-top: 10rem;
+    font-size: 32px;
+    
+ }
+
+ .why-us h4 hr {
+    margin: 0 auto;
+    width: 280px;
+    color: var(--atlas-red);
+    padding-top: 1rem;
+ }
+
+ .why-us ul  {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+ }
+
+ .why-us li {
+    color: var(--atlas-blue)!important;
+    font-size: 22px;
+    font-family: var(--paragraph);
+ }
+
+ .why-us p {
+    color: var(--atlas-green);
+    font-size: 42px;
+ }
+ /* why-us */
+
+ .why-us {
+
+     margin: 2rem;
+
+
+ }
+
+ .why-us .col ul {
+     display: flex;
+     flex-direction: column;
+     padding-top: 3rem;
+     font-size: 23px;
+     margin-left: 3rem;
+
+ }
+
+ .why-us .col ul li {
+     font-family: var(--paragraph);
+     color: var(--plate-black);
+     font-size: 20px;
+     list-style-type: disk;
+ }
+
+ .why-us h1 {
+     display: block;
+     text-align: left;
+     padding: 3rem;
+     padding-bottom: 0;
+     font-family: var(--paragraph);
+     color: var(--atlas-blue);
+     margin-left: 5rem;
+     margin-bottom: 0;
+
+ }
+
+ .why-us hr {
+     color: var(--background-grey);
+     height: 5px;
+     width: 500px;
+     opacity: 1;
+     padding: 0;
+     padding-left: 3rem;
+     margin-top: 0;
+     margin-left: 3rem;
+
+ }
+
+ .why-us p {
+     font-family: var(--welcome);
+     text-align: center;
+     font-size: 36px;
+     padding: 2rem;
+     ;
+ }
+
+ .why-us img {
+     margin: 2rem;
+     margin-left: 10rem;
+     padding-top: 2rem;
+
+ }

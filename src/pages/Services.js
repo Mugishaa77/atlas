@@ -1,5 +1,3 @@
- import rubaya from '../tea/rubaya.png';
- import authentic from '../tea/authentic.png';
 
 export default function Services () {
     return (
@@ -54,23 +52,22 @@ us to connect parties directly, enabling smooth trade negotiations.</p></li>
 </ul>
     </div>        
 </div>
-  <img src={rubaya} alt="rubaya tea"/>
-
-<div className="why-us">
-            <h4>Why Choose Us?</h4>
+  <div className="why-us">
+            
 <div className="row">
-    <div className="col">
-        <ul>
+     <div className="col-5">
+      <h4>WHY CHOOSE US?<hr/></h4>
+    </div>
+    <div className="col-7">
+        <ul >
                 <li> We <span>Know</span> the History and envision the Future</li>
-                <li>We are Elastic</li>
-                <li>We can get you most answers on questions you may have on the industry</li>
-                <li>We are asking the right questions</li>
-                <li>We are authentic, you will enjoy working with us</li>
+                <li> We are Elastic</li>
+                <li> We can get you most answers on questions you may have on the industry</li>
+                <li> We are asking the right questions</li>
+                <li> We are authentic, you will enjoy working with us</li>
             </ul>
     </div>
-    <div className="col">
-      
-    </div>
+   
 </div>
  
            
@@ -81,6 +78,8 @@ us to connect parties directly, enabling smooth trade negotiations.</p></li>
           </div>
 
           
+
+
                 
         </div>
     );
