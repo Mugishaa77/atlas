@@ -24,3 +24,16 @@
     display: flex;
     justify-content: space-around;
 }
+
+.our-directors h5 {
+    padding-top: 1rem;
+    text-align: center;
+    font-family: var(--welcome);
+}
+
+.our-directors h6 {
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+

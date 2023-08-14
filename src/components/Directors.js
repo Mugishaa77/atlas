@@ -19,7 +19,9 @@ export default function Directors () {
     alt="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"
     title="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"/>
 
-<h5>Hilda Mugure - Founder-Managing Director</h5></div>
+<h5>Hilda Mugure <hr/></h5>
+<br/>
+<h6>Founder, Managing Director</h6></div>
 
 <div className="romano">
     <img src={download}
