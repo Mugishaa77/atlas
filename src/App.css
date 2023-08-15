@@ -9,6 +9,7 @@
     --atlas-red: #E4440A;
     --sea-foam: #DFECFF;
     --background-dblue: #E8E6E4;
+    --writing-grey: #333333;
     --heading-1: 'Montserrat',
         sans-serif;
         --welcome: 'Montez',
@@ -209,6 +210,7 @@ position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     height:100%;
+   
     
 }
 
@@ -243,7 +245,8 @@ position: relative;
     margin-left: 3rem;
     margin-bottom: 0;
 background-color: rgba(232, 230, 228, 0.7);
-        border-radius: 5px;
+        
+        border: 1px solid var(--tea-green);
 }
 
 

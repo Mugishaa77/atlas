@@ -1,39 +1,105 @@
 /* Directors.js */
 
 .directors {
-    background-color: var(--sea-foam);
+    background-color: rgba(232, 230, 228, 0.8);
     margin: 2rem;
     padding: 2rem;
 }
 
 .directors h3 {
-    text-align: center;
-    padding: 1rem;
-    color: var(--atlas-green);
-    font-family: var(--h3);
-    font-size: 36px;
+    font-size: 28px;
+        padding-top: 50px;
+        margin-left: 70px;
+        color: var(--atlas-green);
+        opacity: 1;
+        font-family: var(--h3);
 }
 
 .directors h3 hr {
-    margin: 0 auto;
+    
     background-color: var(--pot-grey);
     width: 200px;
+    padding-top: 0;
 }
 
+.intro p {
+    padding: 0 100px;
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--paragraph);
+    padding-bottom: 2rem;
+}
 .our-directors {
+    padding-bottom: 2rem;
+}
+
+.our-directors, .our-managers {
     display: flex;
     justify-content: space-around;
 }
 
+.directors h4 {
+   
+    font-size: 28px;
+      text-align: center;
+        color: var(--atlas-green);
+        opacity: 1;
+        font-family: var(--h3);
+}
+
+.directors h4 hr {
+    padding-top: 1rem;
+    margin-top: 0;
+    width: 220px;
+    margin: 0 auto;
+}
 .our-directors h5 {
     padding-top: 1rem;
     text-align: center;
-    font-family: var(--welcome);
+    font-family: var(--paragraph);
+    color: var(--writing-grey);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    
 }
 
 .our-directors h6 {
-    padding: 0;
     text-align: center;
-    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
 }
+
+.george {
+    padding-top: 2rem;
+}
+
+.hilda, .romano {
+    padding-top: 4rem;
+}
+
+.our-managers {
+    margin: 2rem;
+    padding: 2rem;
+}
+
+.two hr {
+    width: 150px;
+}
+.our-managers h5 {
+    padding-top: 1rem;
+    font-family: var(--paragraph);
+    font-size: 22px;
+        text-transform: uppercase;
+}
+.our-managers h5, .our-managers h6 {
+    text-align: center;
+}
+
+.our-managers h6 {
+    font-size: 20px;
+}
+
+
 
