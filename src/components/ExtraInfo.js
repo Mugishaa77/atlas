@@ -34,9 +34,7 @@ premium teas that match their preferences.
 
 
 <li><h4>Commitment to Sustainability</h4>
-<p>As responsible brokers, we actively advocate for sustainable and eco-friendly practices
-within the tea industry. We partner with socially responsible tea gardens and buyers who
-share our values, supporting their efforts to promote sustainability and fair-trade practices.</p></li>
+</li>
 
 </ul>
            </div>

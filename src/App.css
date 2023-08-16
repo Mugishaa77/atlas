@@ -75,6 +75,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    background-color: var(--tea-green);
     height: 500px;
     padding: 2rem;
     color: var(--atlas-blue);
@@ -253,7 +254,7 @@ h2 hr {
                margin-right: 4rem;
                padding: 1rem;
                margin-top: 1rem;
-               
+            
                 border-radius: 5px;
            }
     
@@ -685,6 +686,7 @@ h2 hr {
 
  /* services */
 
+
  .service-header {
     background-image: url('./tea/kibena.png');
     height: 200px;
@@ -692,6 +694,10 @@ h2 hr {
  
  /* about-service */
 
+ .services {
+    background-color: #f8f8f8;
+        /* Off-White */
+ }
  .services .service {
      margin: 2rem;
      margin-top: 0;
@@ -701,42 +707,55 @@ h2 hr {
      font-family: var(--atlas-font);
      text-align: center;
      color: var(--atlas-blue);
-     padding-top: 3rem;
+     padding-top: 1rem;
  }
 
  .service h2 hr {
-    width: 230px;
+    width: 80px;
  }
 
- .service .open {
-     font-family: var(--paragraph);
-     margin-left: 50px;
-     font-size: 25px;
-     padding-top: 3rem;
-     color: var(--atlas-green)
+ .service .open ,
+  .service-close{
+    padding: 0 100px;
+        text-align: left;
+        font-size: 23px;
+        font-family: var(--paragraph);
+        padding-bottom: 1rem;
+        color: var(--atlas-blue);
  }
 
+ .service-table {
+    margin-left: 5rem;
+    margin-right: 5rem;
+ }
 
  .service h4 {
-     font-family: var(--heading-1);
+     font-family: var(--paragraph);
      color: var(--atlas-green);
+     text-transform: uppercase;
+     text-align: center;
 
  }
 
  .service ul {
      display: flex;
      justify-content: space-between;
+     color: var(--atlas-blue);
      
 
  }
 
  .service p {
      font-family: var(--paragraph);
-     font-size: 20px;
+     font-size: 21px;
  }
 
  .service span {
      color: var(--atlas-green);
+ }
+
+ .service-close {
+    font-size: 20px;
  }
 
  .service .note {
@@ -754,9 +773,30 @@ h2 hr {
     margin-top: 0;
  }
 
- 
- 
+ .service-close {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    background-color:rgba(208, 240, 192, 0.7);
+    margin-top: 0;
+    border: 1px solid var(--atlas-green);
+    margin-bottom: 2rem;
+ }
 
+ .service-close h3 {
+    font-family: var(--h3);
+    color: var(--atlas-green);
+    padding-top: 2rem;
+    
+ }
+
+ .service-close h3 hr {
+    width: 460px;
+    margin-top: 0;
+ }
+ 
+.service-close p {
+    color: var(--atlas-green);
+}
  
 
  
