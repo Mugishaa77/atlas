@@ -22,21 +22,15 @@ export default function Home () {
             </h1>
 
             <div className="about-p">
-             <p><span>Atlas Tea Brokers, established in 2002, is a reputable tea brokerage company that has quickly 
-                    become a frontrunner in the tea trade.</span> <br />
-                    Our <strong>profound understanding of the tea industry</strong> and <strong>commitment
-                     to excellence </strong>have made us a preferred choice for both tea producers and buyers.
-                     <br /> Since joining the 
-                     East African Tea Trade Association (EATTA) in July 2015, we have consistently excelled in our role
-                      as a bridge between producers and buyers, representing <strong>36 prestigious tea gardens</strong> from five 
-                      countries. <br />
-                       Today, our company commands an impressive <strong>5% market share</strong> , a testament to our dedication
-                       in securing the best prices for our clients under prevailing market conditions.</p>
-            </div>
+             <p>
+                Established in <strong>2002</strong>, Atlas Tea Brokers is a leading tea brokerage company.<br/>
+                 As a member of <strong>East Africa Tea Trade Association(EATTA)</strong> since July 2015, we bridge producers and buyers, representing 36 esteemed tea gardens across Kenya, Rwanda, Burundi, Uganda and Tanzania.
+                 <br/> With a strong <strong>7% market share</strong>, we consistently secure optimal prices for our clients.
+                </p>            </div>
 
                  <div className="about-button">
                     <Link to="/about">
-                         <button>Tea Journey</button>
+                         <button>About Us</button>
                     </Link>
                    
                  </div>

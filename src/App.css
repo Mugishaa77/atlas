@@ -151,8 +151,8 @@ a:hover {
 
 .about-button {
     text-align: center;
-    margin: 2rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
+    
 }
 
 .about-button button {
@@ -176,18 +176,24 @@ a:hover {
     background-image: url('./tea/kapchorua.png');
         background-color: var(--tea-green);
        background-repeat: repeat-x;
+       height: 200px;
         
        
 
 }
 /* About Page */
 
+.about {
+    background-color: #f5f5f5;
+        /* Light Gray */
+}
+
 .about h2 {
     text-align: center;
-        padding: 2rem;
+        padding: 1rem;
         color: var(--atlas-blue);
         font-family: var(--atlas-font);
-        font-size: 40px;
+        font-size: 30px;
 }
 
 h2 hr {
@@ -200,230 +206,108 @@ h2 hr {
         opacity: 1;
 }
 
-/* about-one */
-
-/* Style for the container with the background image and overlay */
-.about {
-position: relative;
-    /* Ensure the overlay is positioned relative to this container */
-    background-image: url("./tea/rubaya.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
-   
-    
-}
-
-/* Create the grey opaque overlay using the ::before pseudo-element */
-.about::before {
-    content: "";
-    /* Required for the pseudo-element */
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: rgba(128, 128, 128, 0.5);
-    /* Grey color with opacity 0.5 */
-}
-
-.about-one .list-container {
-    display: flex;
-        flex-direction: column;
-        /* Align items vertically */
-        align-items: flex-start;
-        font-family: var(--paragraph);
-        
-}
-
-/* Style for the container with the background image */
-
-.about-one {
-   
-  
-    background-position-y: 0cap;
-    padding: 3rem;
-    margin-right: 3rem;
-    margin-left: 3rem;
-    margin-bottom: 0;
-background-color: rgba(232, 230, 228, 0.7);
-        
-        border: 1px solid var(--tea-green);
-}
-
-
-
-.about-one ul {
-  
-    color: #333333!important;
-    padding-left: 2rem;
-  
-}
-.list-container {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    
-}
-
-.list-container li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 26px;
-    
-}
-
-.list-container li span {
-    margin-right: 10px;
-  
-}
-
-.about-one h3
- {
-    text-align: left;
-        color: var(--atlas-green);
-        font-family: var(--h3);
-        font-size: 32px;
-        opacity: 1; 
-        margin: 3rem;
-            
-}
-
-.list-container .num {
-    color: var(--atlas-green);
-    margin-left:  7px;
-}
-
-.about-one h3 hr {
-        border: none;
-            height: 1px;
-            width: 450px;
-            display: block;
-            background-color: #333333;
-            padding-top: 1 rem;
-            margin-top: 0;
-}
-
-.about-one h5 {
-    text-align: center;
-    font-family: var(--welcome);
-    color: var(--atlas-green);
-    padding-top: 2rem;
-    margin-top: 1rem;
-    font-size: 40px;
-}
-.koisagat {
-    margin-top: 5rem;
-    max-height: 75%;
-    max-width: 75%
-}
 /* mission */
 .about .mission {
-    
-    margin: 3rem;
-    padding-bottom: 3rem;
-    background-color: #DFECFF;
+    background-color: var(--tea-green);
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
-.about .mission  h3 hr {
-    width: 185px;
+.about .mission h3 hr {
+    width: 170px;
+    color: var(--writing-grey);
+    padding-top: 0;
+    margin-top: 0;
 }
 
-.about .mission h3{
-    font-size: 28px;
-    padding-top: 50px;
+.about .mission h3 {
+    font-size: 26px;
     margin-left: 70px;
     color: var(--atlas-green);
     opacity: 1;
     font-family: var(--h3);
+    padding-top: 2rem;
 }
 
 .about .mission p {
+    padding: 2rem;
+    padding-top: 0;
+    text-align: left;
+    font-size: 20px;
+    font-family: var(--paragraph);
+}
+
+.about .mission .opening {
+    color: var(--atlas-green);
+}
+
+       /* Lists section */
+
+           .about-lists {
+               display: flex;
+               justify-content: space-between;
+               /* Space items evenly across the container */
+               margin: 2rem;
+               padding: 2rem;
+           }
+    
+           .journey,
+           .why-us {
+               flex: 1;
+               /* Each section should take equal space */
+           }
+
+       .journey ul, .why-us ul {
+        display: flex;
+        flex-direction: column;
+       }
+
+       .about-lists h3 {
+        color: var(--atlas-green);
+       }
+
+       .journey {
+        border: 1px solid var(--tea-green);
+       }
+
+       .journey h3 hr {
+        width: 350px;
+        margin-top: 0;
+       }
+
+
+ .staff {
+    background-color: var(--tea-green);
+    padding: 3rem;
+    margin: 3rem;
+    border: 1px solid var(--background-grey);
+ }
+
+ .about .staff h3 {
+    font-size: 28px;
+        margin-left: 70px;
+        color: var(--atlas-green);
+        opacity: 1;
+        font-family: var(--h3);
+ }
+
+ .staff span {
+    color: var(--atlas-green);
+ }
+
+ .about .staff h3 hr {
+    width: 75px;
+    padding-top: 0;
+    margin-top: 0;
+ }
+ .about .staff p {
     padding: 0 100px;
         text-align: left;
         font-size: 20px;
         font-family: var(--paragraph);
-}
-
- .about .mission .opening {
-    color: var(--atlas-green);
  }
 
-
-/* Garden Catalogue */
-
-.garden-catalogue {
-    padding: 2rem;
-    margin: 2rem;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 2px solid var(--tea-green);
-    border-radius: 5px;
-}
-
-.garden-catalogue h3 {
-    font-family: var(--h3);
-    text-align: center;
-    color: var(--atlas-green);
-    font-size: 34px;
-    padding-bottom: 2rem;
-}
-
-.garden-catalogue hr {
-    width: 350px;
-    margin: 0 auto;
-}
-
-.garden-catalogue p {
-    font-family: var(--paragraph);
-    font-size: 22px;
-}
-
-.image-text {
-    text-align: center;
-    margin-top: 10px;
-    /* Add some spacing between images and text */
-}
-
-.logos {
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    border-radius: 7px;
-   
-}
-
-.words ul {
-    list-style-type: disc;
-    /* Remove the default bullet */
-    padding-left: 20px;
-    /* Add some left padding to create space for the custom marker */
-    color: var(--atlas-blue);
-    font-family: var(--lists);
-   
-}
-
-.words li {
-    font-size: 22px;
-}
-
-
-/* Contact Component 
-
-.contact h2 {
-    font-family: var(--atlas-font);
-    font-size: 32px;
-    color: var(--atlas-blue);
-    text-align: center;
-    padding: 2rem;
-}
-
-.contact h2 hr {
-    height: 1.5px;
-    width: 220px;
-}
-
- .contact-details {
-     width: 500px;
-     margin-left: 50px;
- }
+/*
 
  .contact-details h3 {
      color: var(--atlas-green);
@@ -792,105 +676,14 @@ background-color: rgba(232, 230, 228, 0.7);
     margin-top: 0;
  }
 
- .why-us {
-    background-color: rgba(232, 230, 228, 0.5);
-    border-radius: 5px;
-    color: var(--atlas-blue);
- }
+ 
+ 
 
- .why-us h4 {
-    text-align: center;
-    color: var(--atlas-blue);
-    font-family: var(--atlas-font);
-    margin-top: 10rem;
-    font-size: 32px;
-    
- }
+ 
 
- .why-us h4 hr {
-    margin: 0 auto;
-    width: 280px;
-    color: var(--atlas-red);
-    padding-top: 1rem;
- }
+ 
 
- .why-us ul  {
-    list-style: disc;
-    display: flex;
-    flex-direction: column;
-    margin-top: 4rem;
- }
+ 
 
- .why-us li {
-    color: var(--atlas-blue)!important;
-    font-size: 22px;
-    font-family: var(--paragraph);
- }
-
- .why-us p {
-    color: var(--atlas-green);
-    font-size: 42px;
- }
- /* why-us */
-
- .why-us {
-
-     margin: 2rem;
-
-
- }
-
- .why-us .col ul {
-     display: flex;
-     flex-direction: column;
-     padding-top: 3rem;
-     font-size: 23px;
-     margin-left: 3rem;
-
- }
-
- .why-us .col ul li {
-     font-family: var(--paragraph);
-     color: var(--plate-black);
-     font-size: 20px;
-     list-style-type: disk;
- }
-
- .why-us h1 {
-     display: block;
-     text-align: left;
-     padding: 3rem;
-     padding-bottom: 0;
-     font-family: var(--paragraph);
-     color: var(--atlas-blue);
-     margin-left: 5rem;
-     margin-bottom: 0;
-
- }
-
- .why-us hr {
-     color: var(--background-grey);
-     height: 5px;
-     width: 500px;
-     opacity: 1;
-     padding: 0;
-     padding-left: 3rem;
-     margin-top: 0;
-     margin-left: 3rem;
-
- }
-
- .why-us p {
-     font-family: var(--welcome);
-     text-align: center;
-     font-size: 36px;
-     padding: 2rem;
-     ;
- }
-
- .why-us img {
-     margin: 2rem;
-     margin-left: 10rem;
-     padding-top: 2rem;
-
- }
+ 
+ 

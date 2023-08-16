@@ -4,6 +4,7 @@
     background-color: rgba(232, 230, 228, 0.8);
     margin: 2rem;
     padding: 2rem;
+    border: 1px solid var(--atlas-green);
 }
 
 .directors h3 {

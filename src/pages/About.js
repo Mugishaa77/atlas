@@ -1,53 +1,14 @@
-import dl from '../tea/dl-group-logo.png';
-import dllogo from '../tea/DL-logo.png';
-import emrok from '../tea/emrok-logo.png';
-import karirana from '../tea/karirana-logo.png';
-import maramba from '../tea/maramba-logo.png';
-import mogeni from '../tea/mogeni-logo.png';
-import nandi from '../tea/nandi-tea-logo.png';
-import rwanda from '../tea/rwanda-logo.png';
-import williamson from '../tea/williamson-logo.png';
-import wood from '../tea/wood-logo.png';
 import Directors from '../components/Directors';
-import dlkoisagat from '../tea/DL-koisagat.png';
+
+
 import '../App.css';
 
 export default function About () {
     return (
         <div className="about">
              <h2>ABOUT ATLAS  <hr /></h2>
-            <div className="about-one">
-               
-                
-<div className="row">
-                <div className="col">
-                        <h3> OUR JOURNEY IN NUMBERS <hr /></h3>
-                         <ul className="list-container">
-                    <li>Date of Company registration: <span className="num"> 2002</span> </li>
 
-<li>Date of admission to EATTA: <span className="num"> July 2015</span> </li>
-
-<li>Maiden Auction: <span className="num"> Sale 39 of September 2015</span> </li>
-
-<li>Number of Marks at the inaugural sale: <span className="num"> 3</span></li>
-
-<li>Number of Gardens today: <span className="num"> 33 from 4 countries</span></li>
-
-<li>Current market share: <span className="num"> 5%</span> </li>
-                </ul>
-</div>
-                    <div className="col koisagat">
-                        <img src={dlkoisagat} alt="DL Koisat tea factory, Kenya" title="DL Koisagat tea factory, Kenya"/>
-                    </div>
-               </div>
-              <div>
-                
-                <h5 className="growth">We Are Growing...</h5>
-           </div>
-            </div>
-
-           
-            <div className="mission">
+              <div className="mission">
             <h3>OUR MISSION <hr /></h3>
             {/* h3s should be greeen */}
             <p>
@@ -60,14 +21,68 @@ securing <span className="opening">maximum value</span> to our clients.
 
             </p>
            </div> 
+
+  <div className="about-lists">         
+<div className="journey">
+                <h3> OUR JOURNEY IN NUMBERS </h3>
+                         <ul >
+                    <li>Date of Company registration: <span className="num"> 2002</span> </li>
+
+<li>Date of admission to EATTA: <span className="num"> July 2015</span> </li>
+
+<li>Maiden Auction: <span className="num"> Sale 39 of September 2015</span> </li>
+
+<li>Number of Marks at the inaugural sale: <span className="num"> 3</span></li>
+
+<li>Number of Gardens today: <span className="num"> 33 from 4 countries</span></li>
+
+<li>Current market share: <span className="num"> 5%</span> </li>
+                </ul>
+<p>We Are Growing...</p>
+                    
+                
+                       
+             
+            </div>
+
+            
+            
+                <div className="why-us">
+            
+                <h3>WHY CHOOSE US?</h3>
+                <ul >
+                <li> We <span>Know</span> the History and envision the Future</li>
+                <li> We are Elastic</li>
+                <li> We can get you most answers on questions you may have on the industry</li>
+                <li> We are asking the right questions</li>
+                <li> We are authentic, you will enjoy working with us</li>
+            </ul>
+              <p><em>We Know Tea </em></p>
+                
+          
+            </div>
+           </div>
+            
+              
+          
+
+           
+           
                
     <div className="directors-component">
             <Directors />
            </div>
 
-           <div className="garden-catalogue">
-            <h3>GARDEN CATALOGUE<hr/></h3>
+           <div className="staff">
+            <h3>STAFF<hr/></h3>
+
+            <p>With <span>over 70 years</span> of combined industry experience, 
+                our team is composed of <span>90% youthful talent, </span> 
+                ensuring both deep-rooted expertise and a sustainable
+                 future.</p>
            </div>
+
+           
 
            
              </div>

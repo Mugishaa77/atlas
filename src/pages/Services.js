@@ -52,21 +52,7 @@ us to connect parties directly, enabling smooth trade negotiations.</p></li>
 </ul>
     </div>        
 </div>
-  <div className="why-us">
-            
-<div className="row">
-     <div className="col-5">
-      <h4>WHY CHOOSE US?<hr/></h4>
-    </div>
-    <div className="col-7">
-        <ul >
-                <li> We <span>Know</span> the History and envision the Future</li>
-                <li> We are Elastic</li>
-                <li> We can get you most answers on questions you may have on the industry</li>
-                <li> We are asking the right questions</li>
-                <li> We are authentic, you will enjoy working with us</li>
-            </ul>
-    </div>
+  
    
 </div>
  
@@ -74,13 +60,13 @@ us to connect parties directly, enabling smooth trade negotiations.</p></li>
           
             
 
-            <p><em>We Know Tea </em></p>
-          </div>
+          
+          
 
           
 
 
                 
-        </div>
+       
     );
 }
