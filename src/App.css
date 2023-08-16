@@ -208,9 +208,10 @@ h2 hr {
 
 /* mission */
 .about .mission {
-    background-color: var(--tea-green);
+   
     margin-left: 3rem;
     margin-right: 3rem;
+    margin-top: 1rem;
 }
 
 .about .mission h3 hr {
@@ -235,6 +236,7 @@ h2 hr {
     text-align: left;
     font-size: 20px;
     font-family: var(--paragraph);
+    color: var(--atlas-blue);
 }
 
 .about .mission .opening {
@@ -247,8 +249,12 @@ h2 hr {
                display: flex;
                justify-content: space-between;
                /* Space items evenly across the container */
-               margin: 2rem;
-               padding: 2rem;
+               margin-left: 4rem;
+               margin-right: 4rem;
+               padding: 1rem;
+               margin-top: 1rem;
+               
+                border-radius: 5px;
            }
     
            .journey,
@@ -256,26 +262,98 @@ h2 hr {
                flex: 1;
                /* Each section should take equal space */
            }
+           .why-us {
+            margin-top: 2rem;
+           }
 
        .journey ul, .why-us ul {
         display: flex;
         flex-direction: column;
        }
+       
 
-       .about-lists h3 {
+       .journey h3, .why-us h3 {
+        text-align: center;
+        font-family: var(--h3);
+        padding-top: 2rem;
         color: var(--atlas-green);
        }
 
-       .journey {
-        border: 1px solid var(--tea-green);
-       }
-
-       .journey h3 hr {
+       .journey h3 hr, .why-us h3 hr {
         width: 350px;
         margin-top: 0;
+        margin: 0 auto;
        }
 
+       .why-us h3 hr {
+        width: 250px;
+       }
 
+       
+       .why-us ul, .journey ul {
+        margin-left: 3rem;
+        font-family: var(--paragraph);
+        
+       }
+
+       .journey ul {
+        margin-left: 5rem;
+        
+       }
+
+       .why-us ul {
+        padding-left: 2rem;
+       }
+
+       .why-us ul li ,
+       .journey ul li{
+        font-size: 20px;
+        padding-bottom: 0;
+       }
+
+       .why-us ul li {
+        list-style-type: circle;
+        color: var(--atlas-blue);
+        
+       }
+       
+       .why-us p, .journey p {
+        text-align: center;
+        font-family: var(--welcome);
+        color: var(--atlas-green);
+        font-size: 30px;
+       }
+
+       .why-us p {
+        padding-top: 4rem;
+       }
+
+       .journey li span {
+        color: var(--atlas-green);
+       }
+
+       .koisagat {
+        margin-top: 0;
+       
+        
+       }
+
+       .koisagat img {
+        border-radius: 5px;
+        margin: 3rem;
+        
+       }
+
+       .journey ul li {
+        color: var(--atlas-blue);
+       }
+
+       .figures {
+        display: flex;
+        justify-content: space-between;
+       }
+
+              
  .staff {
     background-color: var(--tea-green);
     padding: 3rem;

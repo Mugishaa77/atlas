@@ -5,19 +5,19 @@ export default function Directors () {
     return (
         <div className="directors">
             
-<h3>LEADERSHIP<hr/></h3>
+<h3>UNMATCHED EXPERTISE<hr/></h3>
 <div className="intro">
-<p>Meet the Driving Force Behind Atlas.
-     Our team of experienced directors and managers is
-      the backbone of our company, bringing a wealth of
-       expertise and passion to every aspect of our 
-       operations. 
-       With a shared commitment to excellence and 
-       innovation, our leadership ensures that
-        Atlas remains at the forefront of the tea 
-        brokerage industry.</p></div>
+    <p>At Atlas Tea Brokers, <span>"We Know Tea"</span> is not just a slogan, it represents the core of our identity.
+    <br/>
 
-<h4>OUR DIRECTORS<hr/></h4>
+Our team comprises <span>seasoned professionals</span> with <span>extensive knowledge</span> of the tea industry,
+ including <span>cultivation practices, tea processing, market trends  and pricing dynamics.</span>
+ <br/> 
+We are empowered to provide our clients with well-informed advice and actionable insights to help them make strategic decisions.
+</p>
+</div>
+
+<h4 className="line-one">OUR DIRECTORS</h4>
 
 <div className="our-directors">
 
@@ -26,7 +26,7 @@ export default function Directors () {
     alt="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"
     title="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"/>
 
-<h5>Hilda Mugure <hr/></h5>
+<h5>Hilda Mugure<hr/> </h5>
 
 <h6>Founder, Managing Director</h6>
 </div>
@@ -50,7 +50,7 @@ title="Dr Romano Mungiri Kiome, Atlas Tea Brokers Ltd, Kenya"/>
 </div>
 </div>
 
-<h4 className="two">MANAGERS<hr/></h4>
+<h4 className="two">MANAGERS</h4>
 <div className="our-managers">
     <div className="michael">
         <img src={download}
@@ -79,6 +79,12 @@ title="Dr Romano Mungiri Kiome, Atlas Tea Brokers Ltd, Kenya"/>
     </div>
 </div>
 
+<div className="close">
+                        <p>With <span>over 70 years</span> of combined industry experience, 
+                our team is composed of <span>90% youthful talent, </span> 
+                ensuring both deep-rooted expertise and a sustainable
+                 future.</p>
+           </div>
 
                    </div>
     );
