@@ -59,7 +59,8 @@ export default function About () {
             </div>       
 
                   <div className="koisagat">
-                    <img src={koisagat}/>       
+                    <img src={koisagat} alt="Koisagat Tea Estate Ltd, Nandi Hills Kenya"
+                    title="Koisagat Tea Estate Ltd, Nandi Hills Kenya"/>       
              
             </div>
 
