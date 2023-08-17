@@ -28,10 +28,59 @@ export default function Contact () {
             </div>
 
  <h2>CONTACT US <hr/></h2>
-            <div className="contact-details">
-              
-                  <div className="contact-form">
-    <h3>Contact Form <FontAwesomeIcon icon={faEnvelopeOpenText} /><hr/></h3>
+ <div className="contact-welcome">
+ <p>
+    At Atlas, we are committed to safeguarding our clients' interests in all our interactions and endeavors.
+     We wholeheartedly prioritize your concerns above all else.
+  </p></div>
+
+                     <div className="top-section">     
+                <div className="contact-information">
+                  <h1>Contact Information<hr/></h1>
+                 <div className="phone">
+              <h3>
+                 <FontAwesomeIcon icon={faPhone} />
+                 PHONE</h3>
+              <span>
+
+              <strong>Tel:</strong><a
+                href="tel:0414471226"
+                target="_blank"
+                title="Tel"
+                rel="noopener noreferrer"
+            >041 4471226
+              </a></span>
+<br/>
+              <span><strong>Mob:</strong><a
+                href="tel:+254729404044"
+                target="_blank"
+                title="Mob"
+                rel="noopener noreferrer"
+              >+254 729 404 044
+              </a></span>
+
+            </div>
+
+            <div className="email">
+              <h3> <FontAwesomeIcon icon={faEnvelope} 
+              />EMAIL </h3>
+                 <a
+                href="mailto:info@atlastea.co.ke"
+                title="Email"
+                rel="noopener noreferrer"
+                className="email-link"
+              >
+                <span>info@atlastea.co.ke</span>
+              </a>
+            </div>
+
+            <div className="socials">
+              <h3>Social Media Links</h3>
+            </div>
+</div>
+ <div className="contact-form">
+    <h3>Leave a  Message
+        <FontAwesomeIcon icon={faEnvelopeOpenText} /><hr/></h3>
 <form>
     <label>Name</label>
     <input type="text"
@@ -67,57 +116,7 @@ export default function Contact () {
 </form>
 <button>Submit</button>
 </div>
-            </div>
-           
-               
-                
-                  <div className="phone-number">
-              <h3>Phone <FontAwesomeIcon icon={faPhone} /> <hr/></h3>
-              <div className="call"><span>
-
-              <strong>Tel:</strong>     <a
-                href="tel:0414471226"
-                target="_blank"
-                title="Tel"
-                rel="noopener noreferrer"
-              >
-                
-                
-                
-                041 4471226
-              </a></span>
-
-              <span><strong>Mob:</strong>     <a
-                href="tel:+254729404044"
-                target="_blank"
-                title="Mob"
-                rel="noopener noreferrer"
-              >
-                
-                
-                +254 729 404 044
-              </a></span>
-</div>
-            </div>
-
-            <div className="email">
-              <h3>Email <FontAwesomeIcon icon={faEnvelope} 
-              /> <hr/></h3>
-                 <a
-                href="mailto:info@atlastea.co.ke"
-                title="Email"
-                rel="noopener noreferrer"
-                className="email-link"
-              >
-                <span>info@atlastea.co.ke</span>
-              </a>
-            </div>
-
-            <div className="socials">
-              <h3>Social Media Links<hr/></h3>
-            </div>
-
-           
+           </div>
                 
  
             <div className="business-address">

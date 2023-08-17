@@ -152,7 +152,7 @@ a:hover {
 
 .about-button {
     text-align: center;
-    padding: 1rem 2rem;
+   
     
 }
 
@@ -485,4 +485,148 @@ h2 hr {
     background-color: #f5f5f5;
         /* Light Gray */
  }
- 
+
+ .contact h2 {
+    text-align: center;
+    color: var(--atlas-blue);
+    font-family: var(--atlas-font);
+    font-size: 30px;
+    padding: 1rem;
+ }
+
+ .contact-welcome {
+    padding: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-family: var(--paragraph);
+    color: var(--atlas-blue);
+    font-size: 21px;
+    padding-top: 0;
+   
+ }
+
+ .contact .top-section {
+    display: flex;
+    
+    
+    
+ }
+
+ .contact .contact-form {
+    flex: 4;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    border: 1px solid var(--tea-green);
+   
+   
+ }
+
+ .contact .contact-information {
+    flex: 2;
+    margin-left: 4rem;
+    border-radius: 2px;
+    border-right: 1px solid var(--tea-green);
+       
+ }
+
+ .contact-information h1 {
+    font-family: var(--h3);
+    text-transform: uppercase;
+    color: var(--atlas-green);
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+    font-size: 26px;
+    text-align: center;
+ }
+
+ .contact-information h1 hr {
+    margin-top: 0;
+ } 
+
+  .phone, .email, .socials {
+    margin: 1rem;
+    padding-bottom: 3rem;
+    text-align: left;
+    margin-left: 4rem;
+ }
+
+ .phone h3, .email h3, .socials h3 {
+    color: var(--atlas-blue);
+    font-family: var(--heading-1);
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+
+ .phone span, .email span  {
+    font-family: var(--paragraph);
+    justify-content: left;
+    font-size: 18px;
+    color: var(--atlas-green);
+ }
+
+ .email span {
+    font-size: 20px;
+ }
+
+ .contact-form h3 {
+    font-family: var(--h3);
+        color: var(--atlas-green);
+        margin-right: 1rem;
+        font-size: 26px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 1rem;
+        
+ }
+
+ .contact-form h3 hr {
+    margin-top: 0;
+    width: 300px;
+    margin: 0 auto;
+ }
+
+ .contact-form label {
+    color: var(--atlas-blue);
+font-family: var(--heading-1);
+font-size: 18px;
+
+ }
+
+ .form-control::placeholder {
+    color: var(--writing-grey);
+        font-family: var(--paragraph);
+     /* Other placeholder styles */
+ }
+
+ .form-control {
+    color: var(--atlas-blue);
+        font-family: var(--paragraph);
+        border-radius: 0;
+     /* Other input text styles */
+ }
+
+ .contact-form input {
+    margin-bottom: 1rem;
+ }
+
+ .contact-form button {
+     background-color: var(--atlas-green);
+     color: var(--tea-green);
+     border: 2px solid var(--tea-green);
+     width: 100px;
+     height: 35px;
+     border-radius: 5px;
+     font-size: 18px;
+     cursor: pointer;
+     font-family: var(--paragraph);
+     margin: 1rem;
+ }
+
+ .contact-form button:hover {
+     background-color: var(--atlas-blue);
+     color: var(--atlas-red);
+ }

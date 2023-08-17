@@ -22,7 +22,12 @@ competitive and seize opportunities in a
 dynamic market landscape.</p></li>
 
 <li>
-    <h4>Safeguarding Interests</h4>
+    </li>
+
+
+<li><h4>Commitment to Sustainability</h4>
+</li>
+<h4>Safeguarding Interests</h4>
     <p>
         One of our key mandates is to prioritize our clients' interests.
          We diligently adhere to the instructions and terms stipulated by tea producers while assisting buyers in sourcing
@@ -30,12 +35,7 @@ premium teas that match their preferences.
  Our commitment to securing the highest possible price for producers' teas under the prevailing market conditions and 
  providing buyers with value teas 
  reflects our dedication to the success of all parties
-  involved.</p></li>
-
-
-<li><h4>Commitment to Sustainability</h4>
-</li>
-
+  involved.</p>
 </ul>
            </div>
 
@@ -65,6 +65,12 @@ As the tea industry evolves, so do we. We understand the significance of adaptab
                       countries. <br />
                        Today, our company commands an impressive <strong>5% market share</strong> , a testament to our dedication
                        in securing the best prices for our clients under prevailing market conditions.</p>
+                    
+                    <div className="contact-welcome">
+ <p>
+    At Atlas, we are committed to safeguarding our clients' interests in all our interactions and endeavors.
+     We wholeheartedly prioritize your concerns above all else.
+  </p></div>
                     </div>     
         
     )
