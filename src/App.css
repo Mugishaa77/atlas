@@ -152,6 +152,7 @@ a:hover {
 
 .about-button {
     text-align: center;
+    margin-top: 2rem;
    
     
 }
@@ -431,9 +432,10 @@ h2 hr {
     text-align: left;
     font-size: 22px;
     font-family: var(--paragraph);
-    padding: 0 100px;
+    padding: 2rem;
     color: var(--atlas-blue);
     margin: 1rem;
+    
 }
 
 .service .note {
@@ -452,26 +454,28 @@ h2 hr {
 }
 
 .service-close {
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     background-color: rgba(208, 240, 192, 0.5);
     margin-top: 0;
-    border: 1px solid var(--atlas-green);
+    border: 1px solid var(--tea-green);
     margin-bottom: 2rem;
-    border-radius: 2rem;
+    border-radius: 2px;
 }
 
 .service-close h3 {
     font-family: var(--h3);
     color: var(--atlas-green);
-    padding-top: 2rem;
+   text-align: center;
     font-size: 25px;
+    padding-bottom: 1rem;
 
 }
 
 .service-close h3 hr {
-    width: 440px;
+    width: 420px;
     margin-top: 0;
+    margin: 0 auto;
 }
 
 .service-close p {
