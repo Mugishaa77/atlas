@@ -114,11 +114,24 @@ export default function Contact () {
 
 
 </form>
-<button>Submit</button>
+<button>Send</button>
 </div>
            </div>
-                
- 
+<div className="section-two">
+  <div className="map">
+              <h3>Map and Directions<hr/></h3>
+               <iframe
+      title="Google Maps"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8459386310574!2d39.68570417420655!3d-4.051828144901343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012f98b4939d7%3A0x5017c8e77eb3342f!2sShell!5e0!3m2!1sen!2ske!4v1690378146667!5m2!1sen!2ske"
+      width="600"
+      height="450"
+      style={{ border: '0' }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+    ></iframe>
+    </div>
+           <div className="business-section">
             <div className="business-address">
                 <h3>Business Address <FontAwesomeIcon icon={faLocationDot} /><hr/></h3>
                 <p>Sec, 1 M.Nyali, (Off Links Shell Petrol Station)
@@ -126,8 +139,6 @@ export default function Contact () {
                     P.O. Box 3445-80100 Mombasa Kenya
                 </p>
             </div>
-
-            
 
             <div className="business">
               <h3>Business Hours<hr/></h3>
@@ -141,21 +152,20 @@ export default function Contact () {
 
             
             </div>
+
+            
+
+           </div>
+                
+ 
+            
+
+            
+
+            
            
 
-             <div className="map">
-              <h3>Maps and Directions<hr/></h3>
-               <iframe
-      title="Google Maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8459386310574!2d39.68570417420655!3d-4.051828144901343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012f98b4939d7%3A0x5017c8e77eb3342f!2sShell!5e0!3m2!1sen!2ske!4v1690378146667!5m2!1sen!2ske"
-      width="600"
-      height="450"
-      style={{ border: '0' }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
-    </div>
+             </div>
      </div>      
       
     );

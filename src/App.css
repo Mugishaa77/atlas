@@ -630,3 +630,89 @@ font-size: 18px;
      background-color: var(--atlas-blue);
      color: var(--atlas-red);
  }
+
+.section-two {
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.map {
+    flex: 2;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--sea-foam);
+
+}
+
+.map h3,
+.business h3,
+.business-address h3 {
+    font-family: var(--h3);
+        color: var(--atlas-green);
+        margin-right: 1rem;
+        font-size: 26px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 1rem;
+}
+
+.map h3 hr {
+    margin-top: 0;
+}
+
+.business h3 hr,
+.business-address h3 hr {
+    margin-top: 0;
+    margin: 0 auto;
+   
+}
+
+.business h3 hr {
+    width: 220px;
+}
+
+.business-address h3 hr {
+    width: 270px;
+}
+
+.business-section {
+    flex: 1;
+        border-radius: 2px;
+        border-left: 1px solid var(--tea-green);
+        margin-right: 8rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        padding-top: 2rem;
+        text-align: center;
+}
+ 
+.business-address {
+    color: var(--atlas-blue);
+    font-family: var(--paragraph);
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.business ul {
+    display: flex;
+    flex-direction: column;
+    color: var(--atlas-blue);
+    padding-bottom: 2rem;
+        
+}
+
+.business ul li {
+    padding-bottom: 0;
+    font-family: var(--heading-1);
+        font-size: 18px;
+        text-transform: uppercase;
+}
+
+.business h4 {
+    color: var(--writing-grey);
+    text-transform: uppercase;
+    font-family: var(--paragraph);
+    margin-bottom: 0;
+    font-size: 22px;
+}
