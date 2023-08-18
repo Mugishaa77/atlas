@@ -1,13 +1,34 @@
 import { Link } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+import homepage from '../tea/homepage.png';
 import '../App.css';
-import mata from '../tea/mata-tea.png';
-import karirana from '../tea/karirana.png';
-import kapchorua from '../tea/kapchorua.png';
 
 export default function Home () {
-    return (
+    const [bgLoaded, setBgLoaded] = useState(false);
+
+
+    useEffect(() => {
+    const bgImage = new Image();
+    bgImage.src = homepage;
+    bgImage.onload = () => {
+      setBgLoaded(true);
+    };
+  }, []);
+
+  const homeStyles = {
+    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
+    backgroundPosition: 'right',
+    backgroundColor: '#f5f5f5',
+    height: '500px',
+    padding: '2rem',
+    color: 'var(--atlas-blue)',
+    backgroundImage: bgLoaded ? `url(${homepage})` : 'none', 
+  };
+  
+  return (
         <div>
-        <div className="home">
+        <div className="home" style={homeStyles}>
             
             
            <h1 className="glass-text">
@@ -23,8 +44,10 @@ export default function Home () {
 
             <div className="about-p">
              <p>
-                Established in <strong>2002</strong>, Atlas Tea Brokers is a leading tea brokerage company.<br/>
-                 As a member of <strong>East Africa Tea Trade Association(EATTA)</strong> since July 2015, we bridge producers and buyers, representing 36 esteemed tea gardens across Kenya, Rwanda, Burundi, Uganda and Tanzania.
+                
+                    <strong>Established in 2002, Atlas Tea Brokers is a Leading Tea Brokerage Company</strong>.<br/>
+                 As a member of <strong>East Africa Tea Trade Association(EATTA)</strong> since July <strong>2015</strong>, we bridge producers and buyers, representing <strong>36 esteemed tea gardens</strong> across
+                 <strong> Kenya, Rwanda, Burundi, Uganda and Tanzania</strong>.
                  <br/> With a strong <strong>7% market share</strong>, we consistently secure optimal prices for our clients.
                 </p>            </div>
 
