@@ -150,6 +150,8 @@ a {
     margin-left: 80px;
     margin-top: 200px;
     animation: bounce 2s infinite;
+    font-weight: bold;
+    opacity: 0.9;
     
     
 }
