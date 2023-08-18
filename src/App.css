@@ -369,14 +369,14 @@ h2 hr {
        }
        
 
-       .journey h3, .why-us h3 {
+        .why-us h3 {
         text-align: center;
         font-family: var(--h3);
         padding-top: 2rem;
         color: var(--atlas-green);
        }
 
-       .journey h3 hr, .why-us h3 hr {
+        .why-us h3 hr {
         width: 350px;
         margin-top: 0;
         margin: 0 auto;
@@ -449,6 +449,116 @@ h2 hr {
         display: flex;
         justify-content: space-between;
        }
+
+           /* About Page */
+           @media (max-width: 900px) {
+               .about h2 {
+                padding-bottom: 0;
+               }
+
+                 .journey ul {
+                   margin-top: 0;
+                   padding: 0;
+                 }
+
+                .journey ul,
+                .why-us ul {
+                   margin-left: 1rem;
+                }
+                
+                
+                .why-us h3 {
+                 font-size: 26px;
+                 padding-top: 1rem;
+                }
+                .why-us h3 hr {
+                 width: 170px;
+                 }
+                
+                .why-us {
+                    padding-bottom: 0;
+                    margin-bottom: 0;
+                    padding-top: 0;
+                    margin-top: 0;
+                }   
+                
+                .why-us p {
+                    padding-top: 2rem;
+                }
+
+                
+               .about .mission {
+                   margin-left: 1rem;
+                   margin-right: 1rem;
+                   padding-top: 0;
+                   margin-top: 0;
+               }
+    
+               .about .mission h3 {
+                   font-size: 26px;
+                   text-align: left;
+                   margin-top: 0;
+                   padding: 0;
+               }
+    
+               .about .mission h3 hr {
+                   width: 170px;
+                         }
+    
+               .about .mission p {
+                   padding: 1rem;
+                   padding-bottom: 0;
+                   padding-top: 0;
+                   font-size: 20px;
+               }
+
+               .mission p .opening {
+                font-size: 20px!important;
+               }
+    
+               .about-lists {
+                   flex-direction: column;
+                   margin-left: 1rem;
+                   margin-right: 1rem;
+                   padding: 1rem;
+                   margin-top: 0;
+               }                                         
+    
+               
+              .koisagat {
+                display: flex;
+                margin: 0;
+                padding: 0;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid var(--tea-green);
+                    
+               }
+    
+               .koisagat img {
+            
+                border-radius: 0;
+                   width: 70%;
+                   height: 220px;
+               }
+    
+            
+               .journey ul li {
+                   font-size: 18px;
+                   
+               }
+
+               .why-us ul li {
+                font-size: 20px;
+               }
+
+                                
+    
+               .about .mission .opening {
+                   font-size: 18px;
+               }
+                          
+           }
 
 
 
