@@ -647,10 +647,14 @@ h2 hr {
     padding: 1rem;
     color: var(--atlas-green);
     text-decoration: underline;
+    transition: color 0.3s;
+    /* Add a transition for a smooth color change */
 }
 
 .service .note:hover {
     color: var(--potgrey);
+    /* Change to the desired color on hover */
+    /* You can also modify other properties like text-decoration if needed */
 }
 
 .service .col {
@@ -685,6 +689,70 @@ h2 hr {
 
 .service-close p {
     color: var(--atlas-blue);
+}
+
+/* Service page media query */
+@media screen and (max-width: 900px) {
+    .service-header {
+        height: 150px;
+        background-size: contain;
+            background-repeat: repeat-x;
+            background-position: left;
+        /* Adjust the background image height */
+    }
+
+    .services .service {
+        margin: 1rem;
+        /* Reduce the margin */
+    }
+
+    .service h2 {
+        padding: 0;
+    }
+
+    .service .open {
+        font-size: 22px;
+        padding: 1rem;
+        padding-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .service-table {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .service ul {
+        display: flex;
+            flex-direction: column;
+        /* Stack list items vertically */
+    }
+
+    .service .col {
+        margin: 1rem;
+    }
+
+    .net {
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .service-close {
+        margin: 1rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+        padding: 1.5rem;
+    }
+
+    .service-close h3 {
+        font-size: 26px;
+    }
+
+    .service-close h3 hr {
+        width: 420px;
+    }
+
+        
 }
 
  

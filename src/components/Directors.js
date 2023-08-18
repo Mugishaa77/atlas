@@ -18,7 +18,7 @@ export default function Directors() {
             <h4 className="line-one">OUR DIRECTORS</h4>
 
             <div className="our-directors">
-                <div className="hilda">
+                                <div className="hilda">
                     <img src={download}
                         alt="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"
                         title="Hilda Mugure, Atlas Tea Brokers Ltd, Kenya"/>
