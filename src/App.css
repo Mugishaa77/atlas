@@ -42,12 +42,10 @@ nav {
     margin-left: 0;
 }
 
-
-
-
 ul {
     list-style-type: none;
     display: flex;
+   
 }
 
 li {
@@ -55,16 +53,89 @@ li {
     font-size: 15px;
     margin-top: 5px;
     padding: 10px;
+    
 }
 
 a {
     text-decoration: none;
     color: var(--atlas-blue);
+    font-weight: bold;
+        /* Add this line to make the text bold */
 
 }
-a:hover {
+ a:hover {
     color: var(--atlas-green);
-}
+    }
+
+    
+        /* Hamburger Menu Styles */
+        .menu-toggle {
+            display: none;
+            /* Hide by default for larger screens */
+            cursor: pointer;
+        }
+    
+        .bar {
+            width: 25px;
+            height: 3px;
+            background-color: var(--atlas-blue);
+            margin: 4px 0;
+        }
+    
+        /* Media Query for Hamburger Menu */
+        @media (max-width: 900px) {
+            .Navbar {
+                width: 100%;
+                
+            }
+
+            .logo img {
+                width: 150px;
+                height: auto;
+                margin: 0;
+                padding: 0;
+            }
+            .menu-toggle {
+                display: block;
+                margin-right: 5rem;
+                /* Show the menu toggle for smaller screens */
+            }
+    
+            .nav-links {
+                display: none;
+                /* Hide the navigation links by default for smaller screens */
+                flex-direction: column;
+                background-color: white;
+                /* Add a background color for the menu */
+                position: absolute;
+                top: 70px;
+                /* Adjust the top position based on your header height */
+                right: 0;
+                width: 100%;
+                
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            }
+    
+            .nav-links.active {
+                display: flex;
+                /* Show the navigation links when the menu is active */
+            }
+    
+            /* Position the bars for the hamburger icon */
+            .menu-toggle.active .bar:nth-child(1) {
+                transform: rotate(-45deg) translate(-5px, 6px);
+            }
+    
+            .menu-toggle.active .bar:nth-child(2) {
+                opacity: 0;
+            }
+    
+            .menu-toggle.active .bar:nth-child(3) {
+                transform: rotate(45deg) translate(-5px, -6px);
+            }
+        }
+        
+    
 
 /* Homepage */
 /* Style for the container with the background image and overlay */
