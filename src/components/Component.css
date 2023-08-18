@@ -133,5 +133,78 @@ h5 hr {
     color: var(--atlas-blue);
 }
 
+@media (max-width: 900px) {
+    .directors {
+        padding: 1rem;
+    }
+
+    .intro p,
+    .close p {
+        padding: 0 1rem;
+        font-size: 20px;
+    }
+
+    .directors h3 {
+        font-size: 26px;
+        padding: 0.5rem;
+    }
+
+    .directors h3 hr {
+        width: 220px;
+    }
+
+    .our-directors,
+    .our-managers {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .our-directors h5 {
+        font-size: 18px;
+    }
+
+    .our-directors h6,
+    .our-managers h6 {
+        font-size: 16px;
+       
+    }
+
+    .directors h4 {
+        font-size: 22px;
+        padding: 1rem;
+    }
+
+    .directors h4 hr {
+        width: 150px;
+       
+    }
+
+    .two hr {
+        width: 120px;
+    }
+
+    .close {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+
+    .our-directors {
+        display: flex;
+    }
+
+    .hilda {
+        flex: 1;
+    }
+
+    .george {
+        flex: 1;
+    }
+
+    .romano {
+        flex: 1;
+    }
+
+        
+}
 
 
