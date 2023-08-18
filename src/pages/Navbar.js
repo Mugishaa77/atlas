@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import '../App.css';
 import Logo from '../tea/Logo.PNG';
 
 export default function Navbar() {
