@@ -1052,3 +1052,18 @@ font-size: 18px;
         font-size: 18px;
     }
 }
+
+/* Tea Action Page */
+.auction {
+    background-color: #fdf5e6;
+        /* Subtle Beige */
+}
+
+.auction h2 {
+    padding: 1rem;
+    font-size: 30px;
+    color: var(--atlas-blue);
+    text-align: center;
+    font-family: var(--atlas-font);
+}
+
