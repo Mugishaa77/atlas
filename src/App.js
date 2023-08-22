@@ -12,6 +12,9 @@ import News from './pages/News';
 import Auction from './pages/Auction';
 import NotFound from './pages/NotFound';
 
+// components
+import GardenCatalogue from './components/GardenCatalogue';
+
 function App() {
   return (
     <div className="App">
@@ -22,10 +25,13 @@ function App() {
       <Route path="/" exact element = {<Home />} />
       <Route path="/about" exact element = {<About/>} />
       <Route path="/contact" exact element = {<Contact />} />
-      <Route path="/service" exact element = {<Services />} />
+     <Route path="/service" element={<Services />} >
+  <Route path="garden" element={<GardenCatalogue />} />
+</Route>
+
       <Route path="/news" exact element = {<News />} />
       <Route path ="/auction" exact element = {<Auction />} />
-
+      
       {/* Redirect to /not-found for all other routes */}
           <Route path="*" element={<Navigate to="/not-found" />} />
           <Route path="/not-found" element={<NotFound />} />
