@@ -1,5 +1,5 @@
 import Directors from '../components/Directors';
-import koisagat from '../tea/DL-koisagat.png'
+import ImageSlideshow from '../components/ImageSlideshow';
 import '../App.css';
 
 export default function About() {
@@ -39,9 +39,9 @@ export default function About() {
                 </div>
 
                 <div className="koisagat">
-                    <img src={koisagat} alt="Koisagat Tea Estate Ltd, Nandi Hills Kenya"
-                        title="Koisagat Tea Estate Ltd, Nandi Hills Kenya"/>
-                </div>
+                   <ImageSlideshow />
+                
+            </div>
             </div>
 
             <div className="mission">

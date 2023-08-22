@@ -39,6 +39,9 @@ premium teas that match their preferences.
 </ul>
            </div>
 
+            <img src={koisagat} alt="Koisagat Tea Estate Ltd, Nandi Hills Kenya"
+                        title="Koisagat Tea Estate Ltd, Nandi Hills Kenya"/>
+
            <div>
 
             Unmatched Expertise

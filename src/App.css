@@ -431,17 +431,7 @@ h2 hr {
         color: var(--atlas-green);
        }
 
-       .koisagat {
-        margin-top: 0;
-       
-        
-       }
-
-       .koisagat img {
-        border-radius: 5px;
-        margin: 3rem;
-        
-       }
+            
 
        .journey ul li {
         color: var(--atlas-blue);

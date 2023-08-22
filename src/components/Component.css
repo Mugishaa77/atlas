@@ -181,9 +181,32 @@ h5 hr {
     }
 }
 
-    
+/* ImageSlideshow */
 
-    
+.image-component {
+    margin: 1rem;
+    padding: 1rem;
+    margin-top: 5rem;
+}
+.slideshow-container img {
+    max-height: 400px;
+    max-width: 600px;;
+}
+ 
+
+
+.navigation-arrow {
+    color: var(--atlas-green);    
+    background: var(--tea-green);
+    border: none;
+    cursor: pointer;
+}
+
+.image-number {
+    text-align: center;
+    font-family: var(--paragraph);
+    color: var(--atlas-green);
+}
 
        
 
