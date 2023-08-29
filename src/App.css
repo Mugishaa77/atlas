@@ -1057,3 +1057,42 @@ font-size: 18px;
     font-family: var(--atlas-font);
 }
 
+.auction .side-nav {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-right: 1px solid var(--tea-green);
+}
+
+.auction .side-nav h3 {
+    font-family: var(--paragraph);
+    font-size: 20px;
+    color: var(--atlas-green);
+    text-align: center;
+    
+}
+
+.side-nav a {
+    margin-left: 2.5rem;
+    font-family: var(--paragraph);
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+    font-size: 17px;
+    color: var(--writing-grey)!important;
+}
+
+.side-nav a:hover {
+    color: var(--atlas-green)!important;
+
+}
+.auction .link-active {
+    color: var(--atlas-red);
+}
+
+.grocer-dashboard .link-inactive {
+    color: var(--atlas-green);
+}
+
+.auction .content {
+    margin-left: 260px;
+}
