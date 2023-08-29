@@ -13,22 +13,22 @@ export default function Auction () {
                 <NavLink className={({ isActive }) =>
                 isActive ? "link-active" : "link-inactive"
             }
-                to ="/">Auction Reports</NavLink>
+                to ="/auction/auction-reports">Auction Reports</NavLink>
 
                 <NavLink className={({ isActive }) =>
                 isActive ? "link-active" : "link-inactive"
             }
-                to ="/">Auction Results</NavLink>
+                to ="/auction/auction-results">Auction Results</NavLink>
 
                 <NavLink className={({ isActive }) =>
                 isActive ? "link-active" : "link-inactive"
             }
-                to ="/">Market Reports</NavLink>
+                to ="/auction/markets">Market Reports</NavLink>
 
                 <NavLink className={({ isActive }) =>
                 isActive ? "link-active" : "link-inactive"
             }
-                to ="/">Forthcoming Auctions</NavLink>
+                to ="/auction/forthcoming">Forthcoming Auctions</NavLink>
 
 
             </div>
