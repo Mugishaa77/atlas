@@ -240,6 +240,12 @@ a {
        background-color: var(--sea-foam);
 }
 
+.mid-part a {
+    color: var(--atlas-green);
+}
+
+
+
 .home-news {
     flex: 1;
     margin: 1rem;
@@ -251,6 +257,12 @@ a {
 
 .home-news:hover {
     background-color: var(--tea-green);
+    border-bottom: 4px solid var(--atlas-blue);
+    color: var(--atlas-blue);
+}
+
+.home-news a:hover {
+    color: var(--atlas-blue);
 }
 
 
@@ -276,6 +288,8 @@ a {
 
 .home-gardens:hover {
     background-color: var(--tea-green);
+    border-bottom: 4px solid var(--atlas-blue);
+   
 }
 
 .home-gardens h3 {
@@ -286,6 +300,10 @@ a {
         padding: 1rem;
         margin-top: 5px;
     
+}
+
+.home-gardens a:hover {
+    color: var(--atlas-blue);
 }
 .home-auction {
     flex: 1;
@@ -298,6 +316,12 @@ a {
 
 .home-auction:hover {
     background-color: var(--tea-green);
+    border-bottom: 4px solid var(--atlas-blue);
+   
+}
+
+.home-auction a:hover {
+    color: var(--atlas-blue);
 }
 
 .home-auction h3 {
@@ -345,12 +369,12 @@ a {
 }
 
 .footer a:hover {
-    color: var(--atlas-blue);
+    color: var(--tea-green);
 }
 .footer h2 {
     padding: 0.5rem;
     padding-bottom: 0;
-    color: var(--sea-foam);
+    color: var(--tea-green);
     font-weight: bold;
         font-family: var(--atlas-font);
        

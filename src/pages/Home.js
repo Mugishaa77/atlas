@@ -66,20 +66,22 @@ export default function Home() {
       <div className="mid-part">
         
         <div className="home-news">
-         <h3> Tea News <FontAwesomeIcon icon={faNewspaper} />
-        </h3>
+         <h3>
+          <Link to="/">
+             Tea News <FontAwesomeIcon icon={faNewspaper} />
+        </Link></h3>
         </div>
         
 
        
         <div className="home-gardens">
-          <h3>Garden Catalogues <FontAwesomeIcon icon={faLeaf} />
-           </h3></div>
+          <h3><Link to="/">Garden Catalogues <FontAwesomeIcon icon={faLeaf} />
+           </Link></h3></div>
            
 
            
                 <div className="home-auction">
-          <h3>Auction Catalogues <FontAwesomeIcon icon={faGavel} /></h3>
+          <h3><Link to="/">Auction Catalogues <FontAwesomeIcon icon={faGavel} /></Link></h3>
         </div>
       
       </div>
