@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import homepage from '../tea/homepage.png';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGavel, faLeaf, faNewspaper } from "@fortawesome/free-solid-svg-icons";
 import '../App.css';
+
 
 export default function Home() {
   const [bgLoaded, setBgLoaded] = useState(false);
@@ -60,7 +63,57 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="footer"></div>
+      <div className="mid-part">
+        
+        <div className="home-news">
+         <h3> Tea News <FontAwesomeIcon icon={faNewspaper} />
+        </h3>
+        </div>
+        
+
+       
+        <div className="home-gardens">
+          <h3>Garden Catalogues <FontAwesomeIcon icon={faLeaf} />
+           </h3></div>
+           
+
+           
+                <div className="home-auction">
+          <h3>Auction Catalogues <FontAwesomeIcon icon={faGavel} /></h3>
+        </div>
+      
+      </div>
+
+      <div className="footer">
+       <div className="footer-inner">
+        
+        <h2>WE ARE LOCATED AT</h2>
+        
+        <h3>Sec, 1 M. Nyali, (Off Links Shell Petrol Station)</h3>
+        
+        <hr/>
+        <h4> <span>
+
+              <strong>Tel:</strong> <a
+                href="tel:0414471226"
+                target="_blank"
+                title="Tel"
+                rel="noopener noreferrer"
+            >041 4471226
+              </a></span>
+<br/>
+              <span><strong>Mob:</strong> <a
+                href="tel:+254729404044"
+                target="_blank"
+                title="Mob"
+                rel="noopener noreferrer"
+              >+254 729 404 044
+              </a></span>
+
+            </h4>
+            
+      </div>
+    </div>
     </div>
   );
 }
