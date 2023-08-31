@@ -46,8 +46,8 @@ export default function Directors() {
             <div className="our-managers">
                 <div className="michael">
                     <img src={download}
-                        alt="Michael Chemweno, Operation Sales and Marketing Manager, Atlas Tea Brokers Ltd, Kenya"
-                        title="Michael Chemweno, Operation Sales and Marketing Manager"/>
+                        alt="Michael Chemweno, General Manager, Atlas Tea Brokers Ltd, Kenya"
+                        title="Michael Chemweno, General Manager"/>
                     <h5>Michael Chemweno<hr/></h5>
                     <h6>General Manager
                         </h6>
@@ -55,8 +55,8 @@ export default function Directors() {
 
                 <div className="jeremiah">
                     <img src={download}
-                        alt="Jeremiah Kinyua, Manager, Quality Assurance, Atlas Tea Brokers Ltd, Kenya"
-                        title="Jeremiah Kinyua, Manager, Quality Assurance"/>
+                        alt="Jeremiah Kinyua, Commercial Manager, Atlas Tea Brokers Ltd, Kenya"
+                        title="Jeremiah Kinyua, Commercial Manager"/>
                     <h5>Jeremiah Kinyua<hr/></h5>
                     <h6>Commercial Manager
         </h6>
