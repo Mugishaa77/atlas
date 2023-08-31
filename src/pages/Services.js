@@ -44,7 +44,7 @@ export default function Services() {
                                     <p>For buyers seeking premium teas, we curate a diverse selection of high-quality 
                                         teas from esteemed tea gardens.<br/> Through our extensive network and market 
                                         expertise, we match buyers with teas that align with their preferences and 
-                                        requirements.<br/><Link to="/garden"
+                                        requirements.<br/><Link to="/garden" title="see gardens page"
                                          className="note">
                                             <em>View Garden Catalogue</em></Link></p>
                                 </li>
