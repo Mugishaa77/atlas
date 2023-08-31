@@ -40,7 +40,7 @@ export default function About() {
                 </div>
 
                 <div className="journey">
-                    
+                    <h1>visual aid expected</h1>
                 </div>
 
                 
@@ -62,6 +62,8 @@ export default function About() {
             <div className="directors-component">
                 <Directors />
             </div>
+
+            
 
             <div className="conclusion">
                 <h3>CONCLUSION<hr/>

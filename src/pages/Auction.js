@@ -6,7 +6,7 @@ export default function Auction () {
     return (
         <div className="auction">
             <h2>TEA AUCTION <hr/></h2>
-
+           Hello visitor, the auction information is being updated from the server side. Be sure to come back soon :)
             <div className="side-nav">
                 <h3>
                     <strong>QUICK LINKS</strong></h3>

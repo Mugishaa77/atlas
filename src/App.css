@@ -619,6 +619,10 @@ h2 hr {
         
        }
 
+       .journey h1 {
+        padding: 10rem;
+       }
+
        .journey ul {
         margin-left: 5rem;
         
