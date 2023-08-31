@@ -57,7 +57,7 @@ export default function Home() {
         </div>
 
         <div className="about-button">
-          <Link to="/about">
+          <Link to="/about" title="More About Atlas">
             <button>About Us</button>
           </Link>
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
         
         <div className="home-news">
          <h3>
-          <Link to="/">
+          <Link to="/" title="Go to News Page">
              Tea News <FontAwesomeIcon icon={faNewspaper} />
         </Link></h3>
         </div>
@@ -75,13 +75,14 @@ export default function Home() {
 
        
         <div className="home-gardens">
-          <h3><Link to="/">Garden Catalogues <FontAwesomeIcon icon={faLeaf} />
+          <h3><Link to="/"  title="See Tea Gardens">Garden Catalogues
+         <FontAwesomeIcon icon={faLeaf} />
            </Link></h3></div>
            
 
            
                 <div className="home-auction">
-          <h3><Link to="/">Auction Catalogues <FontAwesomeIcon icon={faGavel} /></Link></h3>
+          <h3><Link to="/" title="See Auction Page">Auction Catalogues <FontAwesomeIcon icon={faGavel} /></Link></h3>
         </div>
       
       </div>
@@ -91,7 +92,9 @@ export default function Home() {
         
         <h2>WE ARE LOCATED AT</h2>
         
-        <h3>Sec, 1 M. Nyali, (Off Links Shell Petrol Station)</h3>
+        <h3>
+        <a href="" title="go to pin">
+        Sec, 1 M. Nyali, (Off Links Shell Petrol Station)</a></h3>
         
         <hr/>
         <h4> <span>
@@ -99,7 +102,7 @@ export default function Home() {
               <strong>Tel:</strong> <a
                 href="tel:0414471226"
                 target="_blank"
-                title="Tel"
+                title="call"
                 rel="noopener noreferrer"
             >041 4471226
               </a></span>
@@ -107,7 +110,7 @@ export default function Home() {
               <span><strong>Mob:</strong> <a
                 href="tel:+254729404044"
                 target="_blank"
-                title="Mob"
+                title="call"
                 rel="noopener noreferrer"
               >+254 729 404 044
               </a></span>

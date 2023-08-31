@@ -330,6 +330,7 @@ a {
         font-family: var(--paragraph);
         font-size: 24px;
         padding: 1rem;
+     
 }
 
 .footer {
@@ -347,16 +348,17 @@ a {
     margin: 0 auto;
     height: 1px;
     width: 80%;
-    background-color: var(--tea-green);
+    background-color: var(--atlas-blue);
    opacity: 1;
    border: none;
    margin-bottom: 1rem;
 }
 .footer-inner {
     padding: 2rem;
-   background-color: rgba(0, 159, 85, 0.8);
-   border: none;
-   border: 2px solid var(--tea-green);
+   background-color: #f0f0f0;
+   opacity: 0.9;
+   border: 2px solid var(--atlas-green);
+
     /* Adjust the border size and color as needed */
     box-sizing: border-box;
 
@@ -365,18 +367,19 @@ a {
 }
 
 .footer a {
-    color: var(--atlas-blue);
+    color: var(--atlas-green);
 }
 
 .footer a:hover {
-    color: var(--tea-green);
+    color: var(--atlas-red);
 }
 .footer h2 {
     padding: 0.5rem;
     padding-bottom: 0;
-    color: var(--tea-green);
+    color: var(--atlas-blue);
     font-weight: bold;
         font-family: var(--atlas-font);
+        opacity: 0.9;
        
 
 }
@@ -385,15 +388,16 @@ a {
 
 
 
-.footer h3 {
-    color: var(--sea-foam);
+.footer h3 a {
+    color: var(--atlas-blue);
     font-family: var(--h3);
+    opacity: 0.9;
   
 }
 
 .footer h4 {
     font-family: var(--h3);
-    color: var(--atlas-blue);
+    color: var(--atlas-green);
 }
 /* Homepage Media Query */
 /* Media Query for screens with max width 900px */
@@ -422,6 +426,11 @@ a {
         /* Adjusted font size for smaller screens */
     }
 
+    .home-about {
+        height: 100%;
+        padding-bottom: 1rem;
+    }
+
     .home-about h1 hr {
         width: 480px;
         height: 3px;
@@ -441,6 +450,27 @@ a {
         font-size: 16px;
         /* Further adjusted font size for smaller screens */
     }
+
+    .mid-part {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 1rem;
+       
+    
+    }
+
+    .mid-part h3 {
+        font-size: 20px;
+        padding-top: 2rem;
+        margin-bottom: 0;
+    }
+
+   
+    
+      
+
+    
 }
 /* About Page */
 

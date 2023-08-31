@@ -46,7 +46,7 @@ export default function Contact () {
               <strong>Tel:</strong><a
                 href="tel:0414471226"
                 target="_blank"
-                title="Tel"
+                title="Call"
                 rel="noopener noreferrer"
             >041 4471226
               </a></span>
@@ -54,7 +54,7 @@ export default function Contact () {
               <span><strong>Mob:</strong><a
                 href="tel:+254729404044"
                 target="_blank"
-                title="Mob"
+                title="Call"
                 rel="noopener noreferrer"
               >+254 729 404 044
               </a></span>
