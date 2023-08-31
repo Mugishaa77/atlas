@@ -378,7 +378,7 @@ a {
     padding-bottom: 0;
     color: var(--atlas-blue);
     font-weight: bold;
-        font-family: var(--atlas-font);
+        font-family: var(--h3);
         opacity: 0.9;
        
 
@@ -386,7 +386,7 @@ a {
 
 .footer h3 a {
     color: var(--atlas-blue);
-    font-family: var(--h3);
+    font-family: var(--paragraph);
     opacity: 0.9;
   
 }
@@ -1209,6 +1209,11 @@ font-size: 18px;
     font-family: var(--paragraph);
     margin-bottom: 0;
     font-size: 22px;
+}
+
+.business-address span {
+    font-family: var(--heading-1);
+    padding-bottom: 1rem;
 }
 
 /* media query for contact section */

@@ -44,11 +44,11 @@ export default function Contact () {
               <span>
 
               <strong>Tel:</strong><a
-                href="tel:0414471226"
+                href="tel:+25482404044"
                 target="_blank"
                 title="Call"
                 rel="noopener noreferrer"
-            >041 4471226
+            >+254 782 404 044
               </a></span>
 <br/>
               <span><strong>Mob:</strong><a
@@ -134,9 +134,12 @@ export default function Contact () {
            <div className="business-section">
             <div className="business-address">
                 <h3>Business Address <FontAwesomeIcon icon={faLocationDot} /><hr/></h3>
-                <p>Sec, 1 M.Nyali, (Off Links Shell Petrol Station)
+                <p>Shree Plaza Building, 4th Floor
+                  <br />
+                    Fidel Odinga Rd Nyali
                     <br/>
-                    P.O. Box 3445-80100 Mombasa Kenya
+                    
+                    <span>P.O. Box 3445-80100 Mombasa Kenya</span>
                 </p>
             </div>
 
@@ -145,7 +148,7 @@ export default function Contact () {
               <h4><FontAwesomeIcon icon={faDoorOpen} />Open</h4>
               <ul>
                 <li>Mon - Fri: 08:00 AM - 05:00 PM EAT </li>
-                <li>Saturday: 09:00 AM - 02:00 PM EAT</li>
+                <li>Saturday: 09:00 AM - 01:00 PM EAT</li>
               </ul>
               
               <h4 >Sundays - Closed <FontAwesomeIcon icon={faDoorClosed} /></h4>

@@ -55,10 +55,9 @@ export default function Services() {
             </div>
             <div className="service-close">
                 <h3>COMMITMENT TO SUSTAINABILITY<hr/></h3>
-                <p>As responsible brokers, we <span>actively advocate</span> for <strong>sustainable</strong> and
-                 <strong>eco-friendly</strong> practices within the tea industry.<br/> We partner with <strong>socially
+                <p>As responsible brokers, we <span>actively advocate</span> for <strong>sustainable</strong> and <strong>eco-friendly</strong> practices within the tea industry.<br/> We partner with <strong>socially
                      responsible</strong> tea gardens and buyers who share our values, supporting their efforts to promote
-                      <span>sustainability</span> and <span>fair-trade practices</span>.</p>
+                      <span> sustainability</span> and <span>fair-trade practices</span>.</p>
             </div>
         </div>
     );

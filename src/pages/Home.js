@@ -67,7 +67,7 @@ export default function Home() {
         
         <div className="home-news">
          <h3>
-          <Link to="/" title="Go to News Page">
+          <Link to="/news" title="Go to News Page">
              Tea News <FontAwesomeIcon icon={faNewspaper} />
         </Link></h3>
         </div>
@@ -75,14 +75,14 @@ export default function Home() {
 
        
         <div className="home-gardens">
-          <h3><Link to="/"  title="See Tea Gardens">Garden Catalogues
+          <h3><Link to="/gardens"  title="See Tea Gardens">Gardens in our Catalogue
          <FontAwesomeIcon icon={faLeaf} />
            </Link></h3></div>
            
 
            
                 <div className="home-auction">
-          <h3><Link to="/" title="See Auction Page">Auction Catalogues <FontAwesomeIcon icon={faGavel} /></Link></h3>
+          <h3><Link to="/auction" title="See Auction Page">Tea Auction <FontAwesomeIcon icon={faGavel} /></Link></h3>
         </div>
       
       </div>
@@ -94,17 +94,19 @@ export default function Home() {
         
         <h3>
         <a href="" title="go to pin">
-        Sec, 1 M. Nyali, (Off Links Shell Petrol Station)</a></h3>
+        Shree Plaza Building, 4th Floor
+        <br/>
+        Fidel Odinga Rd Nyali</a></h3>
         
         <hr/>
         <h4> <span>
 
               <strong>Tel:</strong> <a
-                href="tel:0414471226"
+                href="tel:+254782404044"
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-            >041 4471226
+            > +254 782 404 044
               </a></span>
 <br/>
               <span><strong>Mob:</strong> <a

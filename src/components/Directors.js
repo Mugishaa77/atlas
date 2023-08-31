@@ -49,8 +49,8 @@ export default function Directors() {
                         alt="Michael Chemweno, Operation Sales and Marketing Manager, Atlas Tea Brokers Ltd, Kenya"
                         title="Michael Chemweno, Operation Sales and Marketing Manager"/>
                     <h5>Michael Chemweno<hr/></h5>
-                    <h6>Operations,<br/>
-                        Sales and Marketing Manager</h6>
+                    <h6>General Manager
+                        </h6>
                 </div>
 
                 <div className="jeremiah">
@@ -58,8 +58,8 @@ export default function Directors() {
                         alt="Jeremiah Kinyua, Manager, Quality Assurance, Atlas Tea Brokers Ltd, Kenya"
                         title="Jeremiah Kinyua, Manager, Quality Assurance"/>
                     <h5>Jeremiah Kinyua<hr/></h5>
-                    <h6>Manager,<br/>
-                        Quality Assurance</h6>
+                    <h6>Commercial Manager
+        </h6>
                 </div>
 
                 <div className="paul">
