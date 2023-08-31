@@ -384,10 +384,6 @@ a {
 
 }
 
-
-
-
-
 .footer h3 a {
     color: var(--atlas-blue);
     font-family: var(--h3);
@@ -498,21 +494,24 @@ h2 hr {
 }
 
 /* mission */
-.about .mission {
+.about .mission,
+.about .conclusion  {
    
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 1rem;
 }
 
-.about .mission h3 hr {
+.about .mission h3 hr,
+.about .conclusion h3 hr {
     width: 170px;
     color: var(--writing-grey);
     padding-top: 0;
     margin-top: 0;
 }
 
-.about .mission h3 {
+.about .mission h3,
+.about .conclusion h3 {
     font-size: 26px;
     margin-left: 70px;
     color: var(--atlas-green);
@@ -521,7 +520,9 @@ h2 hr {
     padding-top: 2rem;
 }
 
-.about .mission p {
+.about .mission p,
+.about .conclusion p
+ {
     padding: 2rem;
     padding-top: 0;
     text-align: left;
@@ -530,9 +531,39 @@ h2 hr {
     color: var(--atlas-blue);
 }
 
-.about .mission .opening {
+.about .mission .opening
+
+ {
     color: var(--atlas-green);
 }
+
+.about .conclusion span {
+    color: var(--atlas-green);
+    
+  
+   
+    font-size: 20px;
+        font-family: var(--paragraph);
+        
+}
+
+.about .conclusion {
+    text-align: center;
+    border: 1px solid var(--tea-green);
+
+}
+
+.about .conclusion p {
+    text-align: center;
+    
+    color: var(--atlas-blue);
+    
+}
+
+.about .conclusion h3 hr {
+    margin: 0 auto;
+}
+
 
        /* Lists section */
 
@@ -555,6 +586,7 @@ h2 hr {
            }
            .why-us {
             margin-top: 2rem;
+            
            }
 
        .journey ul, .why-us ul {
