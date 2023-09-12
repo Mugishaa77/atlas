@@ -16,8 +16,8 @@ import NotFound from './pages/NotFound';
 import GardenCatalogue from './components/GardenCatalogue';
 
 // tea auction
-import AuctionReports from './tea auction/AuctionReports';
-import AuctionResults from './tea auction/AuctionResults';
+import AuctionSchedule from './tea auction/AuctionSchedule';
+import SaleCatalogues from './tea auction/SaleCatalogues';
 import ForthcomingAuctions from './tea auction/ForthcomingAuctions';
 import MarketReports from './tea auction/MarketReports';
 
@@ -35,10 +35,10 @@ function App() {
      <Route path="/garden" exact element = {<GardenCatalogue/>} />
       <Route path="/news" exact element = {<News />} />
       <Route path ="/auction" exact element = {<Auction />} >
-        <Route path="auction-reports" exact element={<AuctionReports/>}/>
-        <Route path="auction-results" exact element={<AuctionResults/>}/>
+        <Route path="auction-schedule" exact element={<AuctionSchedule/>}/>
+        <Route path="sale-catalogues" exact element={<SaleCatalogues/>}/>
         <Route path="forthcoming" exact element={<ForthcomingAuctions/>}/>
-        <Route path="markets" exact element = {<MarketReports/>}/>
+        <Route path="market-reports" exact element = {<MarketReports/>}/>
       </Route>
       
       {/* Redirect to /not-found for all other routes */}

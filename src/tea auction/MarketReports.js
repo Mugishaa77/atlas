@@ -10,6 +10,11 @@ export default function MarketReports () {
                                                      You can access the latest market reports on our website, ensuring that you stay well-informed about the dynamic tea
                                                       market.
                                                 </p>
+                                                 <div className="reports">
+            
+                                                
+                                             </div>
+        
                                              </div>
         
     );
