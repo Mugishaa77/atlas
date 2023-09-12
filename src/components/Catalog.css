@@ -1,0 +1,88 @@
+.latest-report {
+    background-color: var(--sea-foam);
+}
+.latest-report h4 {
+    color: var(--atlas-red);
+    font-family: var(--paragraph);
+    margin-left: 5rem;
+    font-size: 28px;
+    padding: 1rem;
+    padding-bottom: 0;
+
+}
+
+.latest-report ul {
+    justify-content: space-between;
+}
+
+
+.latest-report h5 {
+    color: var(--writing-grey);
+    padding: 0;
+    font-family: var(--heading-1);
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.latest-report h5:hover {
+    color: var(--atlas-green);
+}
+
+.latest-report .month {
+    margin: 0;
+    padding:0;
+}
+
+.latest-report .month ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    list-style-type: none;
+    border-left: 1px solid var(--atlas-red);
+    
+    
+}
+
+.latest-report .month ul li {
+    text-align: center;
+    margin-left: 0;
+    padding: 1;
+    color: var(--atlas-blue);
+    border-bottom: 2px solid var(--tea-green);
+    box-shadow: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+   
+}
+
+.catalog-controls {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.catalog-controls button {
+    background-color: var(--sea-foam);
+        color: var(--atlas-blue);
+        border: 1px solid var(--atlas-red);
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-family: var(--raleway);
+        font-weight: bold;
+}
+
+.catalog-controls button:hover {
+    background-color: var(--atlas-blue);
+        color: var(--atlas-red);
+}
+
+.catalog-controls span {
+    color: var(--writing-grey);
+    font-family: var(--h3);
+    padding: 1rem;
+    font-size: 14px;
+
+}
