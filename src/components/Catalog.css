@@ -1,10 +1,11 @@
 .latest-report {
     background-color: var(--sea-foam);
+    box-shadow: 0px 0px 10px white;
 }
 .latest-report h4 {
     color: var(--atlas-red);
     font-family: var(--paragraph);
-    margin-left: 5rem;
+    text-align: center;
     font-size: 28px;
     padding: 1rem;
     padding-bottom: 0;
@@ -46,13 +47,18 @@
 
 .latest-report .month ul li {
     text-align: center;
-    margin-left: 0;
-    padding: 1;
-    color: var(--atlas-blue);
-    border-bottom: 2px solid var(--tea-green);
-    box-shadow: rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
-   
+    margin-bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 0;
+   color: var(--atlas-blue);
+   font-weight: bold;
+   font-family: var(--paragraph);
+   text-transform: uppercase;
+
+}
+
+.latest-report .month ul li:hover {
+color: var(--atlas-green);
 }
 
 .catalog-controls {
@@ -86,3 +92,99 @@
     font-size: 14px;
 
 }
+
+.latest-report .button {
+    display: flex;
+       justify-content: space-between;
+    font-size: 14px;
+    font-family: var(--heading-1);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.latest-report .view {
+    border: none;
+    background: none;
+    color: var(--atlas-green);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+    
+
+}
+
+.latest-report .view:hover {
+    color: var(--atlas-red);
+    text-decoration: underline;
+}
+
+.latest-report .download {
+    border: none;
+        background: none;
+        color: var(--atlas-green);
+       margin: 0;
+        padding: 0;
+        cursor: pointer;
+}
+
+.latest-report .download:hover {
+    color: var(--atlas-red);
+    text-decoration: underline;
+}
+
+.last-year {
+    background-color: var(--sea-foam);
+        box-shadow: 0px 0px 10px white;
+}
+
+.last-year h4 {
+    color: var(--atlas-red);
+    font-family: var(--paragraph);
+    text-align: center;
+    font-size: 28px;
+    padding: 1rem;
+    padding-bottom: 0;
+
+}
+
+.last-year ul {
+    justify-content: space-between;
+}
+
+
+.last-year h5 {
+    color: var(--writing-grey);
+    padding: 0;
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+}
+
+.last-year h5:hover {
+    color: var(--atlas-green);
+}
+
+.last-year {
+    text-align: center;
+}
+
+.last-year .month-list {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    /* Adjust the margin as needed for spacing */
+}
+
+.last-year .month-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+ .last-year .month-list ul li {
+    margin-bottom: 5px;
+    /* Adjust the margin as needed for spacing */
+}
+
+
