@@ -1437,14 +1437,15 @@ font-size: 18px;
     
 }
 
-.results {
+.results, .markets {
     margin: 1rem;
     padding: 1rem;
     text-align: center;
     border-radius: 1px;
 }
 
-.results h3 {
+.results h3,
+.markets h3 {
     text-align: center;
     color: var(--atlas-green);
     font-family: var(--lists);
@@ -1458,4 +1459,10 @@ font-size: 18px;
         font-size: 30px;
         margin: 0 auto!important;
         
+}
+
+.markets p {
+    text-align: left;
+    font-family: var(--h3);
+    font-size: 18px;
 }

@@ -1,19 +1,14 @@
+import Report from "../components/Report";
+
 export default function MarketReports () {
     return (
         <div className="markets">
-            
-                                                <h4>MARKET REPORTS</h4>
-                                                <p>
-                                                    Our commitment to transparency and up-to-date information is evident in our weekly market reports. 
-                                                    Jeremiah Kinyua, our Commercial Manager, diligently compiles and updates market reports every Wednesday,
-                                                     right after the auctions conclude. These reports provide invaluable insights into market trends, pricing, and more.
-                                                     You can access the latest market reports on our website, ensuring that you stay well-informed about the dynamic tea
-                                                      market.
-                                                </p>
-                                                 <div className="reports">
-            
+            <h3>WEEKLY MARKET REPORTS</h3>
+            <p>Market Reports are updated every Wednesday after auctions are concluded,
+                 to provide insight into the Dynamic tea market.</p>
+                <Report />
+
                                                 
-                                             </div>
         
                                              </div>
         

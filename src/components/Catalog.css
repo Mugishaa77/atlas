@@ -20,8 +20,8 @@
 .latest-report h5 {
     color: var(--writing-grey);
     padding: 0;
-    font-family: var(--heading-1);
-    text-decoration: underline;
+    font-family: var(--paragraph);
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
 }
