@@ -1463,6 +1463,45 @@ font-size: 18px;
 
 .markets p {
     text-align: left;
-    font-family: var(--h3);
+    font-family: var(--paragraph);
     font-size: 18px;
+}
+
+.forth {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--tea-green);
+}
+
+.forth h3 {
+    color: var(--atlas-green);
+    opacity: 0.9;
+    font-size: 22px;
+    font-family: var(--atlas-font);
+    text-align: center;
+}
+
+.forth ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.forth li {
+    color: var(--atlas-blue);
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.forth li span {
+    display: inline-flex;
+}
+.forth li hr {
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.forth h4 {
+    text-align: center;
+    color: var(--atlas-red);
 }

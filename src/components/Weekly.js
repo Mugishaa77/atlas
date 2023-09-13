@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect, useRef  } from 'react';
+import './Weekly.css';
 
 function Weekly () {
     const [openMonth, setOpenMonth] = useState(null);
@@ -13,20 +14,20 @@ function Weekly () {
 
   const months= [
     {
-        name: 'August',
+        name: 'August 2023',
         report: ['Sale 35 - 30th August',
         'Sale 34 - 23rd August', 'Sale 33 - 16th August',
         'Sale 32 - 9th August', 'Sale 31 - 2nd August'
             ],
     },
     {
-        name: 'July',
+        name: 'July 2023',
         report: ['Sale 30 - 26th July',
     'Sale 29 - 19th July', 'Sale 28 - 13th July',
 'Sale 27 - 5th July'],
     },
     {
-        name: 'June',
+        name: 'June 2023',
         report: ['Sale 26 - 29th June', 
     'Sale 25 - 21st June', 'Sale 24 - 14th June']
     },
@@ -34,17 +35,23 @@ function Weekly () {
 
 return (
     <div className="weekly-market-report">
-        <h4>2023</h4>
+       
         <ul>
             {months.map((month, index) => (
-                <li key={index}>
-                    <h5 onClick={() => toggleMonth (index)}>{month.name}</h5>
+                <li key={index}><div className="report-holder">
+                    <h5 onClick={() => toggleMonth (index)}>
+                      <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
+  <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+</svg></span> {month.name}</h5></div>
                     {openMonth === index && (
                         <div className="month-report">
                             <ul>
                             {month.report.map((report, reportIndex) => (
                                 <li key={reportIndex}>
-                                    {report}
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+</svg>{report}
                                     <div className="button">
                         <button className="view" title="preview document">View</button>
                         <button className="download" title="download file">
@@ -68,19 +75,3 @@ return (
                             }
 
                             export default Weekly;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

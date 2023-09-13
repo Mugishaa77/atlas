@@ -1,0 +1,120 @@
+.weekly-market-report {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--sea-foam);
+    position: relative;
+    background-color: white;
+
+}
+
+.weekly-market-report ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-family: var(--paragraph);
+    text-transform: uppercase;
+    color: var(--atlas-green);
+        
+}
+
+.weekly-market-report ul li {
+    padding: 0;
+    margin: 0;
+
+}
+
+.weekly-market-report h5:hover {
+    color: var(--atlas-blue);
+}
+
+
+.weekly-market-report h5 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.weekly-market-report span {
+    padding-right: 1rem;
+    color: var(--atlas-green);
+    
+}
+
+.weekly-market-report span:hover {
+    color: var(--atlas-blue);
+}
+
+.weekly-market-report .button {
+    display: flex;
+    font-size: 14px;
+    font-family: var(--heading-1);
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.weekly-market-report .view {
+flex: 1;
+    border: none;
+    background: none;
+    color: var(--atlas-green);
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    cursor: pointer;
+
+
+}
+
+.weekly-market-report .view:hover {
+    color: var(--atlas-red);
+    text-decoration: underline;
+}
+
+.weekly-market-report .download {
+    flex: 1;
+    border: none;
+    background: none;
+    color: var(--atlas-green);
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.weekly-market-report .download:hover {
+    color: var(--atlas-red);
+    text-decoration: underline;
+}
+
+.month-report li {
+    color: var(--writing-grey);
+    font-family: var(--heading-1);
+    border: 1px solid var(--tea-green);
+    text-align: center;
+
+       
+}
+
+.month-report li:hover {
+    color: var(--atlas-green);
+}
+
+.month-report {
+    position: absolute;
+    top: 2rem;
+    left: 15rem;
+    background-color: var(--sea-foam);
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.report-controls span{
+    color: var(--atlas-green);
+    font-family: var(--paragraph);
+    margin: 1rem;
+}
