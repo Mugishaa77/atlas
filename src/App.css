@@ -236,11 +236,12 @@ a {
     display: flex;
     flex-direction: row;
        height: 100px;
-       background-color: var(--sea-foam);
+       background-color: white;
 }
 
 .mid-part a {
     color: var(--atlas-green);
+    opacity: 0.9;
 }
 
 
@@ -252,10 +253,12 @@ a {
     border: 1px solid var(--tea-green);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     border-bottom: 4px solid var(--atlas-green);
+    background-color: #F0F0F0;
 }
 
 .home-news:hover {
-    background-color: var(--tea-green);
+    background-color: var(--sea-foam) ;
+    border: 1px solid var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
     color: var(--atlas-blue);
 }
@@ -267,7 +270,7 @@ a {
 
 
 .home-news h3 {
-    color: var(--atlas-green);
+   
     text-transform: uppercase;
     font-family: var(--paragraph);
     font-size: 25px;
@@ -281,18 +284,19 @@ a {
         text-align: center;
         border: 1px solid var(--tea-green);
         border-bottom: 4px solid var(--atlas-green);
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #F0F0F0;
         
 }
 
 .home-gardens:hover {
-    background-color: var(--tea-green);
+    background-color: var(--sea-foam);
+    border: 1px solid var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
    
 }
 
 .home-gardens h3 {
-    color: var(--atlas-green);
         text-transform: uppercase;
         font-family: var(--paragraph);
         font-size: 24px;
@@ -310,12 +314,16 @@ a {
         text-align: center;
         border: 1px solid var(--tea-green);
         border-bottom: 4px solid var(--atlas-green);
-        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2)
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+        background-color: #F0F0F0;
+        color: var(--atlas-blue);
 }
 
 .home-auction:hover {
-    background-color: var(--tea-green);
+    background-color: var(--sea-foam);
+    border: 1px solid var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
+    color: var(--tea-green);
    
 }
 
@@ -324,7 +332,6 @@ a {
 }
 
 .home-auction h3 {
-    color: var(--atlas-green);
         text-transform: uppercase;
         font-family: var(--paragraph);
         font-size: 24px;
@@ -357,6 +364,7 @@ a {
    background-color: #f0f0f0;
    opacity: 0.9;
    border: 2px solid var(--atlas-green);
+   
 
     /* Adjust the border size and color as needed */
     box-sizing: border-box;
