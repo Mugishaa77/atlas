@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFileExcel, faFolderOpen} from '@fortawesome/free-regular-svg-icons';
 
 function MonthlyReports() {
   const [openMonth, setOpenMonth] = useState(null);
@@ -36,13 +38,13 @@ function MonthlyReports() {
       <ul>
         {months.map((month, index) => (
           <li key={index}>
-            <h5 onClick={() => toggleMonth(index)}>{month.name}</h5>
+            <h5 onClick={() => toggleMonth(index)}><FontAwesomeIcon icon={faFolderOpen} /> {month.name}</h5>
             {openMonth === index && (
               <div className="month">
                 <ul>
                   {month.auctions.map((auction, auctionIndex) => (
                     <li key={auctionIndex}>
-                      {auction}
+                     <>{auction} <FontAwesomeIcon icon={faFileExcel} /></> 
                       <div className="button">
                         <button className="view" title="preview document">View</button>
                         <button className="download" title="download file">

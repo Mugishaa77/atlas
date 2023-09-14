@@ -1465,6 +1465,7 @@ font-size: 18px;
     text-align: left;
     font-family: var(--paragraph);
     font-size: 18px;
+    color: var(--atlas-green);
 }
 
 .forth {

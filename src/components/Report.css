@@ -1,14 +1,14 @@
 .report-controls button {
-   background-color: white;
-   border: 1px solid var(--atlas-blue);
-   color: var(--atlas-blue);
+   background-color: var(--sea-foam);
+   border: 1px solid var(--tea-green);
+   color: var(--atlas-green);
    width: 100px;
    height: 40px;
     
 }
 
 .report-controls button:hover {
-    border: 1px solid var(--atlas-green);
-        color: var(--atlas-green);
+   background-color: var(--atlas-green);
+   color: var(--tea-green);
 
 }

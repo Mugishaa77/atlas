@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import MonthlyReports from './MonthlyReports';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFolderOpen} from '@fortawesome/free-regular-svg-icons';
 import './Catalog.css';
 
 const Catalog = () => {
@@ -11,26 +13,26 @@ const Catalog = () => {
   <h4>2022</h4>
   <div className="month-list">
     <ul>
-      <li><h5>December</h5></li>
-      <li><h5>November</h5></li>
-      <li><h5>October</h5></li>
-      <li><h5>September</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> December</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> November</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> October</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> September</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-      <li><h5>August</h5></li>
-      <li><h5>July</h5></li>
-      <li><h5>June</h5></li>
-      <li><h5>May</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> August</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> July</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> June</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> May</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-    <li><h5>April</h5></li>
-      <li><h5>March</h5></li>
-      <li><h5>February</h5></li>
-      <li><h5>January</h5></li></ul>
+    <li><h5><FontAwesomeIcon icon={faFolderOpen} /> April</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> March</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> February</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> January</h5></li></ul>
   </div>
 </div>
 ,
@@ -38,52 +40,52 @@ const Catalog = () => {
   <h4>2021</h4>
   <div className="month-list">
     <ul>
-      <li><h5>December</h5></li>
-      <li><h5>November</h5></li>
-      <li><h5>October</h5></li>
-      <li><h5>September</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> December</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> November</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> October</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> September</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-      <li><h5>August</h5></li>
-      <li><h5>July</h5></li>
-      <li><h5>June</h5></li>
-      <li><h5>May</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> August</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> July</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> June</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> May</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-    <li><h5>April</h5></li>
-      <li><h5>March</h5></li>
-      <li><h5>February</h5></li>
-      <li><h5>January</h5></li></ul>
+    <li><h5><FontAwesomeIcon icon={faFolderOpen} /> April</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} />March</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> February</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> January</h5></li></ul>
   </div>
 </div>,
 <div className="last-year">
   <h4>2020</h4>
   <div className="month-list">
     <ul>
-      <li><h5>December</h5></li>
-      <li><h5>November</h5></li>
-      <li><h5>October</h5></li>
-      <li><h5>September</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> December</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> November</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> October</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> September</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-      <li><h5>August</h5></li>
-      <li><h5>July</h5></li>
-      <li><h5>June</h5></li>
-      <li><h5>May</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> August</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> July</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> June</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> May</h5></li>
     </ul>
   </div>
   <div className="month-list">
     <ul>
-    <li><h5>April</h5></li>
-      <li><h5>March</h5></li>
-      <li><h5>February</h5></li>
-      <li><h5>January</h5></li></ul>
+    <li><h5><FontAwesomeIcon icon={faFolderOpen} /> April</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> March</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> February</h5></li>
+      <li><h5><FontAwesomeIcon icon={faFolderOpen} /> January</h5></li></ul>
   </div>
 </div>
   

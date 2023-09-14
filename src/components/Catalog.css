@@ -18,7 +18,7 @@
 
 
 .latest-report h5 {
-    color: var(--writing-grey);
+    color: var(--atlas-green);
     padding: 0;
     font-family: var(--paragraph);
     font-size: 18px;
@@ -27,7 +27,7 @@
 }
 
 .latest-report h5:hover {
-    color: var(--atlas-green);
+    color: var(--atlas-blue);
 }
 
 .latest-report .month {
@@ -69,8 +69,8 @@ color: var(--atlas-green);
 
 .catalog-controls button {
     background-color: var(--sea-foam);
-        color: var(--atlas-blue);
-        border: 1px solid var(--atlas-red);
+        color: var(--atlas-green);
+        border: 1px solid var(--atlas-green);
         width: 100px;
         height: 35px;
         font-size: 15px;
@@ -81,8 +81,8 @@ color: var(--atlas-green);
 }
 
 .catalog-controls button:hover {
-    background-color: var(--atlas-blue);
-        color: var(--atlas-red);
+    background-color: var(--atlas-green);
+        color: var(--tea-green);
 }
 
 .catalog-controls span {
@@ -154,7 +154,7 @@ color: var(--atlas-green);
 
 
 .last-year h5 {
-    color: var(--writing-grey);
+    color: var(--atlas-green);
     padding: 0;
     font-family: var(--paragraph);
     text-transform: uppercase;

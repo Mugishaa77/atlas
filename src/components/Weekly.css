@@ -1,9 +1,11 @@
 .weekly-market-report {
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid var(--sea-foam);
     position: relative;
-    background-color: white;
+    background-color: var(--sea-foam);
+    border: 1px solid var(--tea-green);
+    
+    
 
 }
 
@@ -12,16 +14,17 @@
     flex-direction: column;
     padding: 0;
     margin: 0;
-    text-align: left;
-    font-family: var(--paragraph);
+    font-family: var(--heading-1);
     text-transform: uppercase;
     color: var(--atlas-green);
         
 }
 
 .weekly-market-report ul li {
-    padding: 0;
+    padding: 1rem;
     margin: 0;
+    border: 1px solid var(--tea-green);
+    
 
 }
 
@@ -29,6 +32,9 @@
     color: var(--atlas-blue);
 }
 
+.case {
+    padding-right: 5px;
+}
 
 .weekly-market-report h5 {
     display: flex;
