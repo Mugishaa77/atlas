@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFolderOpen} from '@fortawesome/free-regular-svg-icons';
 
 function MonthlyReports() {
+  const [months, setMonths] = useState([]);
   const [openMonth, setOpenMonth] = useState(null);
+
+  useEffect(() => {
+    axios.get('/api/monthly-reports')
+      .then((response) => {
+        setMonths(response.data);
+      })
+      .catch((error) => {
+        console.error('Error fetching data:', error);
+      });
+  }, []);
 
   const toggleMonth = (month) => {
     if (openMonth === month) {
@@ -13,24 +25,7 @@ function MonthlyReports() {
     }
   };
 
-  const months = [
-    {
-      name: 'September',
-      auctions: ['Auction 36'],
-    },
-    {
-      name: 'August',
-      auctions: ['Auction 35', 'Auction 34', 'Auction 33', 'Auction 32', 'Auction 31'],
-    },
-    {
-      name: 'July',
-      auctions: ['Auction 30', 'Auction 29', 'Auction 28', 'Auction 27'],
-    },
-    {
-      name: 'June',
-      auctions: ['Auction 26', 'Auction 25'],
-    },
-  ];
+  
 
   return (
     <div className="latest-report">
