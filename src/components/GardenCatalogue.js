@@ -1,18 +1,32 @@
+import Kenya from '../maps/kenya.jpg';
+import Rwanda from '../maps/rwanda.jpg';
+import Tz from '../maps/tanz.jpg';
+import Ug from '../maps/ug.jpg';
+import './Garden.css';
+
 export default function GardenCatalogue () {
     return (
         <div className="garden">
-            <h1>Gardens</h1>
-            Hello Visitor, I am working to ensure the visuals of our tea gardens are beautifully displayed. 
-            In this page, you should expect to see:
-            <br/>
-            1.Tea Plantations 
-            <br/>
-            2.Factory snapshots of afew companies <br/>
-            3.Logos of various tea gardens <br/>
-            4. List of gardens <br/>
-            5.Tea Maps<br/>
-            Thankyou for your patience
-
+            <div className="maps">
+                <div className="kenya-map">
+                     <img src={Kenya} alt="Atlas Tea Brokers Kenyan Map"/>
+                </div>
+                <div className="tz-map">
+                <img src={Tz} alt="Atlas Tea Brokers Tanzania Map"/>
+               </div>
+               <div className="ug-map">
+                 <img src={Ug} alt="Atlas Tea Brokers Uganda, Burundi Map"/>
+               </div>
+               <div className="rwanda-map">
+                <img src={Rwanda} alt="Atlas Tea Brokers Rwanda Map"/>
+               </div>
+               
+               
+                
+                
+               
+            </div>
+            
         </div>
     );
 }

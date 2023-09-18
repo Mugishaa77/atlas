@@ -1,0 +1,12 @@
+.maps {
+display: flex;
+flex-direction: row;
+
+}
+
+.maps img {
+    height: 650px;
+    border: 1px solid var(--tea-green);
+    
+}
+
