@@ -24,6 +24,7 @@ const plantations = [
 export default function Plantations() {
   return (
     <div className="plantations">
+  <h3> Production and Harvesting</h3>
       <ul className="grid">
         {plantations.map((item, index) => (
           <li key={index}>

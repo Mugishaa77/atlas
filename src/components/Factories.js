@@ -14,6 +14,7 @@ const factories = [
      mmaramba,
      kipkebe,
      gatare,
+     rutsiro,
      ggatare,
      gggatare,
      
@@ -22,6 +23,7 @@ const factories = [
 export default function Factories() {
   return (
     <div className="factories">
+      <h3>Processing and Packaging</h3>
       <ul className="ggrid">
         {factories.map((factories, index) => (
           <li key={index}>

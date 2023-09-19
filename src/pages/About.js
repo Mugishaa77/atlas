@@ -1,6 +1,4 @@
 import Directors from '../components/Directors';
-import karirana from '../estates/karirana-one.jpg';
-import maramba from '../estates/maramba-one.jpg';
 import '../App.css';
 
 export default function About() {
@@ -40,7 +38,7 @@ export default function About() {
                 </div>
 
                 <div className="journey">
-                    <h1>visual aid expected</h1>
+                    ...
                 </div>
 
                 

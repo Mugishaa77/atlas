@@ -8,7 +8,7 @@ import './Garden.css';
 export default function GardenCatalogue () {
     return (
         <div className="garden">
-            <div className="tea-plantations">
+                      <div className="tea-plantations">
                 <Plantations />
             </div>
             <div className="factory">
@@ -21,6 +21,7 @@ export default function GardenCatalogue () {
             <TeaLists />
         </div>
             <div className="maps">
+                 <h3>Tea Gardens across East Africa</h3>
                 <Maps/>       
             </div>
             

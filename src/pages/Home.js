@@ -93,7 +93,10 @@ export default function Home() {
         <h2>WE ARE LOCATED AT</h2>
         
         <h3>
-        <a href="" title="go to pin">
+        <a href="https://maps.app.goo.gl/Epx7EccvX8pgA8ba7"
+        target="_blank"
+        rel="noopener noreferrer"
+         title="go to pin">
         Shree Plaza Building, 4th Floor
         <br/>
         Fidel Odinga Rd Nyali</a></h3>
@@ -106,7 +109,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-            > +254 782 404 044
+            > 0782 404 044
               </a></span>
 <br/>
               <span><strong>Mob:</strong> <a
@@ -114,7 +117,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-              >+254 729 404 044
+              > 0729 404 044
               </a></span>
 
             </h4>

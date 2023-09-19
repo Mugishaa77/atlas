@@ -1,8 +1,4 @@
 import {Link} from 'react-router-dom';
-import auction from '../tea/auction.png';
-import team from '../tea/team.png';
-import aauction from '../tea/auction-two.png';
-import tasting from '../tea/tasting.png';
 
 export default function Services() {
     return (

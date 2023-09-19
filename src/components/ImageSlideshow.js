@@ -1,20 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import DLKoisagatImage from '../estates/DL-Koisagat.jpg';
-import MarambaOne from '../estates/maramba-one.jpg';
+import auction from '../tea/auction.png';
+import team from '../tea/team.png';
+import aauction from '../tea/auction-two.png';
+import tasting from '../tea/tasting.png';
+
 import './Component.css';
 
 const imagesData = [
-  {
-    src: DLKoisagatImage,
-    alt: 'Koisagat Tea Estate Ltd, Nandi Hills Kenya',
-    title: 'Koisagat Tea Estate Ltd, Nandi Hills Kenya',
-  },
   
-  {
-    src: MarambaOne,
-    alt: 'Maramba Tea Factory Ltd, Limuru/Banana Road, Black Tea Manufacturer',
-    title: 'Maramba Tea Estate, Black Tea Manufacturer',
-  },
+   team,
+ tasting,
+  
 ];
 
 const ImageSlideshow = () => {
@@ -50,9 +46,7 @@ const ImageSlideshow = () => {
           &#8592;
         </button>
         <img
-          src={currentImage.src}
-          alt={currentImage.alt}
-          title={currentImage.title}
+          src={currentImage}
           className="slideshow-image"
            
         />

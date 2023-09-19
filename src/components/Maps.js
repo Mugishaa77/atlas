@@ -7,6 +7,7 @@ import './Garden.css';
 export default function Maps () {
     return (
         <div className="tea-maps">
+           
             <div className="kenya-map">
                      <img src={Kenya} alt="Atlas Tea Brokers Kenyan Map"/>
                 </div>

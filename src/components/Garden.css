@@ -1,3 +1,9 @@
+.garden {
+    background-color: var(--tea-green);
+}
+
+
+
 .tea-maps {
 display: flex;
 flex-direction: row;
@@ -5,7 +11,7 @@ flex-direction: row;
 
 .tea-maps img {
     border: 1px solid var(--tea-green);
-    padding-top: 1rem;
+    padding: 1px;
     height: 650px; 
 }
 

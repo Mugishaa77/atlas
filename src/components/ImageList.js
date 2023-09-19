@@ -37,6 +37,7 @@ const imageList = [
 export default function ImageList() {
   return (
     <div className="image-list-container">
+      <h3>List of Gardens within our Catalogue</h3>
       <ul className="image-list">
         {imageList.map((image, index) => (
           <li key={index}>

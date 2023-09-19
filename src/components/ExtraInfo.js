@@ -1,6 +1,23 @@
+const imagesData = [
+  {
+    src: DLKoisagatImage,
+    alt: 'Koisagat Tea Estate Ltd, Nandi Hills Kenya',
+    title: 'Koisagat Tea Estate Ltd, Nandi Hills Kenya',
+  },
+  
+  {
+    src: MarambaOne,
+    alt: 'Maramba Tea Factory Ltd, Limuru/Banana Road, Black Tea Manufacturer',
+    title: 'Maramba Tea Estate, Black Tea Manufacturer',
+  },
+];
+
 export default function ExtraInfo () {
     return (
         <div>
+
+            
+
             <div className="values">
     <h3>OUR VALUES <hr/></h3>
     <ul><li>

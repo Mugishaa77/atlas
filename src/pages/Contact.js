@@ -48,7 +48,7 @@ export default function Contact () {
                 target="_blank"
                 title="Call"
                 rel="noopener noreferrer"
-            >+254 782 404 044
+            >0782 404 044
               </a></span>
 <br/>
               <span><strong>Mob:</strong><a
@@ -56,7 +56,7 @@ export default function Contact () {
                 target="_blank"
                 title="Call"
                 rel="noopener noreferrer"
-              >+254 729 404 044
+              >0729 404 044
               </a></span>
 
             </div>
@@ -120,16 +120,15 @@ export default function Contact () {
 <div className="section-two">
   <div className="map">
               <h3>Map and Directions<hr/></h3>
-               <iframe
-      title="Google Maps"
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.8459386310574!2d39.68570417420655!3d-4.051828144901343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012f98b4939d7%3A0x5017c8e77eb3342f!2sShell!5e0!3m2!1sen!2ske!4v1690378146667!5m2!1sen!2ske"
-      width="600"
-      height="450"
-      style={{ border: '0' }}
-      allowFullScreen=""
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-    ></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.847273971962!2d39.68501027415582!3d-4.0515567448997105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184012fa1c12bb03%3A0x45ca6f90ce1f9874!2sShree%20Plaza!5e0!3m2!1sen!2ske!4v1695126255338!5m2!1sen!2ske"
+               width="600" 
+               height="450"  
+               style={{ border: '0' }} 
+               allowfullscreen="" 
+               loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+
+                </iframe>
     </div>
            <div className="business-section">
             <div className="business-address">
