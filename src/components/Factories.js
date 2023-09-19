@@ -2,6 +2,10 @@ import kkarirana from '../tea/karirana.png';
 import kipkebe from '../tea/kipkebe.png';
 import mmaramba from '../tea/maramba-two.png';
 import ssotik from '../tea/sotik-two.png';
+import rutsiro from '../tea/rutsiro.png';
+import gatare from '../tea/gatare.png';
+import ggatare from '../tea/ggatare.png';
+import gggatare from '../tea/gataregatare.png';
 import './Garden.css';
 
 const factories = [
@@ -9,6 +13,9 @@ const factories = [
       ssotik,
      mmaramba,
      kipkebe,
+     gatare,
+     ggatare,
+     gggatare,
      
 ]
 

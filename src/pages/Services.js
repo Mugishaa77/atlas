@@ -1,4 +1,6 @@
 import {Link} from 'react-router-dom';
+import auction from '../tea/auction.png';
+import team from '../tea/team.png';
 
 export default function Services() {
     return (
@@ -16,12 +18,16 @@ export default function Services() {
                             <div className="col">
                                 <li>
                                     <h4>An Auction House</h4>
+                                    
                                     <p>We <span>sell teas</span> at the Mombasa Tea Auction under the rules and 
                                     regulations set by the <span>East Africa Tea Trade Association (EATTA).</span><br/>
+                                    <img src={auction}/>
                                      Our team of experts carefully handles the entire auction process, from pre-auction
                                       preparation to post-auction follow-ups, ensuring seamless transactions and maximum
                                        returns for our producer clients.</p>
+                                       
                                 </li>
+                                
                                 <li>
                                     <h4>Training</h4>
                                     <p>We are dedicated to securing the <span>future of the tea industry</span> by
@@ -31,14 +37,21 @@ export default function Services() {
                                        </p>
                                 </li>
                             </div>
+                            
                             <div className="col">
-                                <li className="net">
+                                 <li className="net">
                                     <h4>Networking</h4>
+                                    
+
                                     <p>In addition to <span>auction representation</span>, we also <span>facilitate
-                                         private sales</span> for both producers and buyers.<br/> Our vast network of
+                                         private sales</span> for both producers and buyers.<br/>
+                                         <img src={team} alt=""/> Our vast network of
                                           international buyers and producers allows us to connect parties directly, 
                                           enabling smooth trade negotiations.</p>
+                                          
                                 </li>
+                               
+                               
                                 <li>
                                     <h4>Technical Support</h4>
                                     <p>For buyers seeking premium teas, we curate a diverse selection of high-quality 

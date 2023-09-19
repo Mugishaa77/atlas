@@ -39,6 +39,7 @@ export default function Directors() {
                         alt="Dr Romano Mungiri Kiome, Atlas Tea Brokers Ltd, Kenya"
                         title="Dr Romano Mungiri Kiome, Atlas Tea Brokers Ltd, Kenya"/>
                     <h5>Dr. Romano Kiome<hr/></h5>
+                    <h6>Director</h6>
                 </div>
             </div>
 
@@ -64,9 +65,9 @@ export default function Directors() {
 
                 <div className="paul">
                     <img src={download}
-                        alt="Paul Muhoho, Finance Manager, Atlas Tea Brokers Ltd, Kenya"
-                        title="Paul Muhoho, Finance Manager"/>
-                    <h5>Paul Muhoho<hr/></h5>
+                        alt="Paul Muoho, Finance Manager, Atlas Tea Brokers Ltd, Kenya"
+                        title="Paul Muoho, Finance Manager"/>
+                    <h5>Paul Muoho<hr/></h5>
                     <h6>Finance Manager</h6>
                 </div>
             </div>
