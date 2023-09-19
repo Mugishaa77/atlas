@@ -1,6 +1,8 @@
 import {Link} from 'react-router-dom';
 import auction from '../tea/auction.png';
 import team from '../tea/team.png';
+import aauction from '../tea/auction-two.png';
+import tasting from '../tea/tasting.png';
 
 export default function Services() {
     return (
@@ -21,7 +23,7 @@ export default function Services() {
                                     
                                     <p>We <span>sell teas</span> at the Mombasa Tea Auction under the rules and 
                                     regulations set by the <span>East Africa Tea Trade Association (EATTA).</span><br/>
-                                    <img src={auction}/>
+                                    
                                      Our team of experts carefully handles the entire auction process, from pre-auction
                                       preparation to post-auction follow-ups, ensuring seamless transactions and maximum
                                        returns for our producer clients.</p>
@@ -45,7 +47,7 @@ export default function Services() {
 
                                     <p>In addition to <span>auction representation</span>, we also <span>facilitate
                                          private sales</span> for both producers and buyers.<br/>
-                                         <img src={team} alt=""/> Our vast network of
+                                          Our vast network of
                                           international buyers and producers allows us to connect parties directly, 
                                           enabling smooth trade negotiations.</p>
                                           
