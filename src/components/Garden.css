@@ -1,12 +1,80 @@
-.maps {
+.tea-maps {
 display: flex;
 flex-direction: row;
-
 }
 
-.maps img {
-    height: 650px;
+.tea-maps img {
     border: 1px solid var(--tea-green);
-    
+    padding-top: 1rem;
+    height: 650px; 
 }
 
+.image-list-container {
+    display: grid;
+    grid-template-rows: (2, 1fr);
+    /* Adjust the number of columns as needed */
+    gap: 1rem;
+    /* Adjust the gap between items as needed */
+    /* You can also specify other grid properties here */
+}
+
+.image-list {
+    list-style: none;
+    /* Remove list bullets */
+}
+
+.image-list li {
+    text-align: center;
+    /* Center-align the images */
+}
+
+.image-list img {
+    max-width: 100%;
+    /* Ensure images don't exceed their container width */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* Three columns */
+    grid-gap: 16px;
+    /* Adjust the gap between items as needed */
+}
+
+.grid li {
+    list-style: none;
+    /* Remove list bullets */
+    text-align: center;
+    /* Center-align the images */
+}
+
+.grid img {
+    max-width: 100%;
+    /* Ensure images don't exceed their container width */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+}
+
+.ggrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* Three columns */
+    grid-gap: 16px;
+    /* Adjust the gap between items as needed */
+}
+
+.ggrid li {
+    list-style: none;
+    /* Remove list bullets */
+    text-align: center;
+    /* Center-align the images */
+}
+
+.ggrid img {
+    max-width: 100%;
+    /* Ensure images don't exceed their container width */
+    height: auto;
+    /* Maintain the image's aspect ratio */
+}

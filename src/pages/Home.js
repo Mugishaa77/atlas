@@ -75,7 +75,7 @@ export default function Home() {
 
        
         <div className="home-gardens">
-          <h3><Link to="/garden"  title="See Tea Gardens">Gardens in our Catalogue
+          <h3><Link to="/garden"  title="See Tea Gardens">Tea Maps and Estates
          <FontAwesomeIcon icon={faLeaf} />
            </Link></h3></div>
            
