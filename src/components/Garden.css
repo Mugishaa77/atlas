@@ -67,10 +67,6 @@
     font-size: 18px;
     padding-top: 1px;
 }
-.tea-maps img {
-    height: 600px;
-   
-}
 
 .factories {
     margin: 1px;
@@ -127,4 +123,30 @@ color: var(--atlas-green);
     color: var(--atlas-blue);
     font-size: 18px;
     padding-top: 1px;
+}
+
+.maps {
+    border: 1px solid var(--tea-green);
+    background-color: var(--sea-foam);
+}
+
+.maps h3 {
+    text-align: center;
+    color: var(--atlas-blue);
+    padding: 1rem;
+    font-family: var(--atlas-font);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.tea-maps {
+    display: flex;
+    flex-direction: row;
+}
+
+.tea-maps img {
+    height: 650px;
+    margin: 1px;
+    background-color: var(--atlas-green);
+
 }

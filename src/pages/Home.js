@@ -109,7 +109,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-            > 0782 404 044
+            > +254 782 404 044
               </a></span>
 <br/>
               <span><strong>Mob:</strong> <a
@@ -117,7 +117,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-              > 0729 404 044
+              > +254 729 404 044
               </a></span>
 
             </h4>

@@ -9,16 +9,27 @@ export default function Maps () {
         <div className="tea-maps">
            
             <div className="kenya-map">
-                     <img src={Kenya} alt="Atlas Tea Brokers Kenyan Map"/>
+                     <img src={Kenya}
+                      alt="Atlas Tea Brokers Kenyan Map"
+                      title="Atlas Tea Brokers Kenyan Map"
+                      loading="lazy"/>
                 </div>
                 <div className="tz-map">
-                <img src={Tz} alt="Atlas Tea Brokers Tanzania Map"/>
+                <img src={Tz}
+                 alt="Atlas Tea Brokers Tanzania Map"
+                 title="Atlas Tea Brokers Tanzania Map"
+                      loading="lazy"/>
                </div>
                <div className="ug-map">
-                 <img src={Ug} alt="Atlas Tea Brokers Uganda, Burundi Map"/>
+                 <img src={Ug} alt="Atlas Tea Brokers Uganda, Burundi Map"
+                 title="Atlas Tea Brokers Uganda, Burundi Map"
+                      loading="lazy"/>
                </div>
                <div className="rwanda-map">
-                <img src={Rwanda} alt="Atlas Tea Brokers Rwanda Map"/>
+                <img src={Rwanda}
+                 alt="Atlas Tea Brokers Rwanda Map"
+                 title="Atlas Tea Brokers Rwanda Map"
+                      loading="lazy"/>
                </div>
 
         </div>
