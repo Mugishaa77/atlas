@@ -40,6 +40,7 @@ export default function Navbar() {
           <li><Link to="/service" style={isActive('/service')}>SERVICES</Link></li>
           <li><Link to="/news" style={isActive('/news')}>NEWS</Link></li>
           <li><Link to="/auction" style={isActive('/auction')}>TEA AUCTION</Link></li>
+          <li><Link to="/garden" style={isActive('/garden')}>GALLERY</Link></li>
           <li><Link to="/contact" style={isActive('/contact')}>CONTACT US</Link></li>
         </ul>
       </nav>
