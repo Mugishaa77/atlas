@@ -65,8 +65,66 @@
     font-family: var(--paragraph);
     color: var(--atlas-blue);
     font-size: 18px;
+    padding-top: 1px;
 }
 .tea-maps img {
     height: 600px;
    
+}
+
+.factories {
+    margin: 1px;
+    margin-top: 1rem;
+    border: 1px solid var(--sea-foam);
+}
+
+.factories .f {
+    display: flex;
+    justify-content: center;
+}
+
+.factories h3 {
+color: var(--atlas-green);
+    margin-left: 2rem;
+    font-family: var(--h3);
+    padding: 1rem;
+}
+
+.factories h3 hr {
+    margin: 0;
+    padding: 0;
+    width: 365px;
+}
+
+.factories .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+        /* Three columns */
+        grid-gap: 16px;
+
+}
+
+.factories .grid li {
+    list-style: none;
+    /* Remove list bullets */
+    text-align: center;
+    /* Center-align the images */
+}
+
+.factories .grid img {
+    width: 400px;
+    /* Set a fixed width */
+    height: 200px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Preserve the aspect ratio and cover the container */
+    border: 1px solid var(--tea-green);
+    background-color: var(--atlas-green);
+}
+
+.factories p {
+    font-family: var(--paragraph);
+    color: var(--atlas-blue);
+    font-size: 18px;
+    padding-top: 1px;
 }
