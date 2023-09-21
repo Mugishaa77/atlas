@@ -1,0 +1,72 @@
+.garden {
+    background-color: #F0FFF0;
+}
+.garden h2 {
+    color: var(--atlas-green);
+    text-align: center;
+    font-family: var(--atlas-font);
+    text-decoration: underline;
+    padding: 1rem;
+}
+
+.plantations {
+    margin: 1px;
+    border: 1px solid var(--tea-green);
+}
+
+.plantations .p {
+    display: flex;
+        justify-content: center;
+        /* Center horizontally */
+}
+
+.plantations h3 {
+  color: var(--atlas-green);
+  margin-left: 2rem;
+  font-family: var(--h3);
+  padding: 1rem;
+  
+}
+
+.plantations h3 hr {
+    margin: 0;
+    padding: 0;
+    width: 365px;
+}
+
+.plantations .grid {
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* Three columns */
+        grid-gap: 16px;
+        /* Adjust the gap between items as needed */
+     
+}
+
+.plantations .grid li {
+    list-style: none;
+    /* Remove list bullets */
+    text-align: center;
+    /* Center-align the images */
+}
+
+.plantations .grid img {
+    width: 400px;
+    /* Set a fixed width */
+    height: 200px;
+    /* Set a fixed height */
+    object-fit: cover;
+    /* Preserve the aspect ratio and cover the container */
+    border: 1px solid var(--tea-green);
+    background-color: var(--atlas-green);
+}
+
+.plantations p {
+    font-family: var(--paragraph);
+    color: var(--atlas-blue);
+    font-size: 18px;
+}
+.tea-maps img {
+    height: 600px;
+   
+}

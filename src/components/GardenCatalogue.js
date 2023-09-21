@@ -8,6 +8,7 @@ import './Garden.css';
 export default function GardenCatalogue () {
     return (
         <div className="garden">
+            <h2>ATLAS GROUND LEVEL INSIGHTS</h2>
                       <div className="tea-plantations">
                 <Plantations />
             </div>
