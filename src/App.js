@@ -39,6 +39,7 @@ function App() {
         <Route path="sale-catalogues" exact element={<SaleCatalogues/>}/>
         <Route path="forthcoming" exact element={<ForthcomingAuctions/>}/>
         <Route path="market-reports" exact element = {<MarketReports/>}/>
+        
       </Route>
       
       {/* Redirect to /not-found for all other routes */}

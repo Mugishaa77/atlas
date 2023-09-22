@@ -3,8 +3,8 @@ import './Weekly.css';
 
 function Weekly () {
 
-  // Define your URLs with the fallback to localhost:5000
-const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:5000';
+  // Define your URLs with the fallback to localhost:7000
+const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:7000';
 
   const pdfFiles = [
   `${baseUrl}/reports/Market_Report_Sale_35.pdf`,
@@ -21,6 +21,9 @@ const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:5000';
   `${baseUrl}/reports/Market_Report_Sale_24.pdf`,
   // Add more URLs as needed
 ];
+
+
+
 
     const [openMonth, setOpenMonth] = useState(null);
 

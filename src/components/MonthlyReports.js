@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import axios from 'axios';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileExcel, faFolderOpen} from '@fortawesome/free-regular-svg-icons';
 
@@ -34,6 +35,25 @@ function MonthlyReports() {
 
   
 
+// ...
+
+const handleViewExcel = async (fileName) => {
+  try {
+    // Make an HTTP GET request to fetch the Excel file
+    const response = await axios.get(`/excel/${fileName}`, { responseType: 'arraybuffer' });
+
+    // Create a Blob from the response data
+    const blob = new Blob([response.data], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+
+    // Create a URL for the Blob and open it in a new window
+    const url = window.URL.createObjectURL(blob);
+    window.open(url);
+  } catch (error) {
+    // Handle any errors (e.g., display an error message)
+    console.error('Error fetching Excel file:', error);
+  }
+};
+
   return (
     <div className="latest-report">
       <h4>2023</h4>
@@ -48,7 +68,7 @@ function MonthlyReports() {
                     <li key={auctionIndex}>
                      <>{auction} <FontAwesomeIcon icon={faFileExcel} /></> 
                       <div className="button">
-                        <button className="view" title="preview document">View</button>
+                        <button className="view"   onClick={() => handleViewExcel(auction)} title="preview document">View</button>
                         <button className="download" title="download file">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-download" viewBox="0 0 16 16">
                             <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
