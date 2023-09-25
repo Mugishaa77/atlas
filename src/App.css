@@ -1520,3 +1520,12 @@ font-size: 18px;
     text-align: center;
     color: var(--atlas-red);
 }
+
+@media (max-width: 900px) {
+    .auction .output {
+        flex-direction: column;
+        height: auto;
+        padding: 2rem;
+    }
+    
+}

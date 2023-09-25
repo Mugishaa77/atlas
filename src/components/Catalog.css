@@ -189,3 +189,17 @@ color: var(--atlas-green);
 }
 
 
+@media (max-width: 900px) {
+    .latest-report ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .latest-report .button {
+        margin: 0 auto;
+        margin-left:3rem;
+        padding-left: 3rem;
+        margin-right: 3rem;
+        padding-right: 3rem;
+    }
+}
