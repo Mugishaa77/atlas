@@ -144,7 +144,7 @@ a {
 }
 
 .glass-text {
-    color: var(--plate-black);
+    color:var(--plate-black);
     font-size: 90px;
     font-family: var(--welcome);
     margin-left: 80px;
@@ -152,6 +152,7 @@ a {
     animation: bounce 2s infinite;
     font-weight: bold;
     opacity: 0.9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
     
 }

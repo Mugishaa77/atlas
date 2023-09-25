@@ -10,7 +10,7 @@ export default function Report () {
             <Weekly />
 
         </div>,
-        <div>page 2</div>
+        
     ];
 
     const nextPage = () => {
