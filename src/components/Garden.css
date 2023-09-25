@@ -150,3 +150,30 @@ color: var(--atlas-green);
     background-color: var(--atlas-green);
 
 }
+@media (max-width: 900px) {
+    .plantations .grid,
+    .factories .grid,
+    .tea-maps
+     {
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .maps {
+        background-color: white;
+    }
+    
+        .tea-maps {
+            text-align: center;
+            max-width: auto;
+            padding: 1rem;
+            
+        }
+    .kenya-map,
+    .tz-map,
+    .ug-map,
+    .rwanda-map {
+        border: 1px solid var(--tea-green);
+    }
+    }
