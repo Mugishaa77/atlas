@@ -38,7 +38,7 @@ export default function About() {
                 </div>
 
                 <div className="journey">
-                    ...
+                    
                 </div>
 
                 

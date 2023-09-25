@@ -151,12 +151,24 @@ h5 hr {
     .directors h3 hr {
         width: 220px;
     }
-         
+
+    .our-directors,
+    .our-managers {
+        flex-direction: column;
+        text-align: center;
+    }
+
 
     .our-directors h5,
     .our-managers h5 {
         font-size: 18px;
     }
+
+    .our-directors h5 hr,
+    .our-managers h5 hr {
+        width: 50%;
+        margin: 0 auto;
+    } 
 
     .our-directors h6,
     .our-managers h6 {

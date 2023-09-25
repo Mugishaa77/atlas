@@ -684,6 +684,11 @@ h2 hr {
                 padding-bottom: 0;
                }
 
+               .about .figures {
+                flex-direction: column;
+                text-align: center;
+               }
+
                  .journey ul {
                    margin-top: 0;
                    padding: 0;
