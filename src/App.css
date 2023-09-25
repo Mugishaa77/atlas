@@ -85,9 +85,13 @@ a {
         /* Media Query for Hamburger Menu */
         @media (max-width: 900px) {
             .Navbar {
-                width: 100%;
+                    width: 100%;
+                    position: relative;
+                    /* Make the header a positioning context */
+                    z-index: 1;
+                    /* Ensure the header is above the content */
+                }
                 
-            }
 
             .logo img {
                 width: 150px;
@@ -95,32 +99,41 @@ a {
                 margin: 0;
                 padding: 0;
             }
-            .menu-toggle {
-                display: block;
-                margin-right: 5rem;
-                /* Show the menu toggle for smaller screens */
-            }
+            
+                        .menu-toggle {
+                            display: block;
+                            /* Show the menu toggle for smaller screens */
+                            position: absolute;
+                            /* Position it absolutely within the header */
+                            top: 20px;
+                            right: 20px;
+                        }
     
-            .nav-links {
-                display: none;
-                /* Hide the navigation links by default for smaller screens */
-                flex-direction: column;
-                background-color: white;
-                /* Add a background color for the menu */
-                position: absolute;
-                top: 70px;
-                /* Adjust the top position based on your header height */
-                right: 0;
-                width: 100%;
-                
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            }
-    
-            .nav-links.active {
-                display: flex;
-                /* Show the navigation links when the menu is active */
-            }
-    
+                        .nav-links {
+                            display: none;
+                            flex-direction: column;
+                            background-color: white;
+                            position: absolute;
+                            top: 100%;
+                            /* Adjusted to start below the header */
+                            right: 0;
+                            width: 100%;
+                            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                            z-index: 2;
+                            transform: translateY(-100%);
+                            /* Hide the menu initially */
+                            transition: transform 0.3s ease-in-out;
+                            /* Add a transition for smooth animation */
+                        }
+            
+                        .nav-links.active {
+                            display: flex;
+                            transform: translateY(0);
+                            /* Show the menu */
+                        }
+
+                        
+            
             /* Position the bars for the hamburger icon */
             .menu-toggle.active .bar:nth-child(1) {
                 transform: rotate(-45deg) translate(-5px, 6px);
@@ -152,7 +165,7 @@ a {
     animation: bounce 2s infinite;
     font-weight: bold;
     opacity: 0.9;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     
     
 }

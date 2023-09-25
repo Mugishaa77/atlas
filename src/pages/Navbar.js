@@ -4,15 +4,23 @@ import '../App.css';
 import Logo from '../tea/Logo.PNG';
 
 export default function Navbar() {
+  
   const [isMenuActive, setIsMenuActive] = useState(false);
+  const [activeMenuItem, setActiveMenuItem] = useState(null); // New state variable
   const location = useLocation(); // Get the current location from React Router
 
-  const handleMenuToggle = () => {
-    setIsMenuActive(!isMenuActive);
-  };
+  const handleMenuToggle = (menuItem) => {
+  setIsMenuActive(!isMenuActive);
+  setActiveMenuItem(menuItem);
+};
+
+
+
 
   const isActive = (pathname) => {
-    return location.pathname === pathname ? { color: 'var(--atlas-green)' } : {};
+    return location.pathname === pathname || activeMenuItem === pathname
+      ? { color: 'var(--atlas-green)' }
+      : {};
   };
 
   return (
