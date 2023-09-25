@@ -21,7 +21,7 @@ export default function Home() {
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'right',
-    backgroundColor: '#f5f5f5',
+    backgroundColor: 'var(--atlas-green)',
     height: '500px',
     padding: '2rem',
     color: 'var(--atlas-blue)',
@@ -49,10 +49,10 @@ export default function Home() {
 
         <div className="about-p">
           <p>
-            <strong>Established in 2002, Atlas Tea Brokers is a Leading Tea Brokerage Company</strong>.<br />
-            As a member of <strong>East Africa Tea Trade Association (EATTA)</strong> since July <strong>2015</strong>, we bridge producers and buyers, representing <strong>36 esteemed tea gardens</strong> across
+            <strong>Atlas Tea Brokers Ltd is a Leading Tea Brokerage Company Established in 2002.</strong>.<br />
+            As a member of <strong>East Africa Tea Trade Association (EATTA)</strong> since July <strong>2015</strong>, we bridge producers and buyers, representing <strong>over 40 esteemed tea gardens</strong> across
             <strong> Kenya, Rwanda, Burundi, Uganda, and Tanzania</strong>.<br />
-            With a strong <strong>7% market share</strong>, we consistently secure optimal prices for our clients.
+           With a strong  <strong>market share of 7%,</strong> are committed to consistently securing <strong>optimal</strong> prices for our clients.
           </p>
         </div>
 
