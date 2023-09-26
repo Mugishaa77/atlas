@@ -30,12 +30,10 @@ const factories = [
   { image: ssotik, title: 'Sotik Tea Companies, Kenya', caption: 'Sotik Tea Companies, Nandi- Kenya' },
   { image: rutsiro, title: 'Rutsiro Tea Factory, Rwanda', caption: 'Rutsiro Tea Factory, Rwanda' },
   { image: mmaramba, title: 'Maramba Tea Factory, Kenya - Black Tea Manufacturer', caption: 'Maramba Tea Factory, Kenya' },  
-  
   {image: teza, title: 'Teza Tea Factory, Burundi', caption: 'Teza Tea Factory, Burundi'},
-  
   {image: mbogo, title: 'Mbogo Valley Tea Factory, Kenya', caption: 'Mbogo Valley Tea Factory, Kenya'},
-      {image: mogeni, title: 'Mogeni Tea Factory, Ikonge - Kenya', caption: 'Mogeni Tea Factory, Kenya'},
-      {image: karirana, title: 'Karirana Estates Limited, Kiambu Road, Kenya - Home of Eden Tea', caption:'Karirana Tea Factory, Kenya'},
+  {image: mogeni, title: 'Mogeni Tea Factory, Ikonge - Kenya', caption: 'Mogeni Tea Factory, Kenya'},
+  {image: karirana, title: 'Karirana Estates Limited, Kiambu Road, Kenya - Home of Eden Tea', caption:'Karirana Tea Factory, Kenya'},
   
  
     

@@ -617,7 +617,7 @@ h2 hr {
        
 
         .why-us h3 {
-        text-align: center;
+        text-align: left;
         font-family: var(--h3);
         padding-top: 2rem;
         color: var(--atlas-green);
@@ -626,7 +626,7 @@ h2 hr {
         .why-us h3 hr {
         width: 350px;
         margin-top: 0;
-        margin: 0 auto;
+        
        }
 
        .why-us h3 hr {
@@ -660,7 +660,6 @@ h2 hr {
        }
 
        .why-us ul li {
-        list-style-type: circle;
         color: var(--atlas-blue);
         
        }

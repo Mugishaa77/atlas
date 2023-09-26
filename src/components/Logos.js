@@ -10,23 +10,28 @@ import mogeni from '../tea/mogeni-logo.png';
 import nandi from '../tea/nandi-tea-logo.png';
 import rwanda from '../tea/rwanda-logo.png';
 import wood from '../tea/wood-logo.png';
+
 import './Component.css';
 
+const logos = [
+toiyoi, mcleod, finlays, dl, dllogo, emrok, karirana, 
+maramba, mogeni, nandi, rwanda, wood, mbogo, kkisyet, 
+kkkisyet, sotik, korara, silverback, karongi, sorwathe,
+muganza, ctb
+]
 export default function Logos () {
     return (
         <div className="logos">
-<img src={toiyoi}/>
-<img src={mcleod}/>
-<img src={finlays}/>
-<img src={dl}/>
-<img src={dllogo}/>
-<img src={emrok}/>
-<img src={karirana}/>
-<img src={maramba }/>
-<img src={mogeni}/>
-<img src={nandi}/>
-<img src={rwanda}/>
-<img src={wood}/>
+<ul className="grid">
+        {logos.map((logos, index) => (
+          <li key={index}>
+            <img src={logos}
+            alt=""
+             loading="lazy" />
+           
+          </li>
+        ))}
+      </ul>
 
         </div>
     );

@@ -25,6 +25,8 @@ export default function About() {
             </div>
 
             <div className="about-lists">
+                
+
                 <div className="why-us">
                     <h3>WHY CHOOSE US ? <hr/></h3>
                     <ul>
@@ -36,11 +38,8 @@ export default function About() {
                     </ul>
                     <p><em>We Know Tea</em></p>
                 </div>
-
-                <div className="journey">
-                    
-                </div>
-
+          
+               
                 
             </div>
 

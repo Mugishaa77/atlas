@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import auction from '../tea/auction.png';
-import team from '../tea/team.png';
-import aauction from '../tea/auction-two.png';
-import tasting from '../tea/tasting.png';
+import one from '../buyers/one.png';
+import two from '../buyers/two.png';
+import three from '../buyers/three.png';
+import four from '../buyers/four.png';
+import five from '../buyers/five.png';
+import six from '../buyers/six.png';
+
 
 import './Component.css';
 
 const imagesData = [
-  
-   team,
- tasting,
+  one, two, three, four, five, six,
   
 ];
 

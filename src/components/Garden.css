@@ -141,7 +141,7 @@ color: var(--atlas-green);
 
 .tea-maps {
     display: flex;
-    flex-direction: row;
+    justify-content: space-around;
 }
 
 .tea-maps img {
@@ -177,3 +177,51 @@ color: var(--atlas-green);
         border: 1px solid var(--tea-green);
     }
     }
+
+    /* ImageList */
+    .logos {
+        background-color: white;
+        padding-top: 1rem;
+        margin: 1rem;
+        border: 1px solid var(--tea-green);
+    }
+
+    .logos h3 {
+        text-align: center;
+        padding: 1rem;
+        color: var(--atlas-green);
+        text-decoration: underline;
+        text-transform: capitalize;
+
+    }
+                .logos .grid {
+                    display: grid;
+                    grid-template-columns: repeat(5, 1fr);
+                    justify-content: center;
+                    align-items: center;
+                    /* Adjust the gap between grid items as needed */
+                }
+        
+                .logos .grid-item {
+                    width: 200px;
+                    /* Set a fixed width for each grid item */
+                    height: 200px;
+                    /* Set a fixed height for each grid item */
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                }
+        
+                .logos .grid-item img {
+                    max-width: 100%;
+                    max-height: 100%;
+                    width: auto;
+                    height: auto;
+                }
+                
+                
+                
+        
+
+        
