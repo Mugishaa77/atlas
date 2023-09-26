@@ -13,8 +13,6 @@ import mulindii from '../ttea/mulindi-factory.png';
 import kisaru from '../ttea/kisaru-f.png';
 import teza from '../ttea/teza.png';
 import koisagat from '../ttea/Koisagat.png';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndustry } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
 
 const factories = [
@@ -42,7 +40,7 @@ const factories = [
 export default function Factories() {
   return (
     <div className="factories">
-      <h3><FontAwesomeIcon icon={faIndustry} />Processing and Packaging<hr/></h3>
+      <h3>Processing and Packaging<hr/></h3>
       <div className="f">
       <ul className="grid">
         {factories.map((factories, index) => (
