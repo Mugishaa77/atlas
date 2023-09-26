@@ -12,24 +12,24 @@ import emrok from '../ttea/emrok-tea.png';
 import eastern from '../ttea/eastern.png';
 import sireet from '../ttea/sireet.png';
 import kisyet from '../ttea/kisyet.png';
-import gisakura from '../ttea/gisakura.png';
 import nyabihu from '../ttea/nyabihu.png';
 import gisovu from '../ttea/gisovu.png';
 import karongi from '../ttea/karongi.png';
-import kisaru from '../ttea/kisaru.png';
 import burundi from '../ttea/burundi.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
 
 const plantations = [
-  {image: finlays},
-  {image: emrok},
-  {image: eastern},
-  {image: sireet},
-  {image: kisyet}, {image: eastern}, {image: gisakura}, {image: nyabihu},
-  {image: gisovu}, {image: karongi}, {image: kisaru}, {image: burundi},
-
+  {image: finlays, title: 'James Finlays Tea Estates, Kenya', caption: 'James Finlays Tea Estates, Kenya'},
+  {image: emrok, title: 'Emrok Tea Estates, Kenya', caption: 'Emrok Tea Estates, Nandi-Kenya'},
+  {image: eastern, title: 'Eastern Produce Tea Estates, Kenya', caption: 'Eastern Produce Tea Estate, Kenya'},
+  {image: sireet, title: 'Sireet OEP estates, Nandi-Kenya', caption: 'Sireet OEP Estates, Nandi-Kenya'},
+  {image: kisyet, title: 'Kisyet Tea Limited, Kenya', caption: 'Kisyet Tea Estates, Kenya'},
+  {image: nyabihu, title: 'Nyabihu TeaFactory, Karago rwanda', caption: 'Nyabihu Tea Estates, Rwanda'},
+  {image: gisovu, title: 'Gisovu Tea Factory, karongi, Rwanda', caption: 'Gisovu Tea Factory, Rwanda'}, 
+  {image: karongi, title: 'Karongi Tea Factory, rwanda', caption: 'Karongi Tea Factory, Rwanda'},
+  {image: burundi, title:'Office du the du Burundi', caption: 'Office du the du Burundi'},
   { image: livingstonia, title: 'Livingstonia Tea Garden, Rwanda', caption: 'Livingstonia Tea Estate, Rwanda' },
   { image: kibena, title: 'Kibena Tea Estate, Tanzania', caption: 'Kibena Tea Estate, Tanzania' },
   { image: mata, title: 'Mata Tea Plantation, Rwanda', caption: 'Mata Tea Plantation, Rwanda ' },
