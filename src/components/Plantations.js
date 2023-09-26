@@ -7,11 +7,29 @@ import Rubaya from '../tea/rubaya.png';
 import shagasha from '../tea/shagasha.png';
 import sotik from '../tea/sotik-one.png';
 import tinderet from '../tea/tinderet.png';
+import finlays from '../ttea/finlays.png';
+import emrok from '../ttea/emrok-tea.png';
+import eastern from '../ttea/eastern.png';
+import sireet from '../ttea/sireet.png';
+import kisyet from '../ttea/kisyet.png';
+import gisakura from '../ttea/gisakura.png';
+import nyabihu from '../ttea/nyabihu.png';
+import gisovu from '../ttea/gisovu.png';
+import karongi from '../ttea/karongi.png';
+import kisaru from '../ttea/kisaru.png';
+import burundi from '../ttea/burundi.png';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
 
 const plantations = [
+  {image: finlays},
+  {image: emrok},
+  {image: eastern},
+  {image: sireet},
+  {image: kisyet}, {image: eastern}, {image: gisakura}, {image: nyabihu},
+  {image: gisovu}, {image: karongi}, {image: kisaru}, {image: burundi},
+
   { image: livingstonia, title: 'Livingstonia Tea Garden, Rwanda', caption: 'Livingstonia Tea Estate, Rwanda' },
   { image: kibena, title: 'Kibena Tea Estate, Tanzania', caption: 'Kibena Tea Estate, Tanzania' },
   { image: mata, title: 'Mata Tea Plantation, Rwanda', caption: 'Mata Tea Plantation, Rwanda ' },
