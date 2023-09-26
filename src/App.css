@@ -621,6 +621,7 @@ h2 hr {
         font-family: var(--h3);
         padding-top: 2rem;
         color: var(--atlas-green);
+        margin-left: 5rem;
        }
 
         .why-us h3 hr {
