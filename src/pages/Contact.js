@@ -6,7 +6,7 @@ import '../App.css';
 
 export default function Contact () {
 
-    const [form, setForm] = React.useState({
+    const [form, setForm] = useState({
         fullName: '',
         emailAddress: '',
         subject: '',
@@ -18,6 +18,37 @@ export default function Contact () {
   const { name, value } = event.target;
   setForm(prevForm => ({...prevForm, [name]: value }));
 };
+
+const handleSubmit = (event) => {
+    event.preventDefault();
+
+    fetch('/send-email', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(form)
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        if (data.message === 'Email sent successfully') {
+          // Reset the form or show a success message to the user
+          setForm({
+            fullName: '',
+            emailAddress: '',
+            subject: '',
+            messageItem: ''
+          });
+        } else {
+          // Handle error
+          console.error('Failed to send email');
+        }
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  };
+
 
     return (
         <div className="contact">
@@ -114,7 +145,7 @@ export default function Contact () {
 
 
 </form>
-<button>Send</button>
+<button  onClick={handleSubmit}>Send</button>
 </div>
            </div>
 <div className="section-two">

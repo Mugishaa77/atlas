@@ -1,31 +1,29 @@
 import { useState  } from 'react';
 import './Weekly.css';
+import thirtyFive from '../reports/Market_Report_Sale_35.pdf';
+import thirtyFour from '../reports/Market_Report_Sale_34.pdf';
+import thirtyThree from '../reports/Market_Report_Sale_33.pdf';
+import thirtyTwo from '../reports/Market_Report_Sale_32.pdf';
+import thirtyOne from '../reports/Market_Report_Sale_31.pdf';
+import thirty from '../reports/Market_Report_Sale_30.pdf';
+import twentyNine from '../reports/Market_Report_Sale_29.pdf';
+import twentyEight from '../reports/Market_Report_Sale_28.pdf';
+import twentySeven from '../reports/Market_Report_Sale_27.pdf';
+import twentySix from '../reports/Market_Report_Sale_26.pdf';
+import twentyFive from '../reports/Market_Report_Sale_25.pdf';
+import twentyFour from '../reports/Market_Report_Sale_24.pdf';
+
 
 function Weekly () {
 
-  // Define your URLs with the fallback to localhost:7000
-const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:7000';
-
   const pdfFiles = [
-  `${baseUrl}/reports/Market_Report_Sale_35.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_34.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_33.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_32.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_31.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_30.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_29.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_28.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_27.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_26.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_25.pdf`,
-  `${baseUrl}/reports/Market_Report_Sale_24.pdf`,
+  thirtyFive, thirtyFour, thirtyThree, thirtyTwo, thirtyOne,
+  thirty, twentyNine, twentyEight, twentySeven, twentySix, twentyFive,
+  twentyFour,
   // Add more URLs as needed
 ];
 
-
-
-
-    const [openMonth, setOpenMonth] = useState(null);
+  const [openMonth, setOpenMonth] = useState(null);
 
   const toggleMonth = (month) => {
     if (openMonth === month) {
