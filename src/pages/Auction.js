@@ -1,4 +1,5 @@
 import '../App.css';
+import Footer from '../components/Footer';
 import { NavLink, Outlet } from 'react-router-dom';
 
 
@@ -68,6 +69,9 @@ export default function Auction () {
 
             </div>
             </div>
+            <div className="bottom">
+      <Footer />
+    </div>
             </div>
                                 
     );

@@ -1,4 +1,5 @@
 import Directors from '../components/Directors';
+import Footer from '../components/Footer';
 import '../App.css';
 
 export default function About() {
@@ -77,6 +78,9 @@ excellence in the world of tea.</span>
                 </p>
                 
                 </div>
+                 <div className="bottom">
+      <Footer />
+    </div>
         </div>
     );
 }

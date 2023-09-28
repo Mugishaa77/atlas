@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 import React, { useEffect, useState } from 'react';
 import homepage from '../tea/homepage.png';
+import Footer from '../components/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGavel, faLeaf, faNewspaper } from "@fortawesome/free-solid-svg-icons";
 import '../App.css';
@@ -123,6 +124,9 @@ export default function Home() {
             </h4>
             
       </div>
+    </div>
+    <div className="bottom">
+      <Footer />
     </div>
     </div>
   );

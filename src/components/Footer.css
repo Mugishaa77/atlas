@@ -1,0 +1,47 @@
+.foot-note {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 0;
+
+}
+
+.foot-note .left {
+    margin-left: 2rem;
+    color: var(--atlas-blue);
+        font-family: var(--paragraph);
+        font-weight: bold;
+        margin-bottom: 0;
+        text-decoration: underline;
+        font-size: 14px;
+       
+        
+
+}
+.foot-note .center {
+    margin: 0 auto;
+    font-family: var(--welcome);
+    color: var(--atlas-green);
+    font-size: 21px;
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 6rem;
+    font-weight: bold;
+
+     
+
+    
+}
+
+.foot-note .right {
+    margin-right: 2rem;
+    color: var(--atlas-blue);
+    font-family: var(--paragraph);
+    font-weight: bold;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    text-decoration: underline;
+    font-size: 14px;
+    
+}

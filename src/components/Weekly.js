@@ -1,37 +1,15 @@
 import { useState  } from 'react';
 import './Weekly.css';
-import thirtyFive from '../reports/Market_Report_Sale_35.pdf';
-import thirtyFour from '../reports/Market_Report_Sale_34.pdf';
-import thirtyThree from '../reports/Market_Report_Sale_33.pdf';
-import thirtyTwo from '../reports/Market_Report_Sale_32.pdf';
-import thirtyOne from '../reports/Market_Report_Sale_31.pdf';
-import thirty from '../reports/Market_Report_Sale_30.pdf';
-import twentyNine from '../reports/Market_Report_Sale_29.pdf';
-import twentyEight from '../reports/Market_Report_Sale_28.pdf';
-import twentySeven from '../reports/Market_Report_Sale_27.pdf';
-import twentySix from '../reports/Market_Report_Sale_26.pdf';
-import twentyFive from '../reports/Market_Report_Sale_25.pdf';
-import twentyFour from '../reports/Market_Report_Sale_24.pdf';
-
 
 function Weekly () {
 
-  const pdfFiles = [
-  thirtyFive, thirtyFour, thirtyThree, thirtyTwo, thirtyOne,
-  thirty, twentyNine, twentyEight, twentySeven, twentySix, twentyFive,
-  twentyFour,
-  // Add more URLs as needed
-];
+  const pdfFiles = Array.from({ length: 12 }, (_, index) => `../reports/Market_Report_Sale_${index + 24}.pdf`);
 
   const [openMonth, setOpenMonth] = useState(null);
 
-  const toggleMonth = (month) => {
-    if (openMonth === month) {
-      setOpenMonth(null);
-    } else {
-      setOpenMonth(month);
-    }
-  };
+   const toggleMonth = (month) => {
+  setOpenMonth(openMonth === month ? null : month);
+};
 
   const months= [
     {

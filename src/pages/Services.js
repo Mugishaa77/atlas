@@ -1,7 +1,9 @@
 import {Link} from 'react-router-dom';
+import Footer from '../components/Footer';
 
 export default function Services() {
     return (
+
         <div className="services">
             <div className="service-header">
                 {/* Content for service-header */}
@@ -70,6 +72,9 @@ export default function Services() {
                      responsible</strong> tea gardens and buyers who share our values, supporting their efforts to promote
                       <span> sustainability</span> and <span>fair-trade practices</span>.</p>
             </div>
+            <div className="bottom">
+      <Footer />
+    </div>
         </div>
     );
 }

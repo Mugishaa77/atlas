@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import Footer from '../components/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText, faLocationDot, faPhone, faEnvelope, faDoorOpen, faDoorClosed } from "@fortawesome/free-solid-svg-icons";
 import '../App.css';
@@ -200,6 +201,9 @@ const handleSubmit = (event) => {
            
 
              </div>
+             <div className="bottom">
+      <Footer />
+    </div>
      </div>      
       
     );
