@@ -63,6 +63,7 @@
     /* Preserve the aspect ratio and cover the container */
     border: 1px solid var(--tea-green);
     background-color: var(--atlas-green);
+    box-shadow: 0 4px 8px rgba(0, 159, 85, 0.2);
 }
 
 .plantations p {
@@ -124,6 +125,7 @@ color: var(--atlas-blue);
     /* Preserve the aspect ratio and cover the container */
     border: 1px solid var(--tea-green);
     background-color: var(--atlas-green);
+    box-shadow: 0 4px 8px rgba(52, 47, 127, 0.2);
 }
 
 .factories p {
