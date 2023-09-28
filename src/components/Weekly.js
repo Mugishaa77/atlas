@@ -1,9 +1,22 @@
 import { useState  } from 'react';
+import thirtyFive from '../reports/Market Report Sale 35.pdf';
+import thirtyFour from '../reports/Market Report Sale 34.pdf';
+import thirtyThree from '../reports/Market Report Sale 33.pdf';
+import thirtyTwo from '../reports/Market Report Sale 32.pdf';
+import thirtyOne from '../reports/Market Report Sale 31.pdf';
+import thirty from '../reports/Market Report Sale 30.pdf';
+import twentyNine from '../reports/Market Report Sale 29.pdf';
+import twentyEight from '../reports/Market Report Sale 28.pdf';
+import twentySeven from '../reports/Market Report Sale 27.pdf';
+import twentySix from '../reports/Market Report Sale 26.pdf';
+import twentyFive from '../reports/Market Report Sale 25.pdf';
+import twentyFour from '../reports/Market Report Sale 24.pdf';
+
 import './Weekly.css';
 
 function Weekly () {
 
-  const pdfFiles = Array.from({ length: 12 }, (_, index) => `../reports/Market_Report_Sale_${index + 24}.pdf`);
+  
 
   const [openMonth, setOpenMonth] = useState(null);
 

@@ -156,6 +156,7 @@ color: var(--atlas-blue);
     height: 650px;
     margin: 1px;
     background-color: var(--atlas-green);
+    box-shadow: 0 4px 8px rgba(0, 159, 85, 0.2);
 
 }
 @media (max-width: 900px) {
@@ -227,6 +228,7 @@ color: var(--atlas-blue);
                     max-height: 100%;
                     width: auto;
                     height: auto;
+                    
                 }
                 
                 
