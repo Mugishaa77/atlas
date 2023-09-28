@@ -53,7 +53,7 @@ export default function Home() {
             <strong>Atlas Tea Brokers Ltd is a Leading Tea Brokerage Company Established in 2002.</strong>.<br />
             As a member of <strong>East Africa Tea Trade Association (EATTA)</strong> since July <strong>2015</strong>, we bridge producers and buyers, representing <strong>over 40 esteemed tea gardens</strong> across
             <strong> Kenya, Rwanda, Burundi, Uganda, and Tanzania</strong>.<br />
-           With a strong  <strong>market share of 7%,</strong> are committed to consistently securing <strong>optimal</strong> prices for our clients.
+          <strong> We are committed to consistently securing optimal prices for our clients and currently hold a strong MARKET SHARE of 7%.</strong>.
           </p>
         </div>
 

@@ -18,7 +18,7 @@ export default function About() {
                             <li>Number of Marks at the inaugural sale: <span className="num">3</span></li>
                         </div>
                         <div className="figure">
-                            <li>Number of Gardens today: <span className="num">33 from 5 countries</span></li>
+                            <li>Number of Gardens today: <span className="num">40 from 5 countries</span></li>
                             <li>Current market share: <span className="num">7%</span></li>
                         </div>
                     </div>
