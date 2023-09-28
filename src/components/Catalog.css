@@ -103,6 +103,10 @@ color: var(--atlas-green);
     padding-top: 0;
 }
 
+.latest-report a {
+    text-transform: lowercase;
+}
+
 .latest-report .view {
     border: none;
     background: none;
@@ -119,6 +123,7 @@ color: var(--atlas-green);
     color: var(--atlas-red);
     text-decoration: underline;
 }
+
 
 .latest-report .download {
     border: none;
