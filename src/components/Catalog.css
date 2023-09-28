@@ -96,7 +96,6 @@ color: var(--atlas-green);
 
 .latest-report .button {
     display: flex;
-       justify-content: space-between;
     font-size: 14px;
     font-family: var(--heading-1);
     margin-top: 0;
@@ -107,24 +106,6 @@ color: var(--atlas-green);
     text-transform: lowercase;
 }
 
-.latest-report .view {
-    border: none;
-    background: none;
-    color: var(--atlas-green);
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    cursor: pointer;
-    
-
-}
-
-.latest-report .view:hover {
-    color: var(--atlas-red);
-    text-decoration: underline;
-}
-
-
 .latest-report .download {
     border: none;
         background: none;
@@ -132,6 +113,7 @@ color: var(--atlas-green);
        margin: 0;
         padding: 0;
         cursor: pointer;
+        padding-left: 2rem;
 }
 
 .latest-report .download:hover {
