@@ -47,7 +47,7 @@ export default function ImageList() {
       <ul className="grid">
         {imageList.map ((image, index) => (
           <li key={index} className="grid-item">
-            <img src={image} alt={`Image ${index}`} />
+            <img src={image} alt="Atlas Tea Brokers Ltd" />
           </li>
         ))}
       </ul>
