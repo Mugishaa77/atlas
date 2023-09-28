@@ -16,7 +16,12 @@ import './Weekly.css';
 
 function Weekly () {
 
-  
+   const pdfFiles = [
+  thirtyFive, thirtyFour, thirtyThree, thirtyTwo, thirtyOne,
+  thirty, twentyNine, twentyEight, twentySeven, twentySix, twentyFive,
+  twentyFour,
+  // Add more URLs as needed
+];
 
   const [openMonth, setOpenMonth] = useState(null);
 
