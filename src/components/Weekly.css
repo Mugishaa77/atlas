@@ -55,11 +55,10 @@
 
 .weekly-market-report .button {
     display: flex;
-    font-size: 14px;
-    font-family: var(--heading-1);
     margin-top: 0;
     padding-top: 0;
 }
+
 
 .weekly-market-report .view {
 flex: 1;
@@ -126,3 +125,11 @@ flex: 1;
     margin: 1rem;
 }
 
+.weekly-market-report .button a {
+    font-size: 14px;
+    font-family: var(--heading-1);
+    text-transform: lowercase;
+    padding: 1px;
+    font-weight: light;
+
+}
