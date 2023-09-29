@@ -162,6 +162,10 @@ color: var(--atlas-blue);
 
 }
 @media (max-width: 900px) {
+    .plantations,
+    .factories {
+        margin-left: 1rem;
+    }
     .plantations .grid,
     .factories .grid,
     .tea-maps
@@ -171,6 +175,12 @@ color: var(--atlas-blue);
         margin: 1rem;
         padding: 1rem;
     
+    }
+
+    .plantations h3,
+    .factories h3 {
+        margin: 0;
+        padding: 0;
     }
 
     .maps {
@@ -240,6 +250,11 @@ color: var(--atlas-blue);
                     .logos .grid {
                             display: grid;
                             grid-template-columns: repeat(2, 1fr);
+                    }
+
+                    .logos .grid {
+                        width: 150px;
+                        height: 150px;
                     }
                 }
         
