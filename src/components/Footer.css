@@ -45,3 +45,21 @@
     font-size: 14px;
     
 }
+
+@media (max-width: 900px) {
+    .foot-note .left {
+        display: none;
+    }
+    .foot-note .center {
+        display: none;
+    }
+    
+    .foot-note .right {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 10px;
+        margin: 0 auto;
+
+    }
+}

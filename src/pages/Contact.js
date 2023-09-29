@@ -6,6 +6,8 @@ import '../App.css';
 
 
 export default function Contact () {
+    
+  const baseUrl = process.env.REACT_APP_BASE_URL;
 
     const [form, setForm] = useState({
         fullName: '',
@@ -23,7 +25,7 @@ export default function Contact () {
 const handleSubmit = (event) => {
     event.preventDefault();
 
-    fetch('/send-email', {
+    fetch(`${baseUrl}/email`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -98,7 +100,8 @@ const handleSubmit = (event) => {
               />EMAIL </h3>
                  <a
                 href="mailto:info@atlastea.co.ke"
-                title="Email"
+                title= "Email"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="email-link"
               >
