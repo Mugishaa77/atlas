@@ -183,6 +183,12 @@ color: var(--atlas-blue);
         padding: 0;
     }
 
+    .plantations h3 hr,
+    .factories h3 hr {
+        margin: 0 auto;
+        width: 90%;
+    }
+
     .maps {
         background-color: white;
     }
