@@ -5,6 +5,7 @@ import Maps from '../components/Maps';
 import './Garden.css';
 
 export default function GardenCatalogue () {
+   
     return (
         <div className="garden">
             <h2>ATLAS GROUND LEVEL INSIGHTS</h2>

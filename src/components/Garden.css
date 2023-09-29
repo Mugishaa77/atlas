@@ -168,6 +168,8 @@ color: var(--atlas-blue);
      {
         display: flex;
         flex-direction: column;
+        margin: 1rem;
+        padding: 1rem;
     
     }
 
@@ -234,7 +236,12 @@ color: var(--atlas-blue);
                 }
                 
                 
-                
+                @media (max-width: 900px) {
+                    .logos .grid {
+                            display: grid;
+                            grid-template-columns: repeat(2, 1fr);
+                    }
+                }
         
 
         

@@ -7,7 +7,7 @@ import '../App.css';
 
 export default function Contact () {
     
-  const baseUrl = process.env.REACT_APP_BASE_URL;
+  const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:7000';
 
     const [form, setForm] = useState({
         fullName: '',
