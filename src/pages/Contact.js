@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText, faLocationDot, faPhone, faEnvelope, faDoorOpen, faDoorClosed } from "@fortawesome/free-solid-svg-icons";
+import axios from 'axios';
 import '../App.css';
 
 
@@ -22,35 +23,25 @@ export default function Contact () {
   setForm(prevForm => ({...prevForm, [name]: value }));
 };
 
-const handleSubmit = (event) => {
-    event.preventDefault();
 
-    fetch(`${baseUrl}/email`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(form)
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.message === 'Email sent successfully') {
-          // Reset the form or show a success message to the user
-          setForm({
-            fullName: '',
-            emailAddress: '',
-            subject: '',
-            messageItem: ''
-          });
-        } else {
-          // Handle error
-          console.error('Failed to send email');
-        }
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
-  };
+       
+
+const handleSubmit = async () => {
+  try {
+    const response = await axios.post(`${baseUrl}/email`, form);
+    console.log(response.data); // Success message
+
+    // Reset the form fields after successful submission
+    setForm({
+      fullName: '',
+      emailAddress: '',
+      subject: '',
+      messageItem: ''
+    });
+  } catch (error) {
+    console.error('Error sending email:', error);
+  }
+};
 
 
     return (
