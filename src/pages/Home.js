@@ -91,7 +91,7 @@ export default function Home() {
       <div className="footer">
        <div className="footer-inner">
         
-        <h2>WE ARE LOCATED AT</h2>
+        <h2>LOCATION</h2>
         
         <h3>
         <a href="https://maps.app.goo.gl/Epx7EccvX8pgA8ba7"

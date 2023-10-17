@@ -1,15 +1,17 @@
 import {Link} from 'react-router-dom';
 import Footer from '../components/Footer';
+import Maps from '../components/Maps';
 
 export default function Services() {
     return (
 
         <div className="services">
-            <div className="service-header">
-                {/* Content for service-header */}
-            </div>
+             <h2>OUR SERVICES<hr/></h2>
+            <div className="maps">
+                <Maps/>       
+            </div>           
             <div className="service">
-                <h2>OUR SERVICES<hr/></h2>
+               
                 <p className="open">As a specialized tea brokerage firm, we offer a comprehensive range of services 
                 tailored to meet the unique needs of both tea producers and buyers:</p>
                 <div className="service-table">
@@ -66,12 +68,14 @@ export default function Services() {
                     </div>
                 </div>
             </div>
+             
             <div className="service-close">
                 <h3>COMMITMENT TO SUSTAINABILITY<hr/></h3>
                 <p>As responsible brokers, we <span>actively advocate</span> for <strong>sustainable</strong> and <strong>eco-friendly</strong> practices within the tea industry.<br/> We partner with <strong>socially
                      responsible</strong> tea gardens and buyers who share our values, supporting their efforts to promote
                       <span> sustainability</span> and <span>fair-trade practices</span>.</p>
             </div>
+            
             <div className="bottom">
       <Footer />
     </div>
