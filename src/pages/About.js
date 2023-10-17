@@ -1,4 +1,3 @@
-import Directors from '../components/Directors';
 import Footer from '../components/Footer';
 import '../App.css';
 
@@ -57,15 +56,12 @@ export default function About() {
                 </p>
             </div>
 
-            <div className="directors-component">
-                <Directors />
-            </div>
+    
 
             
 
             <div className="conclusion">
-                <h3>CONCLUSION<hr/>
-                </h3>
+               
                 <p>
                    
  We invite <span>tea producers and buyers</span> alike to <span>partner with us</span> on their <span>journey to success</span> as we navigate

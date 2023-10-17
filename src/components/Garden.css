@@ -264,5 +264,16 @@ color: var(--atlas-blue);
                     }
                 }
         
+.tea-mmaps {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 2px;
+    margin: 1rem;
+   
+}
 
+.tea-mmaps img {
+    height: 500px;
+}
         

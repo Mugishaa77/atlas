@@ -830,7 +830,7 @@ h2 hr {
     margin-top: 0;
 }
 
-.services h2 {
+.services  h2 {
     font-family: var(--atlas-font);
     text-align: center;
     color: var(--atlas-blue);
@@ -842,16 +842,12 @@ h2 hr {
 }
 
 .service .open {
-    padding: 0 100px;
     text-align: left;
     font-size: 23px;
     font-family: var(--paragraph);
-    padding-bottom: 1rem;
     color: var(--atlas-blue);
-}
-
-.service p {
-    padding-top: 2rem;
+    padding: 1rem;
+    margin-bottom: 0;
 }
 
 .service-table {

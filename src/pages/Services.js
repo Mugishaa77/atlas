@@ -1,14 +1,14 @@
 import {Link} from 'react-router-dom';
 import Footer from '../components/Footer';
-import Maps from '../components/Maps';
+import Mmaps from '../components/Mmaps';
 
 export default function Services() {
     return (
 
         <div className="services">
-             <h2>OUR SERVICES<hr/></h2>
-            <div className="maps">
-                <Maps/>       
+            <h2>OUR SERVICES<hr/></h2>
+            <div className="mmaps">
+                <Mmaps/>       
             </div>           
             <div className="service">
                
