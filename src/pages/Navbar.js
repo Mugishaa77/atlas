@@ -37,14 +37,13 @@ export default function Navbar() {
             />
           </Link>
         </div>
-        <div className={`menu-toggle ${isMenuActive ? 'active' : ''}`} onClick={handleMenuToggle}>
+        <div className={`menu-toggle ${isMenuActive ? 'active' : ''}`} onClick={handleMenuToggle} >
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
         <ul className={`nav-links ${isMenuActive ? 'active' : ''}`}>
-          <li><Link to="/" style={isActive('/')} >HOME</Link></li>
-          <li><Link to="/about" style={isActive('/about')}>ABOUT US</Link></li>          
+          <li><Link to="/" style={isActive('/')} >HOME</Link></li>        
           <li><Link to="/service" style={isActive('/service')}>SERVICES</Link></li>
           <li><Link to="/auction" style={isActive('/auction')}>TEA AUCTION</Link></li>
            <li><Link to="/news" style={isActive('/news')}>NEWS</Link></li>
