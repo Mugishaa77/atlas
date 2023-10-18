@@ -4,14 +4,14 @@ import './Garden.css';
 import dl from '../tea/dl-group-logo.png';
 import ddl from '../tea/DL-logo.png';
 import emrok from '../tea/emrok-logo.png';
-import karirana from '../tea/karirana-logo.png';
+import karirana from '../tea/karirana-new.jpg';
 import maramba from '../tea/maramba-logo.png';
 import mcleod from '../tea/mcleod.png';
 import mogeni from '../tea/mogeni-logo.png';
 import nandi from '../tea/nandi-tea-logo.png';
 import Rwanda from '../tea/rwanda-logo.png';
 import sasini from '../tea/sasini-logo.png';
-import toiyoi from '../tea/toiyoi.png';
+import epkl from '../tea/epkl.jpg';
 import williamson from '../tea/williamson-logo.png';
 import wood from '../tea/wood-logo.png';
 import mbogo from '../ttea/mbogo-logo.png';
@@ -29,7 +29,7 @@ import ctb from '../ttea/ctb.png';
 import './Garden.css';
 
 const imageList = [
-  nandi, wood, karongi, muganza, maramba, mogeni, sasini, toiyoi, korara,
+  nandi, wood, karongi, muganza, maramba, mogeni, sasini, epkl, korara,
   dl,
   ddl,
   emrok, williamson,
