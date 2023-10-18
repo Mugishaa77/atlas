@@ -21,6 +21,11 @@ import SaleCatalogues from './tea auction/SaleCatalogues';
 import ForthcomingAuctions from './tea auction/ForthcomingAuctions';
 import MarketReports from './tea auction/MarketReports';
 
+// about
+import Profile from './pages/about/Profile';
+import Community from './pages/about/Community';
+import Science from './pages/about/Science';
+
 function App() {
   return (
     <div className="App">
@@ -29,7 +34,11 @@ function App() {
 
      <Routes>
       <Route path="/" exact element = {<Home />} />
-      <Route path="/about" exact element = {<About/>} />
+      <Route path="/about" exact element = {<About/>} >
+        <Route path="profile" exact element={<Profile/>}/>
+        <Route path="community" exact element={<Community/>}/>
+        <Route path="science" exact element={<Science/>}/>
+      </Route>
       <Route path="/contact" exact element = {<Contact />} />
      <Route path="/service" exact element = {<Services />} />
      <Route path="/garden" exact element = {<GardenCatalogue/>} />
