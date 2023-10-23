@@ -1,6 +1,42 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine, faFireFlameCurved, faIndustry } from "@fortawesome/free-solid-svg-icons";
 
+     const pictures = [
+        {image:`${backendApiUrl}/pictures/ARROKET TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/DL KOISAGAT TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/EASTERN PRODUCE KENYA.jpg`},
+        {image: `${backendApiUrl}/pictures/EMROK TEA FACTORY LTD(EPZ).jpg`},
+        {image: `${backendApiUrl}/pictures/GATARE TEA COMPANY LTD.jpg`},
+        {image: `${backendApiUrl}/pictures/Gisakura Tea Factory.jpg`},
+        {image: `${backendApiUrl}/pictures/JAMES FINLAY KERICHO.jpg`},
+        {image: `${backendApiUrl}/pictures/KAPCHORUA TEA ESTATE.jpg`},
+        {image: `${backendApiUrl}/pictures/KARIRANA TEA ESTATE.jpg`},
+        {image: `${backendApiUrl}/pictures/karongi tea factory ltd.jpg`},
+        {image: `${backendApiUrl}/pictures/KIBENA TEA ESTATE.jpg`},
+        {image: `${backendApiUrl}/pictures/KIPKEBE TEA LTD.jpg`},
+        {image: `${backendApiUrl}/pictures/KISARU TEA ESTATE.jpg`},
+        {image: `${backendApiUrl}/pictures/KITUMBE TEA FACTORY.jpg`},
+        { image:`${backendApiUrl}/pictures/KORARA HIGHLANDS TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/MARAMBA TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/MATA TEA COMPANY LTD.jpg`},
+        {image: `${backendApiUrl}/pictures/MOGENI TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/MUFINDI TEA PLANTATION.jpg`},
+        {image: `${backendApiUrl}/pictures/muganza-kivu tea factory.jpg`},
+        { image: `${backendApiUrl}/pictures/MULINDI FACTORY COMPANY LTD.jpg`},
+        { image: `${backendApiUrl}/pictures/NANDI TEA ESTATES.jpg`},
+        { image: `${backendApiUrl}/pictures/NYABIHU TEA FACTORY.jpg`},
+        { image: `${backendApiUrl}/pictures/OTB.jpg`},
+        { image: `${backendApiUrl}/pictures/Pfunda Tea Company.jpg`},
+        { image:`${backendApiUrl}/pictures/ RUBAYA TEA ESTATE.jpg`},
+        {image: `${backendApiUrl}/pictures/Rwegura Tea Plantation.jpg`},
+        {image: `${backendApiUrl}/pictures/SASINI.jpg`},
+        {image: `${backendApiUrl}/pictures/SHAGASHA TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/SORWATHE TEA FACTORY.jpg`},
+        {image: `${backendApiUrl}/pictures/SORWATHE TEA PLANTATION.jpg`},
+        {image: `${backendApiUrl}/pictures/Teza Tea Estate.jpg`},
+        {image: `${backendApiUrl}/pictures/Teza Tea Plantation.jpg`}
+     ]
+
 const imagesData = [
   {
    

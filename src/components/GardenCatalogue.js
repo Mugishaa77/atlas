@@ -1,6 +1,7 @@
 import Plantations from '../components/Plantations';
 import ImageList from '../components/ImageList';
 import Factories from '../components/Factories';
+import Pictures from '../components/Pictures';
 import './Garden.css';
 
 export default function GardenCatalogue () {
@@ -17,7 +18,9 @@ export default function GardenCatalogue () {
             <div className="logos">
             <ImageList />
         </div>
-        
+        <div className="pictures">
+            <Pictures />
+        </div>
             
             
         
