@@ -372,6 +372,21 @@ a {
      
 }
 
+.associates {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.associates img{
+    height: 60px;
+
+}
+
+
+
+
 .footer {
     text-align: center;
     color: var(--atlas-blue);

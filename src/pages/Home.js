@@ -133,6 +133,7 @@ export default function Home() {
       rel="noopener noreferrer">
         <img src={eatta}
         alt="EATTA"
+        className="eatta"
         title="East African Tea Trade Association"/>
       </a>
       <a href="https://www.teaboard.or.ke/"
@@ -140,6 +141,7 @@ export default function Home() {
       rel="noopener noreferrer">
         <img src={tbk}
         alt="Tea Board of Kenya"
+        className="tbk"
         title="Tea Board of Kenya" />
       </a>
     </div>
