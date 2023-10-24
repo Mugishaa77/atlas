@@ -384,6 +384,14 @@ a {
 
 }
 
+.associates img:hover {
+    color: #F0F0F0;
+}
+
+.redirect {
+    font-weight: bold;
+}
+
 
 
 

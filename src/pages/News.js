@@ -1,12 +1,22 @@
 import '../News.css';
 
 export default function News () {
+// Make a request to the oEmbed endpoint (you may use a fetch library like Axios).
+// Ensure you have an Instagram API access token.
+// For testing purposes, you can use a tool like Postman to make requests and retrieve the HTML.
+
+// Once you have the oEmbed HTML, you can include it in your component.
+
     return (
-        <div className="news">
+         <div className="news">
            <h2>NEWS<hr/></h2>
            <div className="digital">
             <h5>Mombasa Tea Auction Goes Digital</h5>
+
             
+
+
+
             <iframe width="560" height="315" 
             src="https://www.youtube.com/embed/6mbvhDDa6Ns?si=Fg6y-cAuav4733LE"
              title="YouTube video player" frameborder="0" 
@@ -35,6 +45,19 @@ export default function News () {
                   <a href="https://www.the-star.co.ke/business/kenya/2022-07-29-tea-prices-remain-stable-as-strong-dollar-earns-farmers-more/"
                   target="_blank"
                  rel="noopener noreferrer">Read more.</a>
+           </div>
+           <div className="atlas-news">
+            <h5>Tea Masters Cup Competition</h5>
+                <a href="https://web.facebook.com/reel/224524933813108?mibextid=F9SUZr"
+            target="_blank"
+                 rel="noopener noreferrer">
+                Tea Masters Cup
+            </a>
+            <a href="https://teamasterscup.com/"
+            target="_blank"
+                 rel="noopener noreferrer">
+                More about Tea Masters Cup
+            </a>
            </div>
            
         </div>
