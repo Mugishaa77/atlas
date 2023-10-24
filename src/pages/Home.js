@@ -5,6 +5,8 @@ import Footer from '../components/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGavel, faLeaf, faNewspaper } from "@fortawesome/free-solid-svg-icons";
 import '../App.css';
+import eatta from '../tea/EATTA.png';
+import tbk from '../tea/tbk.png';
 
 
 export default function Home() {
@@ -124,6 +126,22 @@ export default function Home() {
             </h4>
             
       </div>
+    </div>
+    <div className="associates">
+      <a href="https://eatta.co.ke/"
+      target="_blank"
+      rel="noopener noreferrer">
+        <img src={eatta}
+        alt="EATTA"
+        title="East African Tea Trade Association"/>
+      </a>
+      <a href="https://www.teaboard.or.ke/"
+      target="_blank"
+      rel="noopener noreferrer">
+        <img src={tbk}
+        alt="Tea Board of Kenya"
+        title="Tea Board of Kenya" />
+      </a>
     </div>
     <div className="bottom">
       <Footer />
