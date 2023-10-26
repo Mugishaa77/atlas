@@ -1,4 +1,4 @@
-import Report from "../components/Report";
+import Report from "../documents/Report";
 
 export default function MarketReports () {
     return (

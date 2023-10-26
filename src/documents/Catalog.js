@@ -1,7 +1,5 @@
 import React, { useState } from 'react';
 import MonthlyReports from './MonthlyReports';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFolderOpen} from '@fortawesome/free-regular-svg-icons';
 import './Catalog.css';
 
 const Catalog = () => {
