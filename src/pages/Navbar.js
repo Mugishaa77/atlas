@@ -45,14 +45,15 @@ export default function Navbar() {
         <ul className={`nav-links ${isMenuActive ? 'active' : ''}`}>
           <li><Link to="/" style={isActive('/')} >HOME</Link></li>
           <li className="dropdown">
-            <Link to="/about" style={isActive('/about')}>ABOUT <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+            <Link to="/" style={isActive('/about')} >
+           ABOUT <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
   <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
-</svg> </Link>
+</svg> 
             <ul className="dropdown-items">
               <li><Link to="/profile" style={isActive('/profile')}>Profile</Link></li>
-               <li><Link to="/community" style={isActive('/community')}>Community</Link></li>
-                <li><Link to="/science" style={isActive('/science')}>Science</Link></li>
-              </ul></li>        
+               <li><Link to="/community" style={isActive('/community')}>Activities</Link></li>
+                <li><Link to="/science" style={isActive('/science')}>Tea</Link></li>
+              </ul></Link></li>        
           <li><Link to="/service" style={isActive('/service')}>SERVICES</Link></li>
           <li><Link to="/auction" style={isActive('/auction')}>TEA AUCTION</Link></li>
            <li><Link to="/news" style={isActive('/news')}>NEWS</Link></li>

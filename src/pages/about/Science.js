@@ -1,8 +1,12 @@
 import scienceOne from '../../tea/science-one.jpg';
 import scienceTwo from '../../tea/science-two.jpg';
+import Industry from '../../documents/Industry';
 
 export default function Science () {
     return (<div className="science">
+        <div className="tbk-reports">
+            <Industry />
+        </div>
         <div className="structure">
             <img src={scienceOne}/>
             <img src={scienceTwo}/>
