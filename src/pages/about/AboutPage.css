@@ -57,6 +57,10 @@
     padding: 1rem;
     display: flex;
     justify-content: end;
+
+
+    
+   
     
 }
 
@@ -77,11 +81,13 @@
     padding: 1rem;
     border-radius: 2px;
     border: 1px solid #F5F5F5;
+    transition: box-shadow 0.2s;
 }
 
 .tea-production a:hover {
     color: #2876DD;
        background-color: #F5F5F5;
        border: 1px solid #2876DD;
+        box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Apply a box shadow on hover */
 
 }
