@@ -23,11 +23,17 @@ export default function Science () {
             </div>
 
             <div className="tea-production">
-                <h2>Production Statistics ~ Kenya </h2>
+               
+                <div className="graph">
+                  
                 <img src={teaProduction} />
+                  
+                </div>
                 <a href="https://www.statista.com/statistics/1154187/tea-production-in-kenya/"
                 rel="noopener noreferrer"
-                target="_blank" ></a>
+                target="_blank" >
+                    Read more here
+                </a>
 
             </div>
 

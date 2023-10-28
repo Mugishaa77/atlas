@@ -34,6 +34,8 @@
     justify-content: space-evenly;
     padding: 1rem;
     border-bottom: 1px solid var(--background-grey);
+    box-shadow: 0 0 5px var(--background-dblue);
+    margin: 1rem;
    
 }
 
@@ -50,9 +52,36 @@
         margin-top: 1rem;
 }
 
+.tea-production .graph{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+    
+}
+
 .tea-production img {
     padding: 1rem;
     margin: 1rem;
+    width: 70%;
     border: 1px solid var(--background-grey);
     box-shadow: 0 4px 6px var(--atlas-blue);
+    
+}
+
+.tea-production a {
+    margin-left: 10rem;
+    text-decoration: underline;
+    background-color: #2876DD;
+    color: #F5F5F5;
+    padding: 1rem;
+    border-radius: 2px;
+    border: 1px solid #F5F5F5;
+}
+
+.tea-production a:hover {
+    color: #2876DD;
+       background-color: #F5F5F5;
+       border: 1px solid #2876DD;
+
 }
