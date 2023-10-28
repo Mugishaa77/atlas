@@ -1,6 +1,18 @@
 .industry-reports {
     padding: 1rem;
     margin: 1rem;
+    border-right: 1px solid var(--background-grey);
+
+   
+}
+
+.industry-reports h2 {
+   
+    color: var(--atlas-blue);
+    text-transform: capitalize;
+    text-align: center;
+    font-family: var(--atlas-font);
+
    
 }
 
@@ -11,6 +23,54 @@
         /* Adjust as needed */
 }
 
-.report {
-  
+.grid-container h5 {
+    color: var(--atlas-green);
+    text-transform: uppercase;
+    font-family: var(--paragraph);
+    text-align: center;
+    box-shadow: 0 4px 8px var(--seafoam);
+    background-color: white;
+        border-radius: 8px;
+        width: 200px;
+        height: 50px;
+        padding: 5px;
+        border: 1px solid var(--sea-foam);
+        
+}
+
+.grid-container h5:hover {
+    background-color: var(--sea-foam);
+    transform: translateY(-2px);
+}
+
+
+
+.grid-container h5 svg {
+    color: var(--atlas-red);
+    margin-left: 1px;
+    padding-left: 1px;
+   
+}
+
+.grid-container .report .button {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--background-dblue);
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+
+.grid-container .report .button:hover {
+    background-color: var(--background-grey);
+}
+.grid-container .report .button .view {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-container .report .button .download {
+    display: flex;
+        flex-direction: column;
+
 }

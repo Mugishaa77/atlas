@@ -1,0 +1,58 @@
+.science {
+    background-color: #F5F5F5;
+    
+}
+.tbk-reports {
+    display: flex;
+    border-bottom: 1px solid var(--background-grey);
+    box-shadow: 0 0 5px var(--background-dblue);
+}
+
+.i-one {
+    flex: 3;
+}
+
+.i-two {
+    flex: 1;
+}
+
+.structure {
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+.structure h2 {
+    color: var(--atlas-blue);
+        text-transform: capitalize;
+        text-align: center;
+        font-family: var(--atlas-font);
+}
+
+.tea-science-pics {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    border-bottom: 1px solid var(--background-grey);
+   
+}
+
+.tea-science-pics img {
+    height: 500px;
+}
+
+.tea-production h2 {
+    color: var(--atlas-blue);
+        text-transform: capitalize;
+        text-align: center;
+        font-family: var(--atlas-font);
+        padding-top: 1rem;
+        margin-top: 1rem;
+}
+
+.tea-production img {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--background-grey);
+    box-shadow: 0 4px 6px var(--atlas-blue);
+}
