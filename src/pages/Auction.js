@@ -8,8 +8,8 @@ export default function Auction () {
             <h2>TEA AUCTION <hr/></h2>
             <p>
                 At Atlas, we actively participate in weekly tea auctions, a cornerstone of the tea industry,
-                 where a wide range of tea grades and varieties find their way to discerning buyers.
-                  Our auctions are conducted at the East African Tea Trade Association (EATTA) secretariat with utmost professionalism.
+                 where a variety of teas find their way to discerning buyers.
+                  We operate under the auspices of the  East African Tea Trade Association (EATTA).
                   
                          </p>
                 

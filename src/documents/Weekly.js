@@ -1,6 +1,9 @@
 import { useState  } from 'react';
-import fourtyOne from '../reports/Market Report Sale 41.pdf'
-import fourty from '../reports/Market Report Sale 40.pdf'
+import fourtyFour from '../reports/Market Report Sale 44.pdf';
+import fourtyThree from '../reports/Market Report Sale 43.pdf';
+import fourtyTwo from '../reports/Market Report Sale 42.pdf';
+import fourtyOne from '../reports/Market Report Sale 41.pdf';
+import fourty from '../reports/Market Report Sale 40.pdf';
 import thirtyNine from '../reports/Market Report Sale 39.pdf';
 import thirtyEight from '../reports/Market Report Sale 38.pdf';
 import thirtySeven from  '../reports/Market Report Sale 37.pdf';
@@ -22,7 +25,7 @@ import './Weekly.css';
 
 function Weekly () {
 
-   const pdfFiles = [fourtyOne, fourty, thirtyNine, thirtyEight,
+   const pdfFiles = [fourtyFour, fourtyThree, fourtyTwo, fourtyOne, fourty, thirtyNine, thirtyEight,
     thirtySeven, thirtySix,thirtyFive, thirtyFour, thirtyThree, thirtyTwo,
      thirtyOne, thirty, twentyNine, twentyEight, twentySeven, twentySix,
       twentyFive, twentyFour,
@@ -36,8 +39,11 @@ function Weekly () {
 };
 
   const months= [
+    {name: 'November 2023',
+  report: ['Sale 44 - 1st November']},
+
     {name: 'October 2023',
-  report: ['Sale 41 - 12th October',
+  report: ['Sale 43 - 25th October','Sale 42 - 18th October','Sale 41 - 12th October',
 'Sale 40 - 5th October'],
 },
     {name: 'September 2023',

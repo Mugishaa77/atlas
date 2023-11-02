@@ -112,7 +112,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-              > +254 729 404 044
+              > 0729 404 044
               </a></span>
               <br/>
 <span>
@@ -122,7 +122,7 @@ export default function Home() {
                 target="_blank"
                 title="call"
                 rel="noopener noreferrer"
-            > +254 782 404 044
+            > 0782 404 044
               </a></span>
 
              

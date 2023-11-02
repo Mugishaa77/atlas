@@ -28,6 +28,10 @@
                             
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
 /* Navbar */
 nav {
    
@@ -867,6 +871,8 @@ h2 hr {
     /* Off-White */
 }
 
+
+
 .services .service {
     margin: 2rem;
     margin-top: 0;
@@ -1137,6 +1143,11 @@ h2 hr {
 
  .email span {
     font-size: 20px;
+ }
+
+ .email span:hover {
+    color: var(--atlas-blue);
+    text-decoration: underline;
  }
 
  .contact-form h3 {

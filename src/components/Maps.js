@@ -6,6 +6,7 @@ import './Garden.css';
 
 export default function Maps () {
     return (
+        
         <div className="tea-maps">
            
             <div className="kenya-map">
@@ -20,7 +21,8 @@ export default function Maps () {
                  title="Atlas Tea Brokers Tanzania Map"
                       loading="lazy"/>
                </div>
-               <div className="ug-map">
+
+                <div className="ug-map">
                  <img src={Ug} alt="Atlas Tea Brokers Uganda, Burundi Map"
                  title="Atlas Tea Brokers Uganda, Burundi Map"
                       loading="lazy"/>
@@ -31,7 +33,10 @@ export default function Maps () {
                  title="Atlas Tea Brokers Rwanda Map"
                       loading="lazy"/>
                </div>
-
+              
         </div>
+        
+
+        
     );
 }
