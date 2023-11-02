@@ -29,6 +29,8 @@
     height: 70px;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
+    object-fit: contain;
+    width: 300px;
 }
 
 .structure {
