@@ -14,6 +14,20 @@
 
 .i-two {
     flex: 1;
+    padding: 1rem;
+}
+
+.i-two h4 {
+    padding-top: 15rem;
+    color: var(--atlas-blue);
+    font-family: var(--paragraph);
+    text-decoration: underline;
+}
+
+.i-two img {
+    height: 70px;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 .structure {
@@ -40,7 +54,8 @@
 }
 
 .tea-science-pics img {
-    height: 500px;
+    height: 600px;
+    
 }
 
 .tea-production h2 {
@@ -56,7 +71,7 @@
     margin: 1rem;
     padding: 1rem;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 
 
     

@@ -51,12 +51,10 @@ export default function Home() {
         
 
         <div className="about-p">
-          <p>
-            <strong>Atlas Tea Brokers Ltd is a Leading Tea Brokerage Company Established in 2002.</strong>.<br />
-            As a member of <strong>East Africa Tea Trade Association (EATTA)</strong> since July <strong>2015</strong>, we bridge producers and buyers, representing <strong>over 40 esteemed tea gardens</strong> across
-            <strong> Kenya, Rwanda, Burundi, Uganda, and Tanzania</strong>.<br />
-          <strong> We are committed to consistently securing optimal prices for our clients and currently hold a strong MARKET SHARE of 7%.</strong>.
-          </p>
+        <p>Atlas is a Tea Company that was established in 2002.
+          <br/>
+          We have been members of the <strong>East African Tea Trade Association</strong> since July 2015.
+        </p>
         </div>
 
         <div className="about-button">
@@ -108,7 +106,16 @@ export default function Home() {
         Fidel Odinga Rd Nyali</a></h3>
         
         <hr/>
-        <h4> <span>
+        <h4> 
+           <span><strong>Mob:</strong> <a
+                href="tel:+254729404044"
+                target="_blank"
+                title="call"
+                rel="noopener noreferrer"
+              > +254 729 404 044
+              </a></span>
+              <br/>
+<span>
 
               <strong>Tel:</strong> <a
                 href="tel:+254782404044"
@@ -117,15 +124,8 @@ export default function Home() {
                 rel="noopener noreferrer"
             > +254 782 404 044
               </a></span>
-<br/>
-              <span><strong>Mob:</strong> <a
-                href="tel:+254729404044"
-                target="_blank"
-                title="call"
-                rel="noopener noreferrer"
-              > +254 729 404 044
-              </a></span>
 
+             
             </h4>
             
       </div>

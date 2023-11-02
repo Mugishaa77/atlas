@@ -3,6 +3,7 @@ import scienceTwo from '../../tea/science-two.jpg';
 import Industry from '../../documents/Industry';
 import teaProduction from '../../tea/tea-production.png';
 import Footer from '../../components/Footer';
+import tbk from '../../tea/tbk.png';
 import './AboutPage.css';
 
 export default function Science () {
@@ -12,14 +13,23 @@ export default function Science () {
             <Industry />
             </div>
             <div className="i-two">
+                <h4>Reports Compiled By:</h4>
+                <a href="https://www.teaboard.or.ke/"
+      target="_blank"
+      rel="noopener noreferrer">
+        <img src={tbk}
+        alt="Tea Board of Kenya"
+        className="tbk"
+        title="Tea Board of Kenya" />
+      </a>
 
             </div>
         </div>
         <div className="structure">
             <h2>Tea Science</h2>
             <div className="tea-science-pics">
-            <img src={scienceOne}/>
-            <img src={scienceTwo}/>
+            <img src={scienceTwo} alt="tea-science"/>
+            <img src={scienceOne} alt="tea-science"/>
             </div>
 
             <div className="tea-production">
@@ -27,7 +37,7 @@ export default function Science () {
                
                 <div className="graph">
                   
-                <img src={teaProduction} />
+                <img src={teaProduction} alt="tea-production" />
                   
                 </div>
                  <a href="https://www.statista.com/statistics/1154187/tea-production-in-kenya/"

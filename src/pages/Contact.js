@@ -66,22 +66,24 @@ const handleSubmit = async () => {
               <h3>
                  <FontAwesomeIcon icon={faPhone} />
                  PHONE</h3>
-              <span>
+             
+
+              <span><strong>Mob:</strong><a
+                href="tel:+254729404044"
+                target="_blank"
+                title="Call"
+                rel="noopener noreferrer"
+              >0729 404 044
+              </a></span>
+              <br/>
+               <span>
 
               <strong>Tel:</strong><a
                 href="tel:+25482404044"
                 target="_blank"
                 title="Call"
                 rel="noopener noreferrer"
-            >+254 782 404 044
-              </a></span>
-<br/>
-              <span><strong>Mob:</strong><a
-                href="tel:+254729404044"
-                target="_blank"
-                title="Call"
-                rel="noopener noreferrer"
-              >+254 729 404 044
+            >0782 404 044
               </a></span>
 
             </div>
@@ -90,13 +92,13 @@ const handleSubmit = async () => {
               <h3> <FontAwesomeIcon icon={faEnvelope} 
               />EMAIL </h3>
                  <a
-                href="mailto:info@atlastea.co.ke"
+                href="mailto:atlasteabrokersltd@gmail.com"
                 title= "Email"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="email-link"
               >
-                <span>info@atlastea.co.ke</span>
+                <span>Atlasteabrokersltd@gmail.com</span>
               </a>
             </div>
 
