@@ -85,6 +85,15 @@ color: var(--atlas-green);
         color: var(--tea-green);
 }
 
+.catalog-controls button[disabled] {
+    color: #999;
+    /* Gray text */
+    background-color: #f2f2f2;
+    border: 1px solid #999;
+    /* Light gray background */
+    /* Change cursor to indicate it's not clickable */
+}
+
 .catalog-controls span {
     color: var(--atlas-green);
     font-family: var(--paragraph);
