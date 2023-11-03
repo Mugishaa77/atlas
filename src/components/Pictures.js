@@ -22,8 +22,8 @@ import mulindi from '../pictures/MULINDI FACTORY COMPANY LTD.jpg';
 import nandi from '../pictures/NANDI TEA ESTATES.jpg';
 import nyabihu from '../pictures/NYABIHU TEA FACTORY.jpg';
 import otb from '../pictures/OTB.jpg';
-import pfunda from '../pictures/pfunda Tea Company.jpg';
-import rubaya from '../pictures/ RUBAYA TEA ESTATE.jpg';
+import pfunda from '../pictures/Pfunda Tea Company.jpg';
+import rubaya from '../pictures/RUBAYA TEA ESTATE.jpg';
 import rwegura from '../pictures/Rwegura Tea Plantation.jpg';
 import sasini from '../pictures/SASINI.jpg';
 import  shagasha from '../pictures/SHAGASHA TEA FACTORY.jpg';
@@ -44,7 +44,7 @@ export default function Pictures() {
       sasini, shagasha, sorwathe, sorwathePlant, teza, tezaPlant
     ]
   return (
-    <div className="tea-pics">
+    <div className="plantations">
       <div className="p">
         <ul className="grid">
           {pictures.map((image, index) => (
