@@ -16,6 +16,9 @@ import nyabihu from '../ttea/nyabihu.png';
 import gisovu from '../ttea/gisovu.png';
 import karongi from '../ttea/karongi.png';
 import burundi from '../ttea/burundi.png';
+// new
+
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
