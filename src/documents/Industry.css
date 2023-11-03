@@ -1,17 +1,17 @@
 .industry-reports {
     padding: 1rem;
     margin: 1rem;
+    padding-top: 0;
+    margin-top: 0;
     border-right: 1px solid var(--background-grey);
 
    
 }
 
 .industry-reports h2 {
-   
-    color: var(--atlas-blue);
-    text-transform: capitalize;
     text-align: center;
-    font-family: var(--atlas-font);
+        color: var(--atlas-green);
+        font-family: var(--lists);
 
    
 }

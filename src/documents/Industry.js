@@ -37,7 +37,7 @@ const [showButtons, setShowButtons] = useState(Array(reportTitles.length).fill(f
     
     return (
       <div className="industry-reports">
-      <h2>Tea Industry Reports 
+      <h2>Tea Industry Reports as compiled by TBK
        
       </h2>
       <div >

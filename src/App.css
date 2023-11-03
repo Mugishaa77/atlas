@@ -1486,6 +1486,25 @@ font-size: 18px;
  {
     color: var(--atlas-red);
 }
+
+.auction .side-nav h4 {
+    font-family: var(--atlas-font);
+    font-size: 20px;
+    color: var(--atlas-green);
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.side-nav h4 hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100px;
+    height: 4px;
+    color: var(--background-grey);
+    margin: 0 auto;
+    opacity: 1;
+}
 .side-nav a {
     margin-left: 1rem;
     font-family: var(--lists);
@@ -1503,6 +1522,14 @@ font-size: 18px;
 
 .auction .link-active {
     color: var(--atlas-red)!important;
+}
+
+.side-nav .rr a{
+    color: var(--atlas-green);
+}
+
+.side-nav .rr a:hover {
+    color: var(--atlas-blue);
 }
 
 .backlink {

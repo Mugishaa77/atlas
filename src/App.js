@@ -26,6 +26,9 @@ import Profile from './pages/about/Profile';
 import Community from './pages/about/Community';
 import Science from './pages/about/Science';
 
+//documents
+import Industry from './documents/Industry';
+
 function App() {
   return (
     <div className="App">
@@ -47,6 +50,7 @@ function App() {
         <Route path="sale-catalogues" exact element={<SaleCatalogues/>}/>
         <Route path="forthcoming" exact element={<ForthcomingAuctions/>}/>
         <Route path="market-reports" exact element = {<MarketReports/>}/>
+         <Route path="industry-report" exact element = {<Industry/>}/>
         
       </Route>
       
