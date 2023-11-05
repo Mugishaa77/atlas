@@ -1,7 +1,7 @@
 import finlay from '../pictures/JAMES FINLAY KERICHO.jpg';
 import kapchorua from '../pictures/KAPCHORUA TEA ESTATE.jpg';
 import karirana from '../pictures/KARIRANA TEA ESTATE.jpg';
-import kkarongi from '../pictures/karongi tea factory ltd.jpg';
+import karongi from '../pictures/karongi tea factory ltd.jpg';
 import mufindi from '../pictures/MUFINDI TEA PLANTATION.jpg';
 import nandi from '../pictures/NANDI TEA ESTATES.jpg';
 import pfunda from '../pictures/Pfunda Tea Company.jpg';
@@ -12,9 +12,8 @@ import tezaPlant from '../pictures/Teza Tea Plantation.jpg';
 import eastern from '../ttea/eastern.png';
 import sireet from '../ttea/sireet.png';
 import kisyet from '../ttea/kisyet.png';
-import nyabihu from '../ttea/nyabihu.png';
-import karongi from '../ttea/karongi.png';
 import gatare from '../tea/gataregatare.png';
+import sasini from '../pictures/SASINI.jpg';
 // new
 
 
@@ -24,30 +23,31 @@ import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
 
 const plantations = [
-  {image: finlay, title: 'James Finlay, Kericho'},
-  {image: eastern, title: 'Eastern Produce Tea Estates, Kenya'},
-   {image: kapchorua, title: 'Kapchorua Tea Estate'},
+     
+    {image: finlay, title: 'James Finlay, Kericho'},
     {image: sireet, title: 'Sireet OEP estates, Nandi-Kenya'},
-    {image: nyabihu, title: 'Nyabihu TeaFactory, Karago rwanda'},
-    
+   {image: eastern, title: 'Eastern Produce Tea Estates, Kenya'},
     {image: karirana , title: 'Karirana Tea Estate'}, 
     {image: rubaya, title: 'Rubaya Tea Estate'},
-  
-   {image: kisyet, title: 'Kisyet Tea Limited, Kenya'},
-  {image: karongi, title: 'Karongi Tea Factory, rwanda'},
+      {image: nandi, title: 'Nandi Tea Estates'},
+       {image: rwegura, title: 'Rwegura Tea Plantation'},
+      {image: pfunda, title: 'Pfunda Tea Company'},
+               {image:teza, title: 'Teza Estate'},         
  
-  // new
+ 
+  //  
      
       
-      {image: kkarongi, title: 'Karongi Tea Factory Limited'},
-      {image: mufindi, title: 'Mufindi Tea Plantation'},
-      {image: nandi, title: 'Nandi Tea Estates'},
-      {image: rwegura, title: 'Rwegura Tea Plantation'},
-      {image: pfunda, title: 'Pfunda Tea Company'},
+      {image: karongi, title: 'Karongi Tea Factory Limited'},
       
-         {image:teza, title: 'Teza Estate'},
-         {image: tezaPlant, title: 'Teza Tea Plantation'},
-          { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },
+    
+      
+          {image:sasini, title: 'Sasini' },
+            {image: mufindi, title: 'Mufindi Tea Plantation'},   
+          {image: kapchorua ,title:'Kapchorua Tea Estate'},
+            {image: tezaPlant, title: 'Teza Tea Plantation'},
+             { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },
+          
  
 
 ];

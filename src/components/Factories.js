@@ -17,38 +17,38 @@ import mogeni from '../pictures/MOGENI TEA FACTORY.jpg';
 import kivu from '../pictures/muganza-kivu tea factory.jpg';
 import mulindi from '../pictures/MULINDI FACTORY COMPANY LTD.jpg';
 import otb from '../pictures/OTB.jpg';
-import sasini from '../pictures/SASINI.jpg';
 import  shagasha from '../pictures/SHAGASHA TEA FACTORY.jpg';
 import sorwathe from '../pictures/SORWATHE TEA FACTORY.jpg';
-
 import './Garden.css';
 
 const factories = [
-{ image: koisagat, title: 'DL-Koisagat Tea Estate Ltd,Kenya' },
-   {image: pfunda, title: 'Pfunda Tea Company, Rwanda'}, 
-    {image:sasini, title: 'Sasini' },   
- {image: mulindii, title: 'Mulindi Tea Factory, Rwanda'},
+  { image: koisagat, title: 'DL-Koisagat Tea Estate Ltd,Kenya' },
   {image: kivu, title: 'Muganza-Kivu Tea Factory'},
-  {image: kisaru, title:'Kisaru Tea Factory, Uganda'},
+            {image: pfunda, title: 'Pfunda Tea Company, Rwanda'}, 
+             {image: kisaru, title:'Kisaru Tea Factory, Uganda'},
+            {image: mulindii, title: 'Mulindi Tea Factory, Rwanda'},  
        {image: mulindi, title: 'Mulindi Factory Company Ltd'},
-  {image: sorwathe, title: 'Sorwathe Tea Factory'},
-     {image: korara, title: 'Korara Highlands Tea Factory'},   
-  {image: mbogo, title: 'Mbogo Valley Tea Factory, Kenya'},
-  { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },
+         {image: korara, title: 'Korara Highlands Tea Factory'},   
+  {image: maramba, title: 'Maramba Tea Factory'},
+   {image: sorwathe, title: 'Sorwathe Tea Factory'},
+     {image: kkisaru, title: 'Kisaru Tea Estate'},    
+      
+      {image: mogeni, title: 'Mogeni Tea Factory'},
+        {image: kipkebe, title: 'Kipkebe Tea Ltd'},
+          {image: mbogo, title: 'Mbogo Valley Tea Factory, Kenya'},
+           {image:gisakura, title: 'Gisakura Tea Factory'},
+  
+  
   // new
  
-      {image: shagasha, title: 'Shagasha Tea Factory' },
      
-       {image: kipkebe, title: 'Kipkebe Tea Ltd'},
-      {image: kkisaru, title: 'Kisaru Tea Estate'},
-      {image: kitumbe, title: 'Kitumbe Tea Factory'},
-      
-      {image: maramba, title: 'Maramba Tea Factory'},
-      {image: mata, title: 'Mata Tea Company Ltd'},
-      {image: mogeni, title: 'Mogeni Tea Factory'},
-      {image: emrok, title: 'Emrok Tea Factory (EPZ)'},
-       {image:gisakura, title: 'Gisakura Tea Factory'},
-        {image: otb, title: 'OTB'},
+   
+       {image: shagasha, title: 'Shagasha Tea Factory' },
+            {image: mata, title: 'Mata Tea Company Ltd'},
+            { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },
+        {image: kitumbe, title: 'Kitumbe Tea Factory'},
+         {image: emrok, title: 'Emrok Tea Factory (EPZ)'}, 
+         {image: otb, title: 'OTB'},
     
 
     
