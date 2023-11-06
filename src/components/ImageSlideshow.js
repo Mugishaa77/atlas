@@ -1,16 +1,12 @@
 import React, { useState, useEffect } from 'react';
-import one from '../buyers/one.png';
-import two from '../buyers/two.png';
-import three from '../buyers/three.png';
-import four from '../buyers/four.png';
-import five from '../buyers/five.png';
-import six from '../buyers/six.png';
-
-
+import Kenya from '../maps/kenya.jpg';
+import Rwanda from '../maps/rwanda.jpg';
+import Tz from '../maps/tanz.jpg';
+import Ug from '../maps/ug.jpg';
 import './Component.css';
 
 const imagesData = [
-  one, two, three, four, five, six,
+  Kenya, Rwanda, Tz, Ug
   
 ];
 

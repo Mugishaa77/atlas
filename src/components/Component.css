@@ -220,7 +220,47 @@ h5 hr {
     color: var(--atlas-green);
 }
 
-       
+/* DateTimeDisplay */
+.date-time {
+    display: flex;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.empty {
+    flex: 9;
+
+}
+
+.full {
+    flex: 1;
+    margin-right: 0;
+}
+.date-time .hours {
+    font-family: var(--lists);
+}
+
+.date-time .span .days {
+    font-family: var(---lists);
+    color: var(--atlas-blue);
+    
+}
+.date-time span,
+.date-time p {
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.date-time .span {
+    text-align: right;
+        margin-right: 0;
+    display: flex;
+   align-content: space-evenly;
+  
+   
+}
+    
 
 
     

@@ -1,6 +1,7 @@
  .news {
     height: 100vh;
-    background-color: #FFFFFF;
+    background-color: #e0f7fa; /* Light Blue */
+
         /* Light Blue */
 }
 
@@ -12,59 +13,63 @@
     text-align: center;
 }
 
-.news .display {
-    margin: 1rem;
-    padding: 1rem;
+.news .time {
+    padding-top: 0;
+    margin-top: 0;
 }
 
-.news .display-one {
-    margin: 1rem;
-    padding: 1rem;
+.news h3 {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    font-family: var(--paragraph);
+    color: black;
+    opacity: 0.9;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.news .stories .frame {
     display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    }
+
+    .news .stories .frame img {
+
+        padding: 1rem;
+        margin: 1rem;
+        text-align: center;
+        height: 320px;
+        background-color: var(--background-grey);
+        box-shadow: 0 4px 8px var(--background-dblue);
+    }
+
+    .stories p {
+        color: var(--atlas-blue);
+        font-size: 22px;
+        padding: 1rem;
+        margin: 1rem;
+        padding-left: 2rem;
+    }
+.story {
+    position: relative;
+    /* Make .story a positioning context */
 }
 
-.news .trends {
-    flex: 1;
-}
+    .stories a {
+        position: absolute;
+            bottom: 5rem;
+            color: var(--background-grey);
+            background-color: var(--atlas-green);
+            padding: 1rem;
+            left: 70%;
+                /* Move the link to the center horizontally */
+                transform: translateX(-50%);
+                /* Center the link horizontally */
+       
+    }
 
-.news .trends h3 {
-    color: var(--atlas-red);
-    font-family: var(--h3);
-}
-
-.news .markets {
-    flex: 1;
-}
-
-.news .markets h3 {
-    color: var(--atlas-blue);
-    font-family: var(--h3);
-}
-
-.news .updates {
-    flex: 1;
-}
-
-.news .updates h3 {
-    color: var(--atlas-green);
-    font-family: var(--h3);
-}
-
-.display-two {
-    display: flex;
-    margin: 1rem;
-    padding: 1rem;
-    width: 80%;
-}
-
-.display-two h4 {
-    color: var(--atlas-blue);
-    text-align: center;
-}
-
-
-
-.display-three h5 {
-    color: var(--atlas-green);
-    font-family: var(--lists);
-}
+    .stories a:hover {
+        background-color: var(--background-grey);
+        color: var(--atlas-green);
+    }
