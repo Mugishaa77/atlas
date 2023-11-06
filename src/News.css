@@ -56,13 +56,20 @@
     /* Make .story a positioning context */
 }
 
+.frame p span {
+    font-size: 15px;
+    color: var(--atlas-green);
+    position: absolute;
+    right: 2rem;
+}
+
     .stories a {
         position: absolute;
-            bottom: 5rem;
+            bottom: 3rem;
             color: var(--background-grey);
             background-color: var(--atlas-green);
             padding: 1rem;
-            left: 70%;
+            left: 80%;
                 /* Move the link to the center horizontally */
                 transform: translateX(-50%);
                 /* Center the link horizontally */
@@ -73,3 +80,4 @@
         background-color: var(--background-grey);
         color: var(--atlas-green);
     }
+
