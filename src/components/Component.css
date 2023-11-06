@@ -201,8 +201,7 @@ h5 hr {
     margin-top: 5rem;
 }
 .slideshow-container img {
-    max-height: 400px;
-    max-width: 600px;;
+   height: 100%;
 }
  
 
