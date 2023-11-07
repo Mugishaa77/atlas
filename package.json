@@ -1,5 +1,6 @@
 {
   "name": "atlas",
+  "homepage": "https://atlastea.co.ke",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
