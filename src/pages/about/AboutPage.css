@@ -1,7 +1,4 @@
-.science {
-    background-color: #F5F5F5;
-    
-}
+
 .tbk-reports {
     display: flex;
     border-bottom: 1px solid var(--background-grey);
@@ -33,6 +30,12 @@
     width: 300px;
 }
 
+/* Tea Science */
+.science {
+    background-color: #F5F5F5;
+
+}
+
 .structure {
     padding: 1rem;
     margin: 1rem;
@@ -40,10 +43,15 @@
 }
 
 .structure h2 {
-    color: var(--atlas-blue);
-        text-transform: capitalize;
+    text-transform: uppercase;
+        padding-top: 1rem;
+        margin-top: 1rem;
         text-align: center;
+        color: var(--atlas-blue);
         font-family: var(--atlas-font);
+        font-size: 30px;
+        
+   
 }
 
 .tea-science-pics {
@@ -62,12 +70,14 @@
 }
 
 .tea-production h2 {
-    color: var(--atlas-blue);
-        text-transform: capitalize;
-        text-align: center;
-        font-family: var(--atlas-font);
+
+        text-transform: uppercase;
         padding-top: 1rem;
         margin-top: 1rem;
+        text-align: center;
+            color: var(--atlas-blue);
+            font-family: var(--atlas-font);
+            font-size: 25px;
 }
 
 .tea-production .graph{
@@ -108,6 +118,53 @@
        border: 1px solid #2876DD;
         box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.5); /* Apply a box shadow on hover */
 
+}
+
+.profile {
+    background-color: #F5F5F5;
+    height: 100vh;
+    padding: 1rem;
+
+}
+
+.profile h2 {
+    text-align: center;
+        padding: 1rem;
+        color: var(--atlas-blue);
+        font-family: var(--atlas-font);
+        font-size: 26px;
+}
+
+.community {
+    background-color: #F5F5F5;
+    height: 100vh;
+    padding: 1rem;
+
+}
+
+.community h2 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--atlas-blue);
+    font-family: var(--atlas-font);
+    font-size: 25px;
+}
+
+@media (max-width: 900px) {
+
+    .tea-science-pics {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 1rem;      
+    }
+
+        .tea-production .graph{
+            display: flex;
+            height: 100%;
+            justify-content: center;
+        
+        }
 }
 
 

@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import Footer from '../components/Footer';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelopeOpenText, faLocationDot, faPhone, faEnvelope, faDoorOpen, faDoorClosed } from "@fortawesome/free-solid-svg-icons";
@@ -7,6 +7,10 @@ import '../App.css';
 
 
 export default function Contact () {
+  
+  useEffect(() => {
+    document.title = 'Contact Us - Atlas Tea Brokers';
+  }, []);
     
   const baseUrl = process.env.REACT_APP_BASE_URL || 'http://localhost:7000';
 

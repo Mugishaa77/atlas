@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import scienceOne from '../../tea/science-one.jpg';
 import scienceTwo from '../../tea/science-two.jpg';
 import teaProduction from '../../tea/tea-production.png';
@@ -5,10 +6,14 @@ import Footer from '../../components/Footer';
 import './AboutPage.css';
 
 export default function Science () {
+     useEffect(() => {
+    document.title = 'Tea Science - Atlas Tea Brokers';
+  }, []);
+
     return (<div className="science">
        
         <div className="structure">
-            <h2>Tea Science</h2>
+            <h2>Tea Science<hr/></h2>
             <div className="tea-science-pics">
             <img src={scienceTwo} alt="tea-science"/>
             <img src={scienceOne} alt="tea-science"/>

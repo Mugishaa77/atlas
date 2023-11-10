@@ -10,6 +10,9 @@ import '../App.css';
 
 
 export default function Home() {
+  useEffect(() => {
+    document.title = 'Home - Atlas Tea Brokers';
+  }, []);
   const [bgLoaded, setBgLoaded] = useState(false);
 
   useEffect(() => {

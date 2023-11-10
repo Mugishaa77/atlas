@@ -5,6 +5,9 @@ import React, { useState, useEffect } from 'react';
 
 
 export default function News () {
+   useEffect(() => {
+    document.title = 'News - Atlas Tea Brokers';
+  }, []);
     const [lastUpdated, setLastUpdated] = useState(new Date().toLocaleString());
     
     useEffect(() => {

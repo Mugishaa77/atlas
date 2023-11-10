@@ -1,8 +1,12 @@
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Footer from '../components/Footer';
 import Maps from '../components/Maps';
 
 export default function Services() {  
+     useEffect(() => {
+    document.title = 'Services - Atlas Tea Brokers';
+  }, []);
 
   
     return (      

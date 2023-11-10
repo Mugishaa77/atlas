@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import '../App.css';
 import { NavLink, Outlet } from 'react-router-dom';
 import Footer from '../components/Footer';
@@ -5,6 +6,9 @@ import Hyperlink from '../components/Hyperlink';
 
 
 export default function Auction () {
+    useEffect(() => {
+    document.title = 'Auction - Atlas Tea Brokers';
+  }, []);
     return (
         <div className="auction">
             <h2>TEA AUCTION <hr/></h2>

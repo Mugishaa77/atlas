@@ -1,7 +1,11 @@
+import {useEffect} from 'react';
 import Footer from '../components/Footer';
 import '../App.css';
 
 export default function About() {
+    useEffect(() => {
+    document.title = 'About Us - Atlas Tea Brokers';
+  }, []);
     return (
         <div className="about">
             <h2>ABOUT ATLAS <hr /></h2>
