@@ -13,7 +13,6 @@ import teza from '../pictures/Teza Tea Estate.jpg';
 import tezaPlant from '../pictures/Teza Tea Plantation.jpg';
 import eastern from '../ttea/eastern.png';
 import sireet from '../ttea/sireet.png';
-import kisyet from '../ttea/kisyet.png';
 import gatare from '../tea/gataregatare.png';
 import sasini from '../pictures/SASINI.jpg';
 // new
