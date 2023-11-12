@@ -61,11 +61,13 @@
     border-bottom: 1px solid var(--background-grey);
     box-shadow: 0 0 5px var(--background-dblue);
     margin: 1rem;
+    position: relative;
    
 }
 
 .tea-science-pics img {
     height: 100%;
+    pointer-events: none;
     
 }
 

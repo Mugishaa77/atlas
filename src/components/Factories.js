@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import gatare from '../tea/gatare.png';
 import mbogo from '../ttea/mbogo-valley.png';
 import pfunda from '../ttea/pfunda.png';
@@ -55,6 +56,17 @@ const factories = [
 ]
 
 export default function Factories() {
+useEffect(() => {
+    const preventRightClick = (e) => {
+      e.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', preventRightClick);
+
+    return () => {
+      document.removeEventListener('contextmenu', preventRightClick);
+    };
+  }, []);
   return (
     <div className="factories">
       <h3>Processing and Packaging<hr/></h3>

@@ -1,3 +1,5 @@
+import {useEffect} from 'react';
+
 import finlay from '../pictures/JAMES FINLAY KERICHO.jpg';
 import kapchorua from '../pictures/KAPCHORUA TEA ESTATE.jpg';
 import karirana from '../pictures/KARIRANA TEA ESTATE.jpg';
@@ -53,6 +55,17 @@ const plantations = [
 ];
 
 export default function Plantations() {
+  useEffect(() => {
+    const preventRightClick = (e) => {
+      e.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', preventRightClick);
+
+    return () => {
+      document.removeEventListener('contextmenu', preventRightClick);
+    };
+  }, []);
   return (
     <div className="plantations">
   <h3> <FontAwesomeIcon icon={faSeedling} />{' '}Production and Harvesting <hr/></h3>

@@ -52,6 +52,7 @@
     /* Remove list bullets */
     text-align: center;
     /* Center-align the images */
+    position: relative;
 }
 
 .plantations .grid img {
@@ -64,6 +65,7 @@
     border: 1px solid var(--tea-green);
     background-color: var(--atlas-green);
     box-shadow: 0 4px 8px rgba(0, 159, 85, 0.2);
+    pointer-events: none;
 }
 
 .plantations p {
@@ -114,6 +116,7 @@ color: var(--atlas-blue);
     /* Remove list bullets */
     text-align: center;
     /* Center-align the images */
+    position: relative;
 }
 
 .factories .grid img {
@@ -126,6 +129,7 @@ color: var(--atlas-blue);
     border: 1px solid var(--tea-green);
     background-color: var(--atlas-green);
     box-shadow: 0 4px 8px rgba(52, 47, 127, 0.2);
+    pointer-events: none;
 }
 
 .factories p {
@@ -152,6 +156,7 @@ color: var(--atlas-blue);
         .tea-maps {
             display: flex;
             justify-content: space-around;
+            position: relative;
         }
     
         .tea-maps img {
@@ -159,6 +164,7 @@ color: var(--atlas-blue);
             margin: 1px;
             background-color: var(--atlas-green);
             box-shadow: 0 4px 8px rgba(0, 159, 85, 0.2);
+            pointer-events: none;
     
         }
 

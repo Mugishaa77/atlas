@@ -10,6 +10,18 @@ export default function Science () {
     document.title = 'Tea Science - Atlas Tea Brokers';
   }, []);
 
+  useEffect(() => {
+    const preventRightClick = (e) => {
+      e.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', preventRightClick);
+
+    return () => {
+      document.removeEventListener('contextmenu', preventRightClick);
+    };
+  }, []);
+
     return (<div className="science">
        
         <div className="structure">

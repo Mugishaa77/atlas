@@ -1,3 +1,4 @@
+import React, {useEffect} from 'react';
 import Kenya from '../maps/kenya.jpg';
 import Rwanda from '../maps/rwanda.jpg';
 import Tz from '../maps/tanz.jpg';
@@ -5,6 +6,17 @@ import Ug from '../maps/ug.jpg';
 import './Garden.css';
 
 export default function Maps () {
+     useEffect(() => {
+    const preventRightClick = (e) => {
+      e.preventDefault();
+    };
+
+    document.addEventListener('contextmenu', preventRightClick);
+
+    return () => {
+      document.removeEventListener('contextmenu', preventRightClick);
+    };
+  }, []);
     return (
         
         <div className="tea-maps">
