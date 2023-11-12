@@ -30,6 +30,23 @@ export default function News () {
            
            </div>
            <div className="stories">
+
+         <div className="story">
+            <h3>Scarce Dollar Opens Talks for Barter Trade Between Kenya and Egypt.</h3>
+            <div className="frame">        
+                <img src={audit} />
+            <p>Egypt asks Kenya to barter its Tea for anything produced in the North African
+               country as a dollar shortage has impacted their ability to pay for imports.
+           <span>
+             Last Updated: {lastUpdated}
+           </span>                </p>
+< a href="https://www.bloomberg.com/news/articles/2023-11-06/short-of-dollars-kenya-says-egypt-asks-to-barter-for-tea#xj4y7vzkg"
+            target="_blank"
+            rel="noopener noreferrer">
+                Read More Here </a>
+                </div>   
+            </div>
+
             <div className="story">
             <h3>Kenya's tea value chain under scrutiny to assess rising production costs.</h3>
             <div className="frame">        
@@ -49,13 +66,8 @@ export default function News () {
             rel="noopener noreferrer">
                 Read More Here
             </a>
-</div>
-
+</div>           </div>
            </div>
-              
-           </div>
-           
-               
            
         </div>
     );

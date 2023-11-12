@@ -74,3 +74,13 @@
         flex-direction: column;
 
 }
+
+@media (max-width: 900px) {
+
+    .grid-container {
+        display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 2px;
+    }
+
+}
