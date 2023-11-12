@@ -259,6 +259,22 @@ h5 hr {
   
    
 }
+
+@media (max-width: 900px) {
+    .date-time {
+            display: flex;
+          
+        }
+
+        .empty {
+            flex: 5;
+        }
+
+        .full {
+            flex: 2;
+        }
+
+}
     
 
 

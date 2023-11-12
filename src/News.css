@@ -1,5 +1,4 @@
  .news {
-    height: 100vh;
     background-color: #e0f7fa; /* Light Blue */
 
         /* Light Blue */
@@ -25,7 +24,8 @@
     color: black;
     opacity: 0.9;
     font-size: 28px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    text-decoration: underline;
 }
 
 .news .stories .frame {
@@ -39,7 +39,7 @@
         padding: 1rem;
         margin: 1rem;
         text-align: center;
-        height: 320px;
+        height: 300px;
         background-color: var(--background-grey);
         box-shadow: 0 4px 8px var(--background-dblue);
     }
@@ -50,9 +50,12 @@
         padding: 1rem;
         margin: 1rem;
         padding-left: 2rem;
+        font-family: var(--paragraph);
     }
 .story {
     position: relative;
+    padding: 1rem;
+    margin: 1rem;
     /* Make .story a positioning context */
 }
 
@@ -81,3 +84,46 @@
         color: var(--atlas-green);
     }
 
+.new-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-pic span {
+    opacity: 0.9;
+}
+
+@media (max-width: 900px) {
+   
+    .news h3 {
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+    .news .stories .frame {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stories p {
+        font-size: 20px;
+        padding: 1rem;
+        margin: 1rem;
+        padding-bottom: 5rem;
+        font-family: var(--paragraph);
+    }
+
+    .stories a {
+        position: relative;
+        margin: 1rem;
+        padding: 1rem;
+        width: 200px;
+        text-align: center;
+    }
+
+        .stories a:hover {
+            background-color: var(--background-grey);
+            color: var(--atlas-green);
+        }
+
+}

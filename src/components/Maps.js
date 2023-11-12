@@ -1,5 +1,5 @@
-import Kenya from '../maps/kenya.png';
-import Rwanda from '../maps/rwanda.png';
+import Kenya from '../maps/kenya.jpg';
+import Rwanda from '../maps/rwanda.jpg';
 import Tz from '../maps/tanz.jpg';
 import Ug from '../maps/ug.jpg';
 import './Garden.css';
