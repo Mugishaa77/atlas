@@ -22,10 +22,21 @@ export default function Industry () {
   const performanceReports = [ july, august, september, october, november, december,
   janNew, febNew, aprilNew, mayNew, juneNew, julyNew ];
 
-const reportTitles = [{name: 'July 2022' },
-{name: 'August 2022'}, {name: 'September 2022'}, {name: 'October 2022'}, {name: 'November 2022'},
-{name: 'December 2022'}, {name: 'January 2023'}, {name: 'February 2023'}, {name: 'April 2023'}, 
-{name: 'May 2023'}, {name: 'June 2023'}, {name: 'July 2023'},];
+const reportTitles = [
+  { name: 'July 2023' },
+  { name: 'June 2023' },
+  { name: 'May 2023' },
+  { name: 'April 2023' },
+  { name: 'February 2023' },
+  { name: 'January 2023' },
+  { name: 'December 2022' },
+  { name: 'November 2022' },
+  { name: 'October 2022' },
+  { name: 'September 2022' },
+  { name: 'August 2022' },
+  { name: 'July 2022' },
+];
+
 
 const [showButtons, setShowButtons] = useState(Array(reportTitles.length).fill(false));
 

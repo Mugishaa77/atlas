@@ -69,7 +69,6 @@ useEffect(() => {
   }, []);
   return (
     <div className="factories">
-      <h3>Processing and Packaging<hr/></h3>
       <div className="f">
       <ul className="grid">
         {factories.map((factories, index) => (

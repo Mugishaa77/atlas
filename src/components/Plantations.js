@@ -67,8 +67,7 @@ export default function Plantations() {
   }, []);
   return (
     <div className="plantations">
-  <h3> <FontAwesomeIcon icon={faSeedling} />{' '}Production and Harvesting <hr/></h3>
-  <div className="p">
+    <div className="p">
       <ul className="grid">
         {plantations.map((item, index) => (
           <li key={index}>
