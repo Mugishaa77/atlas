@@ -17,10 +17,6 @@ import gatare from '../tea/gataregatare.png';
 import sasini from '../pictures/SASINI.jpg';
 // new
 
-
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSeedling } from "@fortawesome/free-solid-svg-icons";
 import './Garden.css';
 
 const plantations = [

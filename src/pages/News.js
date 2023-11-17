@@ -2,7 +2,6 @@ import '../News.css';
 import DateTimeDisplay from '../components/DateTimeDisplay';
 import audit from '../tea/aaudit.jpg';
 import dollar from '../tea/dollar.jpg';
-import dar from '../tea/dar-es-salaam.jpg';
 import darr from '../tea/darr.jpg';
 import React, { useState, useEffect } from 'react';
 
@@ -40,7 +39,7 @@ export default function News () {
                         
                   <img src={darr} alt="atlas news" />   
                
-                <span a href="https://twitter.com/voag_tv/status/1724395624181739989">Source: VOAG </span>
+                <span a href="https://twitter.com/voag_tv/status/1724395624181739989">Source: VOAG (voice of agriculture_tv) </span>
                 </div>  
             <p>
               Tanzania intends to leverage the tea auctions by June 2024 with the goal of safeguarding the domestic
