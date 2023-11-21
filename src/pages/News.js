@@ -2,8 +2,8 @@ import '../News.css';
 import DateTimeDisplay from '../components/DateTimeDisplay';
 import audit from '../tea/aaudit.jpg';
 import dollar from '../tea/dollar.jpg';
-import dar from '../tea/dar-auction.png';
-import darr from '../tea/darr.jpg';
+import dar from '../tea/dar-es-salaam.jpg';
+import darr from '../tea/dar-auction.png';
 import React, { useState, useEffect } from 'react';
 
 
@@ -37,7 +37,7 @@ export default function News () {
   },
   {
     title:"What Dar es Salaam Tea Auction means for Tanzania",
-    image: dar,
+    image: darr,
     source:"The Citizen(tz)",
     photoCredit: "Kilimo Kwanza",
     content:"The Tea Board of Tanzania (TBT) director general Mary Kipeja, told the Citizen that the tea auction would make Tanzania a regional hub where neighbouring tea producing countries would be trading their produce.  Tanzanians would also be empowered economically as a result of reduced market costs and implementation of the local content agenda.",
@@ -46,7 +46,7 @@ export default function News () {
     },
     {
     title:"Tanzania Holds it's first online Tea Auction in Dar-es-Salaam",
-    image: darr,
+    image: dar,
     source:"Standard Media",
     photoCredit: "VOAG (voice of agriculture_tv)",
     content:"Tanzania intends to leverage the tea auctions by June 2024 with the goal of safeguarding the domestic market and supporting local tea producers. The inaugural tea auction, which took place on November 13th, 2023, in Dar es Salaam, is anticipated to bring about a significant transformation in the country's tea sub-sector.",
@@ -85,6 +85,7 @@ export default function News () {
            {newsData.map((story, index) => (
           <div key={index} className="story">
             <h3>{story.title}</h3>
+            <h5 className="hot">{story.date}</h5>
             <div className="frame">
               <div className="new-pic">
                 <img src={story.image} alt="atlas news" />
@@ -98,7 +99,6 @@ export default function News () {
                   </p>
                 ))}
               </div>
-              <span className="hot">{story.date}</span>
                <a
                 href={story.link}
                 target="_blank"

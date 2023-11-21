@@ -46,9 +46,9 @@
     
 
     .news .stories .frame img {
-
         padding: 1rem;
         margin: 1rem;
+        margin-top: 0;
         text-align: center;
         height: 300px;
         background-color: white;
@@ -114,6 +114,10 @@
 .story .hot {
     color: var(--atlas-red);
     font-family: var(--paragraph);
+    text-align: right;
+    font-size: 15px;
+    padding-right: 1rem;
+    padding-top: 1rem;
 }
 
 @media (max-width: 900px) {
