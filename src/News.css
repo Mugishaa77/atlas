@@ -1,7 +1,5 @@
  .news {
-    background-color: #e0f7fa; /* Light Blue */
-
-        /* Light Blue */
+  
 }
 
 .news h2 {
@@ -22,14 +20,14 @@
     text-align: center;
     font-family: var(--paragraph);
     color: black;
-    opacity: 0.9;
     font-size: 28px;
     text-transform: uppercase;
     text-decoration: underline;
 }
 
 .news .story {
-    box-shadow: 0 4px 8px var(--atlas-blue);
+    box-shadow: 0 4px 8px var(--tea-green);
+   
     
 }
 
@@ -49,8 +47,8 @@
         margin: 1rem;
         text-align: center;
         height: 300px;
-       
-        box-shadow: 2px 2px 2px 2px var(--atlas-green);
+        background-color: white;
+        box-shadow: 2px 2px 2px 2px grey;
     }
 
         
@@ -80,7 +78,9 @@
     .stories a {
         position: absolute;
             bottom: 3rem;
-            color: var(--background-grey);
+            color: white;
+            font-family: var(--paragraph);
+            text-transform: uppercase;
             background-color: var(--atlas-green);
             padding: 1rem;
             left: 80%;
@@ -95,8 +95,7 @@
         color: var(--atlas-green);
         box-shadow: 0 0 5px (var(--atlas-green)), 0 0 25px (var(--atlas-green));
         }
-        
-        
+                
 
 .new-pic {
     display: flex;
@@ -105,6 +104,12 @@
 
 .new-pic span a{
     opacity: 0.9;
+    color: var(--atlas-red);
+}
+
+.story .hot {
+    color: var(--atlas-red);
+    font-family: var(--paragraph);
 }
 
 @media (max-width: 900px) {

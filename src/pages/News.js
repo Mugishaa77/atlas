@@ -33,6 +33,28 @@ export default function News () {
            
            </div>
            <div className="stories">
+            <div className="story">
+            <h3></h3>
+            <div className="frame"> 
+            <div className="new-pic">     
+                <img src={dar} alt="atlas news" />
+                <span >News Source: The Citizen(tz) <br/>
+                Photo Credit: Kilimo Kwanza</span>
+                </div>  
+            <p>
+               The Tea Board of Tanzania (TBT) director general Mary Kipeja,  told the Citizen that the tea auction would make Tanzania a regional hub where neighbouring tea producing countries would be trading their produce.
+               <br/>
+               Tanzanians would also be empowered economically as a result of reduced market costs and implementation of the local content agenda.
+                           </p>
+                            <span className="hot">Thursday , 16<sup>th</sup> Nov 2023</span>
+< a href="https://www.thecitizen.co.tz/tanzania/news/business/what-today-s-first-tea-auction-in-dar-means-for-the-country--4431748"
+            target="_blank"
+            rel="noopener noreferrer">
+                Read Article </a>
+               
+                </div>   
+                <hr/>
+            </div>
 
             <div className="story">
             <h3>What Dar es Salaam Tea Auction means for Tanzania</h3>
@@ -47,10 +69,12 @@ export default function News () {
                <br/>
                Tanzanians would also be empowered economically as a result of reduced market costs and implementation of the local content agenda.
                            </p>
+                            <span className="hot">Thursday , 16<sup>th</sup> Nov 2023</span>
 < a href="https://www.thecitizen.co.tz/tanzania/news/business/what-today-s-first-tea-auction-in-dar-means-for-the-country--4431748"
             target="_blank"
             rel="noopener noreferrer">
-                Read More Here </a>
+                Read Article </a>
+               
                 </div>   
                 <hr/>
             </div>
@@ -75,7 +99,8 @@ export default function News () {
 < a href="https://www.standardmedia.co.ke/business/business/article/2001485446/tanzanian-direct-tea-sales-set-to-rival-mombasa-auction"
             target="_blank"
             rel="noopener noreferrer">
-                Read More Here </a>
+                Read Article </a>
+                <span className="hot">Monday, 13<sup>th</sup> Nov 2023</span>
                 </div>   
                 <hr/>
             </div>
@@ -100,7 +125,8 @@ export default function News () {
 < a href="https://www.bloomberg.com/news/articles/2023-11-06/short-of-dollars-kenya-says-egypt-asks-to-barter-for-tea#xj4y7vzkg"
             target="_blank"
             rel="noopener noreferrer">
-                Read More Here </a>
+                Read Article </a>
+                <span className="hot">Monday , 6<sup>th</sup> Nov 2023</span>
                 </div>   
                 <hr/>
             </div>
@@ -124,8 +150,9 @@ export default function News () {
                 < a href="https://nation.africa/kenya/business/kenya-tea-value-chain-for-audit-on-high-production-costs-4424382"
             target="_blank"
             rel="noopener noreferrer">
-                Read More Here
+                Read Article
             </a>
+            <span className="hot">Monday , 6<sup>th</sup> Nov 2023</span>
 </div>         
 <hr/> 
  </div>

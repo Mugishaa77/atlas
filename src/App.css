@@ -608,22 +608,6 @@ h2 hr {
     color: var(--atlas-blue);
 }
 
-.about .mission .opening
-
- {
-    color: var(--atlas-green);
-}
-
-.about .conclusion span {
-    color: var(--atlas-green);
-    
-  
-   
-    font-size: 20px;
-        font-family: var(--paragraph);
-        
-}
-
 .about .conclusion {
     text-align: center;
     border: 1px solid var(--tea-green);
@@ -633,8 +617,8 @@ h2 hr {
 
 .about .conclusion p {
     text-align: center;
-    
-    color: var(--atlas-blue);
+    padding: 1rem;
+    color: var(--atlas-green);
     
 }
 
@@ -733,10 +717,9 @@ h2 hr {
         padding-top: 4rem;
        }
 
-       .journey li span {
+       .figure span {
         color: var(--atlas-green);
        }
-
             
 
        .journey ul li {
