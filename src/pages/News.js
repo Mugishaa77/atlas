@@ -2,6 +2,7 @@ import '../News.css';
 import DateTimeDisplay from '../components/DateTimeDisplay';
 import audit from '../tea/aaudit.jpg';
 import dollar from '../tea/dollar.jpg';
+import dar from '../tea/dar-auction.png';
 import darr from '../tea/darr.jpg';
 import React, { useState, useEffect } from 'react';
 
@@ -32,6 +33,28 @@ export default function News () {
            
            </div>
            <div className="stories">
+
+            <div className="story">
+            <h3>What Dar es Salaam Tea Auction means for Tanzania</h3>
+            <div className="frame"> 
+            <div className="new-pic">     
+                <img src={dar} alt="atlas news" />
+                <span >News Source: The Citizen(tz) <br/>
+                Photo Credit: Kilimo Kwanza</span>
+                </div>  
+            <p>
+               The Tea Board of Tanzania (TBT) director general Mary Kipeja,  told the Citizen that the tea auction would make Tanzania a regional hub where neighbouring tea producing countries would be trading their produce.
+               <br/>
+               Tanzanians would also be empowered economically as a result of reduced market costs and implementation of the local content agenda.
+                           </p>
+< a href="https://www.thecitizen.co.tz/tanzania/news/business/what-today-s-first-tea-auction-in-dar-means-for-the-country--4431748"
+            target="_blank"
+            rel="noopener noreferrer">
+                Read More Here </a>
+                </div>   
+                <hr/>
+            </div>
+
             <div className="story">
             <h3>Tanzania Holds it's first online Tea Auction in Dar-es-Salaam</h3>
             <div className="frame"> 
@@ -39,7 +62,9 @@ export default function News () {
                         
                   <img src={darr} alt="atlas news" />   
                
-                <span a href="https://twitter.com/voag_tv/status/1724395624181739989">Source: VOAG (voice of agriculture_tv) </span>
+                <span a href="https://twitter.com/voag_tv/status/1724395624181739989">
+                  News Source: Standard Media <br/>
+                Photo Credit: VOAG (voice of agriculture_tv) </span>
                 </div>  
             <p>
               Tanzania intends to leverage the tea auctions by June 2024 with the goal of safeguarding the domestic
@@ -60,7 +85,8 @@ export default function News () {
             <div className="frame"> 
             <div className="new-pic">     
                 <img src={dollar} alt="atlas news" />
-                <span a href="https://www.bloomberg.com/news/articles/2023-11-06/short-of-dollars-kenya-says-egypt-asks-to-barter-for-tea">Source: Bloomberg</span>
+                <span a href="https://www.bloomberg.com/news/articles/2023-11-06/short-of-dollars-kenya-says-egypt-asks-to-barter-for-tea">News Source: Bloomberg
+                <br/>Photo Credit: Bloomberg</span>
                 </div>  
             <p>Egypt asks Kenya to barter its Tea for anything produced in the North African
                country as a dollar shortage has impacted their ability to pay for imports.
@@ -84,7 +110,7 @@ export default function News () {
             <div className="frame">       
              <div className="new-pic">     
                 <img src={audit} alt="atlas news" />
-                <span>Source: Nation News</span>
+                <span>News Source: Nation News</span>
                 </div>   
                
             <p>The value chain in Kenya's Tea sector is set for audit amid growing concerns over high 
