@@ -1,3 +1,15 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+# Allow crawling of important pages
+Allow: /home
+Allow: /about
+Allow: /contact
+Allow: /service
+Allow: /auction
+Allow: /news
+Allow: /garden
+
+# Sitemap
+Sitemap: https://www.atlastea.co.ke/sitemap.xml

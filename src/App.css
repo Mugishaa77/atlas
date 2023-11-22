@@ -907,8 +907,6 @@ h2 hr {
     display: flex;
     justify-content: space-between;
     color: var(--atlas-blue);
-
-
 }
 
 .service p {
@@ -948,6 +946,7 @@ h2 hr {
 .service .col {
     margin: 2rem;
     margin-top: 0;
+  
 }
 
 .service-close {
@@ -977,6 +976,7 @@ h2 hr {
 
 .service-close p {
     color: var(--atlas-blue);
+   
 }
 
 /* Service page media query */
