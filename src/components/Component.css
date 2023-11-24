@@ -1,197 +1,18 @@
-/* Directors.js */
-
-.directors {
-   
-    padding: 2rem;
-}
-
-.directors h3 {
-    font-size: 28px;
-        color: var(--atlas-green);
-        opacity: 1;
-        font-family: var(--h3);
-        padding: 1rem;
-        text-align: center;
-}
-
-.directors h3 hr {
-    margin: 0 auto;
-    margin-top: 0;
-    background-color: var(--pot-grey);
-    width: 330px;
-    
-}
-
-.intro p, .close p {
-    padding: 0 100px;
-    text-align: left;
-    font-size: 20px;
-    font-family: var(--paragraph);
-    padding-bottom: 1rem;
-    color: var(--atlas-blue);
-}
-
-.intro span, .close span {
-    color: var(--atlas-green);
-}
-
-.close  {
-    margin-top: 2rem;
-    padding-top: 2rem;
-}
-.our-directors {
-    padding-bottom: 2rem;
-}
-
-.our-directors, .our-managers {
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
-.directors h4 {
-   
-    font-size: 26px;
-      text-align: center;
-        color: var(--atlas-green);
-        opacity: 1;
-        font-family: var(--paragraph);
-
-}
-
-.line-one {
-    padding-bottom: 1rem;
-}
-
-.directors h4 hr {
-    padding-top: 1rem;
-    margin-top: 0;
-    width: 220px;
-    margin: 0 auto;
-}
-.our-directors h5 {
-    padding-top: 1rem;
-    text-align: center;
-    font-family: var(--paragraph);
-    color: var(--writing-grey);
-    padding-bottom: 0;
-    margin-bottom: 0;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: var(--atlas-blue);
-
-    
-}
-
-h5 hr {
-    margin-top: 0;
-    padding-bottom: 0;
-}
-
-.our-directors h6 {
-
-    text-align: center;
-    font-size: 18px;
-    color: var(--atlas-blue);
-    text-transform: uppercase;
-    
-}
-
-.george {
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-
-.hilda, .romano {
-    padding-top: 2rem;
-    margin-right: 1rem;
-        margin-left: 1rem;
-}
-
-.two {
-    padding-bottom: 1rem;
-}
-
-.two hr {
-    width: 150px;
-}
-.our-managers h5 {
-    padding-top: 1rem;
-    font-family: var(--paragraph);
-    font-size: 22px;
-        text-transform: uppercase;
-        color: var(--atlas-blue);
-}
-.our-managers h5, .our-managers h6 {
-    text-align: center;
-    color: var(--atlas-blue);
-}
-
-.our-managers h6 {
-    font-size: 20px;
-    color: var(--atlas-blue);
-}
-
-@media (max-width: 900px) {
-    .directors {
-        padding: 1rem;
-    }
-
-    .intro p,
-    .close p {
-        padding: 0 1rem;
-        font-size: 20px;
-    }
-
-    .directors h3 {
-        font-size: 26px;
-        padding: 0.5rem;
-    }
-
-    .directors h3 hr {
-        width: 220px;
-    }
-
-    .our-directors,
-    .our-managers {
-        flex-direction: column;
-        text-align: center;
-    }
 
 
-    .our-directors h5,
-    .our-managers h5 {
-        font-size: 18px;
-    }
 
-    .our-directors h5 hr,
-    .our-managers h5 hr {
-        width: 50%;
-        margin: 0 auto;
-    } 
 
-    .our-directors h6,
-    .our-managers h6 {
-        font-size: 16px;
-       
-    }
 
-    .directors h4 {
-        font-size: 22px;
-        padding: 1rem;
-    }
 
-     
 
-    .two hr {
-        width: 120px;
-    }
 
-    .close {
-        margin-top: 1rem;
-        padding-top: 1rem;
-    }
-}
+
+
+
+
+
+
+      
 
 /* ImageSlideshow */
 
@@ -238,11 +59,17 @@ h5 hr {
 }
 .date-time .hours {
     font-family: var(--lists);
+   
+}
+
+.date-time .span {
+    padding: 1rem;
 }
 
 .date-time .span .days {
-    font-family: var(---lists);
+    font-family: var(---paragraph)!important;
     color: var(--atlas-blue);
+    
     
 }
 .date-time span,
@@ -253,7 +80,7 @@ h5 hr {
 
 .date-time .span {
     text-align: right;
-        margin-right: 0;
+        margin-right: 1px;
     display: flex;
    align-content: space-evenly;
   

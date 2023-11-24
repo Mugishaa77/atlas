@@ -1,4 +1,7 @@
 import { useState  } from 'react';
+import fourtySeven from '../reports/Market Report Sale 47.pdf';
+import fourtySix from '../reports/Market Report Sale 46.pdf';
+import fourtyFive from '../reports/Market Report Sale 45.pdf';
 import fourtyFour from '../reports/Market Report Sale 44.pdf';
 import fourtyThree from '../reports/Market Report Sale 43.pdf';
 import fourtyTwo from '../reports/Market Report Sale 42.pdf';
@@ -25,7 +28,7 @@ import './Weekly.css';
 
 function Weekly () {
 
-   const pdfFiles = [fourtyFour, fourtyThree, fourtyTwo, fourtyOne, fourty, thirtyNine, thirtyEight,
+   const pdfFiles = [fourtySeven, fourtySix, fourtyFive,fourtyFour, fourtyThree, fourtyTwo, fourtyOne, fourty, thirtyNine, thirtyEight,
     thirtySeven, thirtySix,thirtyFive, thirtyFour, thirtyThree, thirtyTwo,
      thirtyOne, thirty, twentyNine, twentyEight, twentySeven, twentySix,
       twentyFive, twentyFour,
@@ -40,7 +43,7 @@ function Weekly () {
 
   const months= [
     {name: 'November 2023',
-  report: ['Sale 44 - 1st November']},
+  report: ['Sale 47 - 22nd November', 'Sale 46 - 15th November', 'Sale 45 - 8th November','Sale 44 - 1st November']},
 
     {name: 'October 2023',
   report: ['Sale 43 - 25th October','Sale 42 - 18th October','Sale 41 - 12th October',

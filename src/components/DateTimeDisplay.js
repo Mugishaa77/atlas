@@ -23,7 +23,7 @@ function DateTimeDisplay() {
       <span>
             <p className="hours">{currentDateTime.format('HH:mm')}</p>
           </span>
-          </div>
+          </div> 
     </div>
   );
 }
