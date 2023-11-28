@@ -12,4 +12,4 @@ Allow: /news
 Allow: /garden
 
 # Sitemap
-Sitemap: https://www.atlastea.co.ke/sitemap.xml
+Sitemap: https://atlastea.co.ke/sitemap.xml
