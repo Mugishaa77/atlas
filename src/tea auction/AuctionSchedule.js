@@ -5,19 +5,24 @@ export default function AuctionSchedule () {
                       <ul>
                         <li>
                             <strong>
-                                Monday - M1 Auction: </strong>
+                                Monday - M1 & S1 Auction: </strong>
+                                <br/>
                                 <span>
-                                This auction is dedicated to Main Dust Grades,
-                                 including Pekoe Dust and DUST1.</span> </li>
+                                M1 is dedicated to Main Dust Grades,
+                                 including Pekoe Dust and DUST1.
+                                 <br/>
+                                 </span> </li>
                                 
                                 <li>
-                                    <strong>Tuesday - M2 Auction: </strong>
+                                    <strong>Tuesday - M2 & M3 Auction: </strong>
+                                    <br/>
                                     <span>
-                                    The focus shifts to Main Leaf Grades on Tuesday, featuring teas like Broken Pekoe 1 (BP1)
-                                    and Pekoe Fannings 1 (PF1).</span>  </li>
+                                    The focus shifts to Main Leaf Grades on Tuesday, featuring teas like Broken Pekoe 1 (BP1s) for M3
+                                    and Pekoe Fannings 1 (PF1) for M2.</span>  </li>
                                     <li>
                                         <strong>
                                             Wednesday - Secondary Grades Auction: </strong>
+                                            <br/>
                                             
                                             <span>Wednesdays are all about Secondary Grades, where you'll find a diverse collection including BP,
                                             PF, DUST2, PF2, BMF, FNGS, FNGS1, FNGS2 and PF2.

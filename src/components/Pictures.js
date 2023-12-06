@@ -65,23 +65,21 @@ const teaData = [
       { image: kipkebe, title: 'Kipkebe Tea Ltd' },
        { image: emrok, title: 'Emrok Tea Factory (EPZ)' },
       { image: mogeni, title: 'Mogeni Tea Factory' },
-       { image: sasini, title: 'Sasini' },
       { image: mbogo, title: 'Mbogo Valley Tea Factory, Kenya' },
       { image: korara, title: 'Korara Highlands Tea Factory' },
      { image: maramba, title: 'Maramba Tea Factory' },
       { image: kitumbe, title: 'Kitumbe Tea Factory' },
-      { image: otb, title: 'OTB' },
+     
     ],
   },
   
   {
     country: 'Rwanda',
     factories: [
-      { image: rwegura, title: 'Rwegura Tea Plantation' },
       { image: sorwathe, title: 'Sorwathe Tea Factory' },
        { image: rubaya, title: 'Rubaya Tea Estate' },
       { image: ppfunda, title: 'Pfunda Tea Company, Rwanda' },
-        { image: mulindi, title: 'Mulindi Factory Company Ltd' },
+        { image: mulindi, title: 'Mulindi Tea Company Ltd' },
         { image: pfunda, title: 'Pfunda Tea Company' },
           { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },
             { image: karongi, title: 'Karongi Tea Factory Limited' },    
@@ -90,23 +88,33 @@ const teaData = [
        { image: gisakura, title: 'Gisakura Tea Factory' },
       { image: mata, title: 'Mata Tea Company Ltd' },
       { image: ggatare, title: 'Gatare Tea Company Ltd, Rwanda' },
-      { image: tezaPlant, title: 'Teza Tea Plantation' },
+    
     
     
     ],
   },
+   {
+    country: 'Burundi',
+    factories: [
+      { image: rwegura, title: 'Rwegura Tea Plantation' },
+       { image: otb, title: 'Office du the Burundi' },
+         { image: tezaPlant, title: 'Teza Tea Plantation' },
+        { image: teza, title: 'Teza Estate' },
+      
+    ]
+  },
   {
     country: 'Uganda',
     factories: [
-      { image: teza, title: 'Teza Estate' },
-      { image: kisaru, title: 'Kisaru Tea Factory, Uganda' },
-      { image: kkisaru, title: 'Kisaru Tea Estate' },
+     
+      { image: kkisaru, title: 'Kisaru Tea Factory, Uganda' },
     ],
   },
   {
     country: 'Tanzania',
     factories: [{ image: mufindi, title: 'Mufindi Tea Plantation' }],
   },
+ 
  
 ];
 
