@@ -59,10 +59,10 @@ const teaData = [
       { image: sireet, title: 'Sireet OEP estates, Nandi-Kenya' },
       { image: eastern, title: 'Eastern Produce Tea Estates, Kenya' },
         { image: kapchorua, title: 'Kapchorua Tea Estate' },
-      { image: nandi, title: 'Nandi Tea Estates' },
-      { image: karirana, title: 'Karirana Tea Estate' },
+         { image: kipkebe, title: 'Kipkebe Tea Ltd' },
+         { image: karirana, title: 'Karirana Tea Estate' },
       { image: koisagat, title: 'DL-Koisagat Tea Estate Ltd, Kenya' },
-      { image: kipkebe, title: 'Kipkebe Tea Ltd' },
+        { image: nandi, title: 'Nandi Tea Estates' },
        { image: emrok, title: 'Emrok Tea Factory (EPZ)' },
       { image: mogeni, title: 'Mogeni Tea Factory' },
       { image: mbogo, title: 'Mbogo Valley Tea Factory, Kenya' },
@@ -76,8 +76,9 @@ const teaData = [
   {
     country: 'Rwanda',
     factories: [
-      { image: sorwathe, title: 'Sorwathe Tea Factory' },
        { image: rubaya, title: 'Rubaya Tea Estate' },
+      { image: sorwathe, title: 'Sorwathe Tea Factory' },
+      
       { image: ppfunda, title: 'Pfunda Tea Company, Rwanda' },
         { image: mulindi, title: 'Mulindi Tea Company Ltd' },
         { image: pfunda, title: 'Pfunda Tea Company' },
