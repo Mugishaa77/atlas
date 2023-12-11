@@ -76,8 +76,6 @@ const teaData = [
     factories: [
        { image: rubaya, title: 'Rubaya Tea Estate' },
       { image: sorwathe, title: 'Sorwathe Tea Factory' },
-      
-      { image: ppfunda, title: 'Pfunda Tea Company, Rwanda' },
         { image: mulindi, title: 'Mulindi Tea Company Ltd' },
         { image: pfunda, title: 'Pfunda Tea Company' },
           { image: gatare, title: 'Gatare Tea Company Ltd, Rwanda' },

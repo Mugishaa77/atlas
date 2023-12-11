@@ -4,6 +4,7 @@ import audit from '../tea/aaudit.jpg';
 import dollar from '../tea/dollar.jpg';
 import dar from '../tea/dar-es-salaam.jpg';
 import darr from '../tea/dar-auction.png';
+import vat from '../tea/vat.jpg';
 import React, { useState, useEffect } from 'react';
 
 
@@ -26,6 +27,15 @@ export default function News () {
     }, []);
 
     const newsData = [
+      {
+      title: "Government to scrap VAT on tea sold in factories",
+      image: vat,
+      source: "KBC",
+      photoCredit: "Workpay",
+      content: "The Agriculture ministry through the Tea Board of Kenya has developed a concept note that will positively impact stakeholders in the tea industry across the global market. Agriculture and Livestock Development Cabinet Secretary, Mithika Linturi, has said the concept note which has received approval from the National Treasury will offer tax tariffs on tea purchased from factories or tea auction centers by removing Value Added Tax (VAT) in order improve cash flows for tea exporters involved in value addition.",
+      date: "Thursday 7th Dec 2023",
+      link: "https://www.kbc.co.ke/govt-mulls-scrapping-vat-on-tea-sold-in-factories/#:~:text=Agriculture%20and%20Livestock%20Development%20Cabinet,flows%20for%20tea%20exporters%20involved"
+    },
   {
     title: "Tanzania Exhibits great potential for global leadership in Tea Industry",
     image: 'https://theexchange.africa/wp-content/uploads/2023/11/Tanzania-tea-1024x576.webp',
@@ -69,7 +79,7 @@ export default function News () {
     content:"The value chain in Kenya's Tea sector is set for audit amid growing concerns over high  production costs that are cutting into farmers' earnings. Purpose of the audit is to help safeguard the interests of small shareholder farmers and gains in the industry.",
     date:"Monday 6th Nov 2023",
     link:"https://nation.africa/kenya/business/kenya-tea-value-chain-for-audit-on-high-production-costs-4424382"
-    },
+    }
   // Add more news stories as needed
 ];
 
