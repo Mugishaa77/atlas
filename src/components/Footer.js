@@ -5,7 +5,7 @@ export default function Footer () {
         <div className="foot-note">
             <p className="left">ALL RIGHTS RESERVED</p>
              <p className="center">We Know Tea</p>
-             <p className="right">©2023 ~ ATLAS TEA BROKERS LTD </p>
+             <p className="right">©2024 ~ ATLAS TEA BROKERS LTD </p>
             </div>
     );
 }
