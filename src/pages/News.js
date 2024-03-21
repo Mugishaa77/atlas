@@ -28,7 +28,7 @@ export default function News () {
 
     const newsData = [
       {
-        title: "Bonus Earnings for Mout Kenya Tea Farmers",
+        title: "Bonus Earnings for Mount Kenya Tea Farmers",
         image: "https://justea.com/cdn/shop/files/Copy-of-IMG_9419.jpg?v=1642031438&width=5000",
         photoCredit: "JUSTEA",
         source: "Standard Media",
