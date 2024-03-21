@@ -28,6 +28,53 @@ export default function News () {
 
     const newsData = [
       {
+        title: "Bonus Earnings for Mout Kenya Tea Farmers",
+        image: "https://justea.com/cdn/shop/files/Copy-of-IMG_9419.jpg?v=1642031438&width=5000",
+        photoCredit: "JUSTEA",
+        source: "Standard Media",
+        date: "Wednesday March 20th 2024",
+        link: "https://www.standardmedia.co.ke/central/article/2001491826/tea-growers-eye-mini-bonus-at-the-end-of-the-month",
+        content: "Tea growers in the Mount Kenya region are set to receive a boost with the approval of mini-bonuses by factory boards. These bonuses, ranging from Sh5 to Sh12 per kilogram of processed tea, are slated to be paid alongside the March monthly payments. The approval, endorsed recently, will particularly benefit farmers in Murang’a and Kirinyaga counties, with some factories increasing payments to Sh25 per kilogram of green leaf. This decision, aimed at supporting tea farmers, was welcomed positively by various factory representatives, signaling a potential improvement in growers' earnings.",
+      },
+      {title: "Increase in Tea Earnings over the past year",
+    image:"https://www.kenyanews.go.ke/wp-content/uploads/2024/03/teas-3.jpg",
+  source: "kenyanews.go.ke",
+photoCredit: "Kenya News",
+content: "In 2023, Kenya's tea industry made history by achieving its highest-ever export earnings of Kshs 180.57 billion, a significant leap from previous years. This success was driven by strong production volumes, stable prices, and a favorable exchange rate to the US dollar. Deputy President Rigathi Gachagua affirmed the government's commitment to implementing reforms to boost competitiveness and increase returns for tea growers. Plans are underway to enhance value addition in the sector, with a target of increasing the proportion of value-added tea exports from 5 percent in 2023 to 50 percent by 2027, aiming to enhance export earnings and create job opportunities.",
+date: "Friday March 1st 2024",
+link: "https://www.kenyanews.go.ke/tea-earnings-post-better-returns-last-year/"},
+      {title: "Concerns over unsold tea at Auction",
+    image: "https://b1156533.smushcdn.com/1156533/wp-content/uploads/2019/02/tea-auction-sampling.jpg?lossy=2&strip=1&webp=1",
+  source: "Business Daily",
+photoCredit: "Food Business Africa",
+content: "In 2023, a significant amount of tea, about 40% of stocks at the Mombasa auction, remained unsold due to high reserve prices and poor quality - this resulted in lower absorption rates compared to previous years. The drop in prices, particularly for the Kenya Tea Development Agency (KTDA) teas, led to calls for the removal of the reserve price regulations to address unsold tea stocks and enhance competitiveness in the global market. Despite challenges, smallholder tea factories delivering good to best quality teas fetched higher prices, while the government considers repealing price control regulations to address the issue.",
+date: "Friday March 1st 2024",
+link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-stocks-auction-hit-40pc-on-price-quality-concerns--4541312",
+},
+
+      {
+        title: "Good news for Kenya Tea Exports",
+        image: "https://s.wsj.net/public/resources/images/BN-SI611_kenyat_M_20170303145317.jpg",
+        source: "The East African",
+        photoCredit: "The Wall Street Journal",
+        content: "Our friends in Tanzania deserve thanks for discussing this issue with us during the EAC meeting in Arusha. \"We\'re grateful,\" said Trade Principal Secretary Ombudo K\'Ombudo on his social media page.",
+        date:"Friday February 16th 2024",
+        link: "https://www.theeastafrican.co.ke/tea/business/boost-for-kenya-tea-exporters-as-tanzania-lifts-imports-ban-4527012"
+
+
+    
+      },
+      {
+        title: "Unleashing the Potential: How a Stable Supply Chain Can Maximize Revenue from Kenya's Tea",
+        image: "https://www.businessdailyafrica.com/resource/image/4082208/landscape_ratio16x9/1160/652/1287bbb94ed3b1d73f0b3ebf72233960/xW/tea.jpg",
+        source: "Business Daily",
+        photoCredit: "Business Daily(NMG)",
+        content: "Kenya ranks third globally in tea production, a source of national pride that must be safeguarded by ensuring the security of its supply chain. The stability of this chain directly influences the tea sector's economic potential, but with the right interventions, sustainability and value creation can be enhanced. Challenges to the supply chain include unpredictable weather, fluctuating tea prices, high production costs, logistics hurdles, and market access issues. Despite being a major tea exporter, Kenya faces the impact of a reserve price stipulation at auctions, resulting in high levels of unsold tea, indicating the need for effective solutions to secure farmers' incomes and the industry's future.",
+        date: "Wednesday January 31st 2024",
+        link: "https://www.businessdailyafrica.com/bd/opinion-analysis/columnists/how-a-stable-supply-chain-can-cash-from-kenya-s-tea--4508376"
+
+      },
+      {
       title: "Government to scrap VAT on tea sold in factories",
       image: vat,
       source: "KBC",

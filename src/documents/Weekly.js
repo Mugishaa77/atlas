@@ -1,39 +1,22 @@
 import { useState  } from 'react';
-import fourtySeven from '../reports/Market Report Sale 47.pdf';
-import fourtySix from '../reports/Market Report Sale 46.pdf';
-import fourtyFive from '../reports/Market Report Sale 45.pdf';
-import fourtyFour from '../reports/Market Report Sale 44.pdf';
-import fourtyThree from '../reports/Market Report Sale 43.pdf';
-import fourtyTwo from '../reports/Market Report Sale 42.pdf';
-import fourtyOne from '../reports/Market Report Sale 41.pdf';
-import fourty from '../reports/Market Report Sale 40.pdf';
-import thirtyNine from '../reports/Market Report Sale 39.pdf';
-import thirtyEight from '../reports/Market Report Sale 38.pdf';
-import thirtySeven from  '../reports/Market Report Sale 37.pdf';
-import thirtySix from '../reports/Market Report Sale 36.pdf';
-import thirtyFive from '../reports/Market Report Sale 35.pdf';
-import thirtyFour from '../reports/Market Report Sale 34.pdf';
-import thirtyThree from '../reports/Market Report Sale 33.pdf';
-import thirtyTwo from '../reports/Market Report Sale 32.pdf';
-import thirtyOne from '../reports/Market Report Sale 31.pdf';
-import thirty from '../reports/Market Report Sale 30.pdf';
-import twentyNine from '../reports/Market Report Sale 29.pdf';
-import twentyEight from '../reports/Market Report Sale 28.pdf';
-import twentySeven from '../reports/Market Report Sale 27.pdf';
-import twentySix from '../reports/Market Report Sale 26.pdf';
-import twentyFive from '../reports/Market Report Sale 25.pdf';
-import twentyFour from '../reports/Market Report Sale 24.pdf';
-
 import './Weekly.css';
 
 function Weekly () {
 
-   const pdfFiles = [fourtySeven, fourtySix, fourtyFive,fourtyFour, fourtyThree, fourtyTwo, fourtyOne, fourty, thirtyNine, thirtyEight,
-    thirtySeven, thirtySix,thirtyFive, thirtyFour, thirtyThree, thirtyTwo,
-     thirtyOne, thirty, twentyNine, twentyEight, twentySeven, twentySix,
-      twentyFive, twentyFour,
-  // Add more URLs as needed
-];
+// Function to generate file paths dynamically
+  // Generate file paths for Week 47 to Week 51
+    const pdfFiles2023 = Array.from({ length: 23 }, (_, index) =>
+        `../reports/Market Report Sale ${24 + index}.pdf`
+    );
+
+    // Generate file paths for Week 01 to Week 06
+    const pdfFiles2024 = Array.from({ length: 6 }, (_, index) =>
+        `../reports/Market Report Sale 0${index + 1}.pdf`
+    );
+
+    // Combine all file paths
+    const pdfFiles = [...pdfFiles2023, ...pdfFiles2024];
+
 
   const [openMonth, setOpenMonth] = useState(null);
 
@@ -42,8 +25,16 @@ function Weekly () {
 };
 
   const months= [
+    {name: 'February 2024',
+  report: ['Sale 06 - 7th February']},
+
+    {name: 'January 2024',
+  report: ['Sale 05 - 31st January', 'Sale 04 - 24th January', 'Sale 03 - 17th January', 'Sale 02 - 10th January', 'Sale 01 - 4th January' ]},
+    {name: 'December 2023',
+  report: ['Sale 51 - 20th December', 'Sale 50 - 14th December', 'Sale 49 - 6th December']},
+
     {name: 'November 2023',
-  report: ['Sale 47 - 22nd November', 'Sale 46 - 15th November', 'Sale 45 - 8th November','Sale 44 - 1st November']},
+  report: ['Sale 48 - 29th November', 'Sale 47 - 22nd November', 'Sale 46 - 15th November', 'Sale 45 - 8th November','Sale 44 - 1st November']},
 
     {name: 'October 2023',
   report: ['Sale 43 - 25th October','Sale 42 - 18th October','Sale 41 - 12th October',
