@@ -266,7 +266,10 @@ a {
 
 .about-button :hover {
     background-color: var(--atlas-blue);
-    color: var(--atlas-red);
+    color: white;
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-red);
 }
  
 .mid-part {
@@ -295,9 +298,13 @@ a {
 
 .home-news:hover {
     background-color: var(--sea-foam) ;
-    border: 1px solid var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
     color: var(--atlas-blue);
+    background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly more opaque white background */
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
 }
 
 .home-news a:hover {
@@ -328,8 +335,13 @@ a {
 
 .home-gardens:hover {
     background-color: var(--sea-foam);
-    border: 1px solid var(--atlas-blue);
+    color: var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
+    background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly more opaque white background */
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
    
 }
 
@@ -358,9 +370,13 @@ a {
 
 .home-auction:hover {
     background-color: var(--sea-foam);
-    border: 1px solid var(--atlas-blue);
     border-bottom: 4px solid var(--atlas-blue);
-    color: var(--tea-green);
+    color: var(--atlas-blue);
+    background-color: rgba(255, 255, 255, 0.4);
+        /* Slightly more opaque white background */
+        transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
    
 }
 
@@ -383,6 +399,17 @@ a {
     
 }
 
+.associates:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
+}
+
+.associates a:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: -inset -inset 8px var(--atlas-blue);
+}
 .associates img{
     height: 60px;
 
@@ -410,6 +437,8 @@ a {
   
 }
 
+
+
 .footer hr {
     margin: 0 auto;
     height: 1px;
@@ -421,16 +450,26 @@ a {
 }
 .footer-inner {
     padding: 2rem;
-   background-color: #f0f0f0;
-   opacity: 0.9;
-   border: 2px solid var(--atlas-green);
    
+   opacity: 0.9;
+   border: 1px solid white;
+    box-shadow: 4px 4px 8px white;
+background-color: rgba(255, 255, 255, 1);
+    /* Slightly more opaque white background */
 
     /* Adjust the border size and color as needed */
     box-sizing: border-box;
 
     
     
+}
+
+.footer-inner:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-2px);
+    /* Slight lift on hover */
+    box-shadow: 4px 4px 8px var(--atlas-blue);
+    border: none;
 }
 
 .footer a {
