@@ -42,6 +42,12 @@ nav {
     padding: 0 20px;
 }
 
+nav:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--tea-green);
+}
+
 .logo {
     margin-left: 0;
 }
@@ -179,6 +185,12 @@ a {
     background-color: '#f5f5f5';
 }
 
+.home:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px white;
+}
+
 .glass-text {
     color:var(--plate-black);
     font-size: 90px;
@@ -209,6 +221,12 @@ a {
     
     height: 300px;
     background-color: #F0F0F0;
+}
+
+.home-about:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
 }
 
 .home-about h1 {
@@ -474,10 +492,13 @@ background-color: rgba(255, 255, 255, 1);
 
 .footer a {
     color: var(--atlas-green);
+    transition: color 0.3s ease;
 }
 
 .footer a:hover {
     color: var(--atlas-red);
+    transform: translateY(-5px);
+        /* Slight lift on hover */
 }
 .footer h2 {
     padding: 0.5rem;

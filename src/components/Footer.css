@@ -7,6 +7,11 @@
 
 }
 
+.foot-note:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
+}
 .foot-note .left {
     margin-left: 2rem;
     color: var(--atlas-blue);

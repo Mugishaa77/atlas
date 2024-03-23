@@ -51,7 +51,9 @@ content: "In 2023, a significant amount of tea, about 40% of stocks at the Momba
 date: "Friday March 1st 2024",
 link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-stocks-auction-hit-40pc-on-price-quality-concerns--4541312",
 },
-
+{
+  title: ""
+},
       {
         title: "Good news for Kenya Tea Exports",
         image: "https://s.wsj.net/public/resources/images/BN-SI611_kenyat_M_20170303145317.jpg",
