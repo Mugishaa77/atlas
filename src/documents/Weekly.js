@@ -1,28 +1,15 @@
-import { useState  } from 'react';
+import { useState, useEffect  } from 'react';
 import './Weekly.css';
 
 function Weekly () {
-
-// Function to generate file paths dynamically
-  // Generate file paths for Week 47 to Week 51
-    const pdfFiles2023 = Array.from({ length: 23 }, (_, index) =>
-        `../reports/Market Report Sale ${24 + index}.pdf`
-    );
-
-    // Generate file paths for Week 01 to Week 06
-    const pdfFiles2024 = Array.from({ length: 6 }, (_, index) =>
-        `../reports/Market Report Sale 0${index + 1}.pdf`
-    );
-
-    // Combine all file paths
-    const pdfFiles = [...pdfFiles2023, ...pdfFiles2024];
-
+const year = 2024;
+const [pdfFiles, setPdfFiles] = useState([]);
 
   const [openMonth, setOpenMonth] = useState(null);
 
-   const toggleMonth = (month) => {
-  setOpenMonth(openMonth === month ? null : month);
-};
+  const toggleMonth = (month) => {
+    setOpenMonth(openMonth === month ? null : month);
+  };
 
   const months= [
     {name: 'February 2024',

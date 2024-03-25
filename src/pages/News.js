@@ -52,7 +52,8 @@ date: "Friday March 1st 2024",
 link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-stocks-auction-hit-40pc-on-price-quality-concerns--4541312",
 },
 {
-  title: ""
+  title: "World's First Higher Institution dedicated to tea opens in Kenya",
+  image: "",
 },
       {
         title: "Good news for Kenya Tea Exports",

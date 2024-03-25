@@ -969,6 +969,21 @@ h2 hr {
     color: var(--atlas-blue);
 }
 
+.service ul li {
+    padding: 1rem;
+}
+
+
+.service ul li:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px var(--atlas-blue);
+        background-color: white;
+        border-radius: 5px;
+        color: var(--atlas-blue);
+}
+
+
 .service p {
     font-family: var(--paragraph);
     font-size: 21px;
@@ -998,9 +1013,13 @@ h2 hr {
 }
 
 .service .note:hover {
-    color: var(--potgrey);
+    color: var(--atlas-red);
     /* Change to the desired color on hover */
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-green);
     /* You can also modify other properties like text-decoration if needed */
+    background-color: var(--tea-green);
 }
 
 .service .col {
@@ -1009,16 +1028,23 @@ h2 hr {
   
 }
 
+
 .service-close {
     margin-right: 5rem;
     margin-left: 5rem;
     background-color: rgba(208, 240, 192, 0.5);
-    margin-top: 0;
+    margin-top: 1rem;
     border: 1px solid var(--tea-green);
     margin-bottom: 2rem;
     border-radius: 2px;
 }
 
+.service-close:hover {
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+        box-shadow: 4px 4px 8px var(--atlas-blue);
+        background-color: white;
+}
 .service-close h3 {
     font-family: var(--h3);
     color: var(--atlas-green);
