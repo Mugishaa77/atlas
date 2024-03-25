@@ -28,6 +28,15 @@ export default function News () {
 
     const newsData = [
       {
+        title: "Tea Exports Strengthen the Shilling Against the Dollar ",
+        image: "https://i.brecorder.com/primary/2024/03/2014131650873ca.jpg ",
+        photoCredit: "Reuters, Business Recorder ",
+        source: "Reuters, Business Recorder",
+        date: "Wednesday March 20th 2024 ",
+        link: "https://www.brecorder.com/news/40294576 ",
+        content: "IN NAIROBI: Kenya’s shilling was stable on Wednesday and was forecast to strengthen, helped by dollar inflows from tea exporters and diaspora remittances, traders said. At 0823 GMT, commercial banks quoted the shilling at 132.00/133.00 per dollar, unchanged from Tuesday's closing rate. The shilling's current level puts it close to a one-year high, having last bid at 132.00 per dollar on March 30, 2023, according to LSEG data."
+      },
+      {
         title: "Bonus Earnings for Mount Kenya Tea Farmers",
         image: "https://justea.com/cdn/shop/files/Copy-of-IMG_9419.jpg?v=1642031438&width=5000",
         photoCredit: "JUSTEA",
@@ -52,8 +61,22 @@ date: "Friday March 1st 2024",
 link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-stocks-auction-hit-40pc-on-price-quality-concerns--4541312",
 },
 {
-  title: "World's First Higher Institution dedicated to tea opens in Kenya",
-  image: "",
+  title: "Surge in Kenyan Tea Exports ",
+  image: "https://i0.wp.com/newsroom.maudhui.co.ke/wp-content/uploads/2024/02/Tea-Williamson.jpg?resize=800%2C445&ssl=1 ",
+  source: "Maudhui House ",
+  photoCredit: "Maudhui House ",
+  content: "Kenya's tea industry witnessed a significant boost in export value, rising by 31% or Kes42.48 billion between 2022 and 2023, as revealed by the Kenya Tea Industry Performance Report of 2023. This surge was fueled by increased export volumes and stable prices, leading to a rise in tea export earnings to Kes180.57 billion, up from Kes138.09 billion the previous year. Despite a slight decrease in export prices in dollar terms, favorable exchange rates contributed to a higher unit price of Kes345.32, with Kenyan tea being exported to 92 destinations, including traditional markets like Pakistan, Egypt, UK, and UAE. ",
+  date: "Thurday 29th February 2024",
+  link: "https://newsroom.maudhui.co.ke/markets/2024/tea-exports-up-31-in-export-value-on-strong-dollar/ ",
+},
+{
+  title: "In Kenya: Lipton Tea Innovation and Technology Academy ",
+  image: "https://kabianga.ac.ke/sites/default/files/UoK%20Newsletters/UoK_Newsletter_Vol_8.png ",
+  source: "The Smith School ",
+  photoCredit: "Google Search Result ",
+  content: "The Government of Kenya, LIPTON Teas and Infusions, and the University of Kabianga have jointly established the Lipton Tea Innovation & Technology Academy to enhance tea quality and sustainable practices. With an annual intake of 3000 students, including a focus on women's education and empowerment, the academy aims to elevate Kenya's position as a global hub for tea expertise and innovation. Courses are set to begin towards the end of the year, offering specialized training from vocational levels to PhD, contributing to the socio-economic transformation of the tea sector. ",
+  date: "Monday 26th February 2024 ",
+  link: "https://www.smithschool.ox.ac.uk/news/worlds-first-higher-education-institution-dedicated-tea-opens-kenya "
 },
       {
         title: "Good news for Kenya Tea Exports",
@@ -129,7 +152,13 @@ link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-sto
     content:"The value chain in Kenya's Tea sector is set for audit amid growing concerns over high  production costs that are cutting into farmers' earnings. Purpose of the audit is to help safeguard the interests of small shareholder farmers and gains in the industry.",
     date:"Monday 6th Nov 2023",
     link:"https://nation.africa/kenya/business/kenya-tea-value-chain-for-audit-on-high-production-costs-4424382"
-    }
+    },
+    
+    
+
+
+
+
   // Add more news stories as needed
 ];
 
