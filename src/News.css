@@ -35,6 +35,13 @@
     
 }
 
+.news .story:hover {
+    box-shadow: 0 4px 8px var(--atlas-green);
+    transform: translateY(-2px);
+        /* Slight lift on hover */
+    
+
+}
 .news .stories .frame {
     display: flex;
     justify-content: space-between;

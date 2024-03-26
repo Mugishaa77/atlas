@@ -5,6 +5,7 @@ import dollar from '../tea/dollar.jpg';
 import dar from '../tea/dar-es-salaam.jpg';
 import darr from '../tea/dar-auction.png';
 import vat from '../tea/vat.jpg';
+import kshs from '../ttea/kshs.jpg';
 import React, { useState, useEffect } from 'react';
 
 
@@ -29,12 +30,12 @@ export default function News () {
     const newsData = [
       {
         title: "Tea Exports Strengthen the Shilling Against the Dollar ",
-        image: "https://i.brecorder.com/primary/2024/03/2014131650873ca.jpg ",
-        photoCredit: "Reuters, Business Recorder ",
+        image: {kshs},
+        photoCredit: "iStock ",
         source: "Reuters, Business Recorder",
         date: "Wednesday March 20th 2024 ",
         link: "https://www.brecorder.com/news/40294576 ",
-        content: "IN NAIROBI: Kenya’s shilling was stable on Wednesday and was forecast to strengthen, helped by dollar inflows from tea exporters and diaspora remittances, traders said. At 0823 GMT, commercial banks quoted the shilling at 132.00/133.00 per dollar, unchanged from Tuesday's closing rate. The shilling's current level puts it close to a one-year high, having last bid at 132.00 per dollar on March 30, 2023, according to LSEG data."
+        content: "Kenya’s shilling was stable on Wednesday and was forecast to strengthen, helped by dollar inflows from tea exporters and diaspora remittances - said Traders from Nairobi. At 0823 GMT, commercial banks quoted the shilling at 132.00/133.00 per dollar, unchanged from Tuesday's closing rate. The shilling's current level puts it close to a one-year high, having last bid at 132.00 per dollar on March 30, 2023, according to LSEG data."
       },
       {
         title: "Bonus Earnings for Mount Kenya Tea Farmers",
