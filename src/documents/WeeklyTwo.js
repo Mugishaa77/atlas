@@ -1,91 +1,59 @@
-import { useState, useEffect  } from 'react';
-import fourtySeven from '../reports/Market Report Sale 47.pdf';
-import fourtySix from '../reports/Market Report Sale 46.pdf';
-import fourtyFive from '../reports/Market Report Sale 45.pdf';
-import fourtyFour from '../reports/Market Report Sale 44.pdf';
-import fourtyThree from '../reports/Market Report Sale 43.pdf';
-import fourtyTwo from '../reports/Market Report Sale 42.pdf';
-import fourtyOne from '../reports/Market Report Sale 41.pdf';
-import fourty from '../reports/Market Report Sale 40.pdf';
-import thirtyNine from '../reports/Market Report Sale 39.pdf';
-import thirtyEight from '../reports/Market Report Sale 38.pdf';
-import thirtySeven from  '../reports/Market Report Sale 37.pdf';
-import thirtySix from '../reports/Market Report Sale 36.pdf';
-import fiftyOne from '../reports/Market Report Sale 51.pdf';
-import fifty from '../reports/Market Report Sale 50.pdf';
-import fourtyNine from '../reports/Market Report Sale 49.pdf';
-import fourtyEight from '../reports/Market Report Sale 48.pdf';
-import one from '../reports/Market Report Sale 01.pdf';
-import two from '../reports/Market Report Sale 02.pdf';
-import three from '../reports/Market Report Sale 03.pdf';
-import four from '../reports/Market Report Sale 04.pdf';
-import five from '../reports/Market Report Sale 05.pdf';
-import six from '../reports/Market Report Sale 06.pdf';
-
+import { useState } from "react";
+import thirtyFive from '../reports/Market Report Sale 35.pdf';
+import thirtyFour from '../reports/Market Report Sale 34.pdf';
+import thirtyThree from '../reports/Market Report Sale 33.pdf';
+import thirtyTwo from '../reports/Market Report Sale 32.pdf';
+import thirtyOne from '../reports/Market Report Sale 31.pdf';
+import thirty from '../reports/Market Report Sale 30.pdf';
+import twentyNine from '../reports/Market Report Sale 29.pdf';
+import twentyEight from '../reports/Market Report Sale 28.pdf';
+import twentySeven from '../reports/Market Report Sale 27.pdf';
+import twentySix from '../reports/Market Report Sale 26.pdf';
+import twentyFive from '../reports/Market Report Sale 25.pdf';
+import twentyFour from '../reports/Market Report Sale 24.pdf';
 import './Weekly.css';
 
-function Weekly () {
-
-const pdfFiles = [
-  six,
-five,
-four,
-three,
-two,
-one,
-fourtyEight,
-fourtyNine,
-fifty,
-fiftyOne,
-
-    fourtySeven,
-    fourtySix,
-    fourtyFive,
-    fourtyFour,
-    fourtyThree,
-    fourtyTwo,
-    fourtyOne,
-    fourty,
-    thirtyNine,
-    thirtyEight,
-    thirtySeven,
-    thirtySix,
-    
-    
-];
-
-
-
-  const [openMonth, setOpenMonth] = useState(null);
+export default function WeeklyTwo () {
+    const [openMonth, setOpenMonth] = useState(null);
 
   const toggleMonth = (month) => {
     setOpenMonth(openMonth === month ? null : month);
   };
 
-  const months= [
-    {name: 'February 2024',
-  report: ['Sale 06 - 7th February']},
-
-    {name: 'January 2024',
-  report: ['Sale 05 - 31st January', 'Sale 04 - 24th January', 'Sale 03 - 17th January', 'Sale 02 - 10th January', 'Sale 01 - 4th January' ]},
-    {name: 'December 2023',
-  report: ['Sale 51 - 20th December', 'Sale 50 - 14th December', 'Sale 49 - 6th December']},
-
-    {name: 'November 2023',
-  report: ['Sale 48 - 29th November', 'Sale 47 - 22nd November', 'Sale 46 - 15th November', 'Sale 45 - 8th November','Sale 44 - 1st November']},
-
-    {name: 'October 2023',
-  report: ['Sale 43 - 25th October','Sale 42 - 18th October','Sale 41 - 12th October',
-'Sale 40 - 5th October'],
-},
-    {name: 'September 2023',
-  report: ['Sale 39 - 27th September',
-  'Sale 38 - 20th September', 'Sale 37 - 13th September',
-  'Sale 36 - 6th September'
-],
-},
-  
+  const months = [
+    {
+        name: 'August 2023',
+        report: ['Sale 35 - 30th August',
+        'Sale 34 - 23rd August', 'Sale 33 - 16th August',
+        'Sale 32 - 9th August', 'Sale 31 - 2nd August'
+            ],
+    },
+    {
+        name: 'July 2023',
+        report: ['Sale 30 - 26th July',
+    'Sale 29 - 19th July', 'Sale 28 - 13th July',
+'Sale 27 - 5th July'],
+    },
+    {
+        name: 'June 2023',
+        report: ['Sale 26 - 29th June', 
+    'Sale 25 - 21st June', 'Sale 24 - 14th June']
+    },
   ];
+
+  const pdfFiles = [
+    thirtyFive,
+    thirtyFour,
+    thirtyThree,
+    thirtyTwo,
+    thirtyOne,
+    thirty,
+    twentyNine,
+    twentyEight,
+    twentySeven,
+    twentySix,
+    twentyFive,
+    twentyFour,];
 
 return (
     <div className="weekly-market-report">
@@ -144,4 +112,4 @@ return (
 );
                             }
 
-                            export default Weekly;
+                            
