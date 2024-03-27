@@ -5,7 +5,7 @@ import dollar from '../tea/dollar.jpg';
 import dar from '../tea/dar-es-salaam.jpg';
 import darr from '../tea/dar-auction.png';
 import vat from '../tea/vat.jpg';
-import kshs from '../ttea/kshs.jpg';
+import Footer from "../components/Footer";
 import React, { useState, useEffect } from 'react';
 
 
@@ -30,8 +30,8 @@ export default function News () {
     const newsData = [
       {
         title: "Tea Exports Strengthen the Shilling Against the Dollar ",
-        image: {kshs},
-        photoCredit: "iStock ",
+        image: "https://i.brecorder.com/primary/2024/03/2014131650873ca.jpg ",
+        photoCredit: "Reuters, Business Recorder ",
         source: "Reuters, Business Recorder",
         date: "Wednesday March 20th 2024 ",
         link: "https://www.brecorder.com/news/40294576 ",
@@ -202,9 +202,12 @@ link: "https://www.businessdailyafrica.com/bd/markets/commodities/unsold-tea-sto
         ))}
 
              </div>
-            <span>
+            <span className="update">
              Last Updated: {lastUpdated}
            </span>
+            <div className="bottom">
+        <Footer />
+      </div>
            
         </div>
     );

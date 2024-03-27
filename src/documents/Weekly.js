@@ -1,9 +1,83 @@
 import { useState, useEffect  } from 'react';
+import fourtySeven from '../reports/Market Report Sale 47.pdf';
+import fourtySix from '../reports/Market Report Sale 46.pdf';
+import fourtyFive from '../reports/Market Report Sale 45.pdf';
+import fourtyFour from '../reports/Market Report Sale 44.pdf';
+import fourtyThree from '../reports/Market Report Sale 43.pdf';
+import fourtyTwo from '../reports/Market Report Sale 42.pdf';
+import fourtyOne from '../reports/Market Report Sale 41.pdf';
+import fourty from '../reports/Market Report Sale 40.pdf';
+import thirtyNine from '../reports/Market Report Sale 39.pdf';
+import thirtyEight from '../reports/Market Report Sale 38.pdf';
+import thirtySeven from  '../reports/Market Report Sale 37.pdf';
+import thirtySix from '../reports/Market Report Sale 36.pdf';
+import thirtyFive from '../reports/Market Report Sale 35.pdf';
+import thirtyFour from '../reports/Market Report Sale 34.pdf';
+import thirtyThree from '../reports/Market Report Sale 33.pdf';
+import thirtyTwo from '../reports/Market Report Sale 32.pdf';
+import thirtyOne from '../reports/Market Report Sale 31.pdf';
+import thirty from '../reports/Market Report Sale 30.pdf';
+import twentyNine from '../reports/Market Report Sale 29.pdf';
+import twentyEight from '../reports/Market Report Sale 28.pdf';
+import twentySeven from '../reports/Market Report Sale 27.pdf';
+import twentySix from '../reports/Market Report Sale 26.pdf';
+import twentyFive from '../reports/Market Report Sale 25.pdf';
+import twentyFour from '../reports/Market Report Sale 24.pdf';
+import fiftyOne from '../reports/Market Report Sale 51.pdf';
+import fifty from '../reports/Market Report Sale 50.pdf';
+import fourtyNine from '../reports/Market Report Sale 49.pdf';
+import fourtyEight from '../reports/Market Report Sale 48.pdf';
+import one from '../reports/Market Report Sale 01.pdf';
+import two from '../reports/Market Report Sale 02.pdf';
+import three from '../reports/Market Report Sale 03.pdf';
+import four from '../reports/Market Report Sale 04.pdf';
+import five from '../reports/Market Report Sale 05.pdf';
+import six from '../reports/Market Report Sale 06.pdf';
+
 import './Weekly.css';
 
 function Weekly () {
-const year = 2024;
-const [pdfFiles, setPdfFiles] = useState([]);
+
+const pdfFiles = [
+  six,
+five,
+four,
+three,
+two,
+one,
+fourtyEight,
+fourtyNine,
+fifty,
+fiftyOne,
+
+    fourtySeven,
+    fourtySix,
+    fourtyFive,
+    fourtyFour,
+    fourtyThree,
+    fourtyTwo,
+    fourtyOne,
+    fourty,
+    thirtyNine,
+    thirtyEight,
+    thirtySeven,
+    thirtySix,
+    thirtyFive,
+    thirtyFour,
+    thirtyThree,
+    thirtyTwo,
+    thirtyOne,
+    thirty,
+    twentyNine,
+    twentyEight,
+    twentySeven,
+    twentySix,
+    twentyFive,
+    twentyFour,
+    
+];
+
+
 
   const [openMonth, setOpenMonth] = useState(null);
 
