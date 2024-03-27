@@ -1,4 +1,4 @@
-import { useState, useEffect  } from 'react';
+import { useState  } from 'react';
 import fourtySeven from '../reports/Market Report Sale 47.pdf';
 import fourtySix from '../reports/Market Report Sale 46.pdf';
 import fourtyFive from '../reports/Market Report Sale 45.pdf';
