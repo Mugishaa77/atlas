@@ -1,6 +1,5 @@
 import React, { useState} from 'react';
 import Weekly from './Weekly';
-import WeeklyTwo from './WeeklyTwo'
 import './Report.css';
 
 export default function Report () {
@@ -10,9 +9,6 @@ export default function Report () {
             <Weekly />
 
         </div>,
-        <div className="weekly">
-            <WeeklyTwo />
-        </div>
         
     ];
 
